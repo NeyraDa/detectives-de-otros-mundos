@@ -1,0 +1,2060 @@
+[
+  {
+    "id": "opportunity",
+    "lugar": "marte",
+    "orden": 1,
+    "datos": {
+      "id": "opportunity",
+      "listo": true,
+      "nombre": "Opportunity",
+      "dibujo": "rover",
+      "ubicacion": {
+        "lat": -1.95,
+        "lon": -5.53
+      },
+      "lugar": "marte",
+      "anios": "2004–2018",
+      "tipo": "rover",
+      "foto": {
+        "modo": "mapa",
+        "pistas": [
+          "Estoy casi sobre el ecuador, la línea amarilla horizontal.",
+          "Estoy muy cerca del meridiano 0°, la línea amarilla vertical, un poquito a la izquierda.",
+          "Mis coordenadas: 2° S, 5,5° O, en una llanura llamada Meridiani Planum. Busca justo abajo a la izquierda del cruce amarillo."
+        ]
+      },
+      "fotoEquipo": {
+        "imagen": "img/equipos/opportunity.jpg",
+        "credito": "Autorretrato de Opportunity, marzo de 2014. NASA/JPL-Caltech/Cornell Univ./Arizona State Univ."
+      },
+      "decisiones": [
+        {
+          "situacion": "Abril de 2005. Mis seis ruedas se hundieron en una pequeña duna de arena blanda. Si giro las ruedas sin cuidado, podría hundirme más y quedarme atrapado para siempre. ¿Qué hago?",
+          "opciones": [
+            {
+              "texto": "Acelerar con todas mis fuerzas para salir rápido.",
+              "loHizoNasa": false
+            },
+            {
+              "texto": "Que en la Tierra prueben primero con un rover de prueba en arena parecida, y luego moverme poquito a poco.",
+              "loHizoNasa": true
+            }
+          ],
+          "queHizoNasa": "En el Laboratorio de Propulsión a Chorro (JPL) armaron una duna falsa y probaron con un rover de prueba. Después, durante semanas, me ordenaron girar las ruedas muy despacio. El 4 de junio de 2005, tras más de cinco semanas atrapado, ¡salí libre!",
+          "ciencia": "Apenas salí, di la vuelta y estudié con mi brazo la duna que me atrapó, a la que llamaron \"Purgatorio\". El equipo aprendió a manejar mejor sobre arena y usó esas lecciones el resto de la misión."
+        },
+        {
+          "situacion": "Agosto de 2008. Ya llevo más de cuatro años en Marte, aunque me diseñaron para durar solo tres meses. A lo lejos hay un cráter gigante, Endeavour. Llegar tomaría años y podría fallar en el camino. ¿Qué hago?",
+          "opciones": [
+            {
+              "texto": "Quedarme cerca, donde ya conozco el terreno y es más seguro.",
+              "loHizoNasa": false
+            },
+            {
+              "texto": "Empezar el largo viaje hacia el cráter gigante.",
+              "loHizoNasa": true
+            }
+          ],
+          "queHizoNasa": "El equipo eligió el viaje. Manejé unos 21 kilómetros durante casi tres años y llegué al borde de Endeavour en agosto de 2011. ¡Fue como aterrizar en un lugar nuevo!",
+          "ciencia": "En el borde del cráter encontré una veta de yeso, apodada \"Homestake\". El yeso se formó cuando agua corrió por grietas del suelo hace muchísimo tiempo: una prueba más de que Marte tuvo agua líquida."
+        }
+      ],
+      "despedida": {
+        "quienSoy": "Soy Opportunity, un robot explorador de NASA del tamaño de un carrito de golf. Llegué a Marte en enero de 2004 junto a mi gemelo Spirit, que aterrizó al otro lado del planeta. Me diseñaron para trabajar 90 días… ¡y trabajé casi 15 años!",
+        "queDescubri": "Justo donde aterricé encontré hematita, un mineral que se forma con agua. Años después, en el cráter Endeavour, encontré arcillas formadas por agua antigua que no era ácida, sino casi neutra, como la que podríamos beber. Por eso mi equipo cree que esta zona de Marte pudo ser habitable hace mucho tiempo.",
+        "porQueMeQuede": "En junio de 2018 llegó una tormenta de polvo que cubrió casi todo Marte. El polvo tapó el Sol y mis paneles solares ya no pudieron cargar mis baterías. Mi último mensaje llegó a la Tierra el 10 de junio de 2018. NASA me envió más de mil mensajes para despertarme, pero ya no pude responder. El 13 de febrero de 2019 declararon terminada mi misión.",
+        "comoEstoyHoy": "Sigo en Perseverance Valley, a mitad de la bajada por el borde del cráter Endeavour. En septiembre de 2018, la cámara HiRISE me fotografió desde el espacio, y ahí soy apenas un puntito. En total recorrí más de 45 kilómetros: ¡más que una maratón!"
+      },
+      "fuentes": [
+        {
+          "titulo": "NASA Science: Spirit y Opportunity (recurso oficial del reto)",
+          "url": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/"
+        },
+        {
+          "titulo": "NASA: termina la misión récord de Opportunity",
+          "url": "https://science.nasa.gov/missions/mer/nasas-opportunity-rover-mission-on-mars-comes-to-end/"
+        },
+        {
+          "titulo": "NASA Photojournal: Opportunity después de la tormenta (PIA22549)",
+          "url": "https://science.nasa.gov/photojournal/opportunity-after-the-dust-storm/"
+        },
+        {
+          "titulo": "JPL: el equipo prueba en la Tierra cómo sacar a Opportunity de la duna",
+          "url": "https://www.jpl.nasa.gov/news/rover-team-tests-mars-moves-on-earth/"
+        },
+        {
+          "titulo": "NASA: mirando atrás a la duna \"Purgatorio\"",
+          "url": "https://science.nasa.gov/resource/looking-back-at-purgatory-dune/"
+        },
+        {
+          "titulo": "NASA: hallazgo de la veta de yeso en Endeavour",
+          "url": "https://robotics.nasa.gov/paydirt-at-8-year-old-mars-rovers-new-landing-site"
+        },
+        {
+          "titulo": "The Planetary Society: coordenadas de aterrizaje en Marte",
+          "url": "https://www.planetary.org/space-images/mars_landing_site_map_lakdawalla"
+        }
+      ]
+    },
+    "datos_en": {
+      "nombre": "Opportunity",
+      "tipo": "rover",
+      "pistas": [
+        "I'm almost on the equator, the horizontal yellow line.",
+        "I'm very close to the 0° meridian, the vertical yellow line, just a little to the left.",
+        "My coordinates: 2° S, 5.5° W, on a plain called Meridiani Planum. Look just below and left of the yellow crossing."
+      ],
+      "fotoCredito": "Opportunity's self-portrait, March 2014. NASA/JPL-Caltech/Cornell Univ./Arizona State Univ.",
+      "decisiones": [
+        {
+          "situacion": "April 2005. My six wheels sank into a small dune of soft sand. If I spin my wheels carelessly, I could sink deeper and be stuck forever. What do I do?",
+          "opciones": [
+            "Floor it with all my strength to get out fast.",
+            "Have engineers on Earth test first with a test rover in similar sand, then move me out little by little."
+          ],
+          "queHizoNasa": "At the Jet Propulsion Laboratory (JPL) they built a fake dune and tested with a test rover. Then, for weeks, they told me to turn my wheels very slowly. On June 4, 2005, after more than five weeks stuck, I was free!",
+          "ciencia": "As soon as I got out, I turned around and studied the dune that trapped me, nicknamed \"Purgatory,\" with my arm. The team learned to drive better on sand and used those lessons for the rest of the mission."
+        },
+        {
+          "situacion": "August 2008. I've been on Mars for more than four years, even though I was designed to last only three months. Far away there is a giant crater, Endeavour. Getting there would take years and I might break down on the way. What do I do?",
+          "opciones": [
+            "Stay nearby, where I know the terrain and it's safer.",
+            "Start the long journey to the giant crater."
+          ],
+          "queHizoNasa": "The team chose the journey. I drove about 21 kilometers over almost three years and reached the rim of Endeavour in August 2011. It was like landing somewhere brand new!",
+          "ciencia": "At the crater rim I found a vein of gypsum nicknamed \"Homestake.\" Gypsum formed when water flowed through cracks in the ground a very long time ago: more proof that Mars once had liquid water."
+        }
+      ],
+      "despedida": {
+        "quienSoy": "I'm Opportunity, a NASA rover about the size of a golf cart. I reached Mars in January 2004 with my twin Spirit, who landed on the other side of the planet. I was designed to work for 90 days… and I worked for almost 15 years!",
+        "queDescubri": "Right where I landed I found hematite, a mineral that forms in water. Years later, at Endeavour crater, I found clays made by ancient water that wasn't acidic but nearly neutral, like water we could drink. That's why my team thinks this part of Mars could have been habitable long ago.",
+        "porQueMeQuede": "In June 2018 a dust storm covered almost all of Mars. The dust blocked the Sun and my solar panels could no longer charge my batteries. My last message reached Earth on June 10, 2018. NASA sent me more than a thousand messages to wake me up, but I couldn't answer. On February 13, 2019, my mission was declared over.",
+        "comoEstoyHoy": "I'm still in Perseverance Valley, halfway down the rim of Endeavour crater. In September 2018 the HiRISE camera photographed me from space, and there I'm just a tiny dot. In total I drove more than 45 kilometers: more than a marathon!"
+      }
+    }
+  },
+  {
+    "id": "spirit",
+    "lugar": "marte",
+    "orden": 2,
+    "datos": {
+      "id": "spirit",
+      "listo": true,
+      "nombre": "Spirit",
+      "dibujo": "rover",
+      "ubicacion": {
+        "lat": -14.57,
+        "lon": 175.48
+      },
+      "lugar": "marte",
+      "anios": "2004–2010",
+      "tipo": "rover",
+      "foto": {
+        "modo": "mapa",
+        "pistas": [
+          "Estoy en el hemisferio sur, abajo del ecuador.",
+          "Estoy muy a la derecha del mapa, pasando la línea de 150° E, casi en el borde.",
+          "Mis coordenadas: 14,6° S, 175,5° E, dentro del cráter Gusev."
+        ]
+      },
+      "fotoEquipo": {
+        "imagen": "img/equipos/spirit.jpg",
+        "credito": "Lo que veía Spirit en Troy, el lugar donde quedó atrapado. NASA/JPL-Caltech"
+      },
+      "decisiones": [
+        {
+          "situacion": "Marzo de 2006. Mi rueda delantera derecha dejó de girar. Con cinco ruedas no puedo manejar normal. ¿Qué hago?",
+          "opciones": [
+            {
+              "texto": "Quedarme quieto para no dañar más la rueda.",
+              "loHizoNasa": false
+            },
+            {
+              "texto": "Seguir manejando de reversa, arrastrando la rueda rota.",
+              "loHizoNasa": true
+            }
+          ],
+          "queHizoNasa": "El equipo me hizo manejar hacia atrás con las cinco ruedas que funcionaban, arrastrando la rueda rota como un ancla. Era incómodo, pero seguí explorando.",
+          "ciencia": "En 2007, cerca de una meseta llamada Home Plate, la rueda arrastrada abrió una zanja y dejó al descubierto suelo muy brillante: era sílice casi pura. Para formarse así necesita agua muy caliente o vapor, como en las aguas termales de Yellowstone."
+        },
+        {
+          "situacion": "Abril de 2009. Rompí una costra del suelo y me hundí en arena blanda. Mis ruedas giran, pero no avanzo. ¿Qué hacemos?",
+          "opciones": [
+            {
+              "texto": "Rendirnos y apagar la misión ya mismo.",
+              "loHizoNasa": false
+            },
+            {
+              "texto": "Intentar liberarme durante meses y, si no se puede, seguir investigando quieto.",
+              "loHizoNasa": true
+            }
+          ],
+          "queHizoNasa": "Durante meses probaron muchos movimientos para sacarme. En enero de 2010 aceptaron que ya no me movería y me convirtieron en una estación de investigación fija.",
+          "ciencia": "Al girar, mis ruedas removieron el suelo y descubrieron minerales llamados sulfatos. Mostraban que el agua, quizás de nieve derretida, se filtró bajo la superficie hace relativamente poco tiempo."
+        }
+      ],
+      "despedida": {
+        "quienSoy": "Soy Spirit, el gemelo de Opportunity. Aterricé en enero de 2004 en el cráter Gusev, al otro lado de Marte. Me prometieron 90 días marcianos de vida… ¡y trabajé más de 2 200!",
+        "queDescubri": "Arrastrando mi rueda rota descubrí sílice casi pura, una pista de que aquí hubo aguas termales o vapor caliente. También encontré minerales que solo se forman con agua. Para muchos científicos, fue uno de los hallazgos más importantes de mi misión.",
+        "porQueMeQuede": "Atrapado en la arena, quedé inclinado y mis paneles no recibían bien el Sol durante el invierno marciano. Mi último mensaje llegó el 22 de marzo de 2010. NASA siguió llamándome hasta mayo de 2011, pero ya no pude responder.",
+        "comoEstoyHoy": "Sigo en Troy, junto a la meseta Home Plate, en las colinas Columbia del cráter Gusev. Mi gemelo Opportunity siguió explorando ocho años más."
+      },
+      "fuentes": [
+        {
+          "titulo": "NASA Science: Spirit y Opportunity (recurso oficial del reto)",
+          "url": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/"
+        },
+        {
+          "titulo": "NASA Photojournal: la rueda de Spirit revela suelo brillante (PIA11758)",
+          "url": "https://science.nasa.gov/photojournal/rovers-wheel-churns-up-bright-martian-soil/"
+        },
+        {
+          "titulo": "Phys.org: el rover que arrastra la rueda encuentra depósitos de aguas termales",
+          "url": "https://phys.org/news/2008-05-foot-dragging-mars-rover-yellowstone-like-hot.html"
+        },
+        {
+          "titulo": "Astronomy: el rover atrapado encuentra pistas de agua bajo el suelo",
+          "url": "https://astronomy.com/space-exploration/trapped-mars-rover-finds-evidence-of-subsurface-water"
+        },
+        {
+          "titulo": "The Planetary Society: NASA termina la misión de Spirit",
+          "url": "https://www.planetary.org/articles/05-26-mer-update"
+        },
+        {
+          "titulo": "Space.com: todo sobre el rover Spirit",
+          "url": "https://www.space.com/18766-spirit-rover.html"
+        }
+      ]
+    },
+    "datos_en": {
+      "nombre": "Spirit",
+      "tipo": "rover",
+      "pistas": [
+        "I'm in the southern hemisphere, below the equator.",
+        "I'm far to the right of the map, past the 150° E line, almost at the edge.",
+        "My coordinates: 14.6° S, 175.5° E, inside Gusev crater."
+      ],
+      "fotoCredito": "What Spirit saw at Troy, the place where it got stuck. NASA/JPL-Caltech",
+      "decisiones": [
+        {
+          "situacion": "March 2006. My front right wheel stopped turning. With five wheels I can't drive normally. What do I do?",
+          "opciones": [
+            "Stay still so I don't damage the wheel more.",
+            "Keep driving backwards, dragging the broken wheel."
+          ],
+          "queHizoNasa": "The team had me drive backwards with my five working wheels, dragging the broken wheel like an anchor. It was awkward, but I kept exploring.",
+          "ciencia": "In 2007, near a plateau called Home Plate, the dragged wheel dug a trench and uncovered very bright soil: it was almost pure silica. To form like that it needs very hot water or steam, like the hot springs in Yellowstone."
+        },
+        {
+          "situacion": "April 2009. I broke through a crust in the ground and sank into soft sand. My wheels spin, but I don't move. What do we do?",
+          "opciones": [
+            "Give up and shut down the mission right away.",
+            "Try to free me for months and, if that fails, keep doing science standing still."
+          ],
+          "queHizoNasa": "For months they tried many moves to get me out. In January 2010 they accepted that I wouldn't move again and turned me into a stationary research station.",
+          "ciencia": "As they spun, my wheels churned the soil and uncovered minerals called sulfates. They showed that water, maybe from melting snow, seeped under the surface relatively recently."
+        }
+      ],
+      "despedida": {
+        "quienSoy": "I'm Spirit, Opportunity's twin. I landed in January 2004 in Gusev crater, on the other side of Mars. They promised me 90 Martian days of life… and I worked for more than 2,200!",
+        "queDescubri": "Dragging my broken wheel, I discovered almost pure silica, a clue that there were hot springs or hot steam here. I also found minerals that only form with water. Many scientists consider it one of the most important finds of my mission.",
+        "porQueMeQuede": "Stuck in the sand, I was tilted and my panels couldn't catch enough sunlight during the Martian winter. My last message arrived on March 22, 2010. NASA kept calling me until May 2011, but I couldn't answer.",
+        "comoEstoyHoy": "I'm still at Troy, next to the Home Plate plateau, in the Columbia Hills of Gusev crater. My twin Opportunity kept exploring for eight more years."
+      }
+    }
+  },
+  {
+    "id": "sojourner",
+    "lugar": "marte",
+    "orden": 3,
+    "datos": {
+      "id": "sojourner",
+      "listo": true,
+      "nombre": "Sojourner (Mars Pathfinder)",
+      "nombreCorto": "Sojourner",
+      "dibujo": "modulo",
+      "ubicacion": {
+        "lat": 19.13,
+        "lon": -33.22
+      },
+      "lugar": "marte",
+      "anios": "1997",
+      "tipo": "rover y módulo de aterrizaje",
+      "foto": {
+        "modo": "mapa",
+        "pistas": [
+          "Estoy en el hemisferio norte, a la izquierda del meridiano 0°.",
+          "Busca entre las líneas de 30° O y 60° O, un poco abajo de la línea de 30° N.",
+          "Mis coordenadas: 19° N, 33° O, en Ares Vallis, una llanura donde hace muchísimo pasaron grandes inundaciones."
+        ]
+      },
+      "fotoEquipo": {
+        "imagen": "img/equipos/sojourner.jpg",
+        "credito": "Sojourner entre las rocas de Ares Vallis, fotografiado por el módulo. NASA/JPL"
+      },
+      "decisiones": [
+        {
+          "quien": "Eres el equipo de Mars Pathfinder",
+          "situacion": "1996. Hay que llevar un robot a Marte gastando poco dinero. Las sondas Viking de 1976 bajaron frenando con cohetes y apoyándose en patas, pero eso necesita mucho combustible. ¿Cómo aterrizamos?",
+          "opciones": [
+            {
+              "texto": "Igual que las Viking: con cohetes y patas, que ya funcionó antes.",
+              "loHizoNasa": false
+            },
+            {
+              "texto": "Probar algo nunca hecho en Marte: paracaídas y bolsas de aire gigantes que rebotan contra el suelo.",
+              "loHizoNasa": true
+            }
+          ],
+          "queHizoNasa": "Eligieron las bolsas de aire, más unos cohetes pequeños para frenar al final. El 4 de julio de 1997 se inflaron a unos 100 metros del suelo. Pathfinder rebotó más de 15 veces, algunos rebotes de hasta 15 metros de alto, y rodó hasta detenerse a 1 kilómetro del primer golpe.",
+          "ciencia": "Era la primera vez que se usaba esta técnica en Marte. Necesitar menos combustible abarató la misión, y años después Spirit y Opportunity aterrizaron igual."
+        },
+        {
+          "quien": "Eres Sojourner",
+          "situacion": "Un mensaje entre Marte y la Tierra tarda entre 3 y 22 minutos en llegar, y solo hay una oportunidad al día para enviarme órdenes. ¿Cómo me manejan?",
+          "opciones": [
+            {
+              "texto": "Como un auto a control remoto: me mueven desde la Tierra paso a paso.",
+              "loHizoNasa": false
+            },
+            {
+              "texto": "Me dicen a dónde ir, y yo solo esquivo rocas, pendientes y barrancos en el camino.",
+              "loHizoNasa": true
+            }
+          ],
+          "queHizoNasa": "Las personas en la Tierra elegían el camino del día, y yo evitaba los obstáculos por mi cuenta con láseres y cámaras. Fui el primer vehículo en otro planeta que podía manejarse así, en parte solo.",
+          "ciencia": "Así llegué a rocas como \"Barnacle Bill\", que estudié unas 10 horas con mi espectrómetro. En total se hicieron más de 15 análisis químicos de rocas y suelo."
+        }
+      ],
+      "despedida": {
+        "quienSoy": "Soy Sojourner, el primer robot con ruedas que exploró Marte. Soy pequeñito: peso 10,6 kg y mido 30 cm de alto, como un horno microondas. Llegué el 4 de julio de 1997 dentro del módulo Mars Pathfinder y al día siguiente bajé por una rampa. Mi nombre viene de Sojourner Truth, una luchadora por los derechos civiles en Estados Unidos.",
+        "queDescubri": "Junto con el módulo encontramos piedras redondeadas que sugieren que en Marte corrió agua cuando el planeta era más cálido y húmedo. También vimos remolinos de polvo, nubes de hielo de agua por las mañanas, y descubrimos que el polvo del aire es magnético. Entre los dos enviamos más de 17 000 fotos.",
+        "porQueMeQuede": "Yo solo podía hablar con la Tierra a través del módulo. El 27 de septiembre de 1997 llegó su último paquete de datos; los ingenieros creen que su batería falló. NASA intentó recuperar el contacto durante meses, pero no lo logró. Me diseñaron para una semana… ¡y trabajé casi tres meses!",
+        "comoEstoyHoy": "El módulo ahora se llama Estación Memorial Carl Sagan, en honor al astrónomo. En 2006, la cámara HiRISE lo fotografió desde el espacio: se ven sus rampas y restos de las bolsas de aire. ¿Y yo? Cerca del módulo hay una manchita del tamaño correcto que podría ser yo, pero nadie está seguro. ¡Quizás me acerqué al módulo buscando cómo llamar a casa!"
+      },
+      "fuentes": [
+        {
+          "titulo": "NASA Science: misión Mars Pathfinder (recurso oficial del reto)",
+          "url": "https://science.nasa.gov/mission/mars-pathfinder/"
+        },
+        {
+          "titulo": "HiRISE: imagen del sitio de Mars Pathfinder",
+          "url": "https://hirise.lpl.arizona.edu/PSP_001890_1995"
+        },
+        {
+          "titulo": "JPL: nueva nave en órbita ve detalles del sitio de Pathfinder",
+          "url": "https://www.jpl.nasa.gov/news/new-nasa-orbiter-sees-details-of-1997-pathfinder-site/"
+        },
+        {
+          "titulo": "NASA PDS: operación del rover Sojourner",
+          "url": "https://pds.nasa.gov/data/mpfr-m-apxs-5-ddr-v1.0/mprv_0001/document/roverdoc/uplkdocs/overview/opsvgs.htm"
+        },
+        {
+          "titulo": "IEEE Spectrum: la historia del rover Sojourner",
+          "url": "https://spectrum.ieee.org/mars-pathfinder-rover"
+        }
+      ]
+    },
+    "datos_en": {
+      "nombre": "Sojourner (Mars Pathfinder)",
+      "nombreCorto": "Sojourner",
+      "buscar": "the Mars Pathfinder lander",
+      "tipo": "rover and lander",
+      "pistas": [
+        "I'm in the northern hemisphere, to the left of the 0° meridian.",
+        "Look between the 30° W and 60° W lines, a little below the 30° N line.",
+        "My coordinates: 19° N, 33° W, in Ares Vallis, a plain where huge floods passed long, long ago."
+      ],
+      "fotoCredito": "Sojourner among the rocks of Ares Vallis, photographed by the lander. NASA/JPL",
+      "decisiones": [
+        {
+          "quien": "You are the Mars Pathfinder team",
+          "situacion": "1996. We need to take a robot to Mars without spending much money. The 1976 Viking landers came down braking with rockets and standing on legs, but that takes a lot of fuel. How do we land?",
+          "opciones": [
+            "Like the Vikings: with rockets and legs, since it worked before.",
+            "Try something never done on Mars: a parachute and giant airbags that bounce on the ground."
+          ],
+          "queHizoNasa": "They chose airbags, plus small rockets to brake at the very end. On July 4, 1997, they inflated about 100 meters above the ground. Pathfinder bounced more than 15 times, some bounces up to 15 meters high, and rolled to a stop 1 kilometer from the first impact.",
+          "ciencia": "It was the first time this technique was used on Mars. Needing less fuel made the mission cheaper, and years later Spirit and Opportunity landed the same way."
+        },
+        {
+          "quien": "You are Sojourner",
+          "situacion": "A message between Mars and Earth takes 3 to 22 minutes to arrive, and there's only one chance a day to send me commands. How do they drive me?",
+          "opciones": [
+            "Like a remote-control car: they move me from Earth step by step.",
+            "They tell me where to go, and I dodge rocks, slopes and cliffs on my own."
+          ],
+          "queHizoNasa": "People on Earth chose the day's path, and I avoided obstacles by myself using lasers and cameras. I was the first vehicle on another planet that could partly drive itself.",
+          "ciencia": "That's how I reached rocks like \"Barnacle Bill,\" which I studied for about 10 hours with my spectrometer. In total, more than 15 chemical analyses of rocks and soil were made."
+        }
+      ],
+      "despedida": {
+        "quienSoy": "I'm Sojourner, the first wheeled robot to explore Mars. I'm tiny: I weigh 10.6 kg and I'm 30 cm tall, like a microwave oven. I arrived on July 4, 1997, inside the Mars Pathfinder lander, and the next day I rolled down a ramp. I'm named after Sojourner Truth, a civil rights fighter in the United States.",
+        "queDescubri": "Together with the lander, we found rounded pebbles that suggest water flowed on Mars when the planet was warmer and wetter. We also saw dust devils, water-ice clouds in the mornings, and discovered that the dust in the air is magnetic. Between the two of us we sent more than 17,000 photos.",
+        "porQueMeQuede": "I could only talk to Earth through the lander. Its last data packet arrived on September 27, 1997; engineers think its battery failed. NASA tried to make contact again for months, but couldn't. I was designed for one week… and I worked for almost three months!",
+        "comoEstoyHoy": "The lander is now called the Carl Sagan Memorial Station, in honor of the astronomer. In 2006 the HiRISE camera photographed it from space: you can see its ramps and pieces of the airbags. And me? Near the lander there's a little spot the right size that could be me, but nobody is sure. Maybe I drove closer to the lander looking for a way to phone home!"
+      }
+    }
+  },
+  {
+    "id": "insight",
+    "lugar": "marte",
+    "orden": 4,
+    "datos": {
+      "id": "insight",
+      "listo": true,
+      "nombre": "InSight",
+      "dibujo": "insight",
+      "ubicacion": {
+        "lat": 4.5,
+        "lon": 135.62
+      },
+      "lugar": "marte",
+      "anios": "2018–2022",
+      "tipo": "módulo de aterrizaje",
+      "foto": {
+        "modo": "orbita",
+        "imagen": "img/satelitales/insight.jpg",
+        "credito": "HiRISE, 2022: NASA/JPL-Caltech/UArizona",
+        "objetivo": {
+          "x": 514,
+          "y": 524,
+          "radio": 34
+        },
+        "pistas": [
+          "Estoy en Elysium Planitia, una llanura lisa muy cerca del ecuador de Marte.",
+          "Al aterrizar, mis cohetes soplaron el polvo y dejaron una mancha más oscura alrededor. Busca esa mancha.",
+          "Estoy en el centro de la mancha oscura: soy una figurita pequeña con un brillo azulado."
+        ]
+      },
+      "fotoEquipo": {
+        "imagen": "img/equipos/insight.jpg",
+        "credito": "Uno de los últimos autorretratos de InSight, con los paneles llenos de polvo (2022). NASA/JPL-Caltech"
+      },
+      "decisiones": [
+        {
+          "situacion": "2019. Mi \"topo\", una sonda que debía enterrarse martillando para medir el calor de Marte, no logra hundirse en este suelo. Mi brazo robótico no fue diseñado para ayudar en eso. ¿Qué hacemos?",
+          "opciones": [
+            {
+              "texto": "Rendirnos con el topo y olvidarlo.",
+              "loHizoNasa": false
+            },
+            {
+              "texto": "Inventar formas nuevas de usar el brazo y su pala para empujarlo y taparlo con tierra.",
+              "loHizoNasa": true
+            }
+          ],
+          "queHizoNasa": "Durante casi dos años, los equipos de NASA y de la agencia espacial alemana usaron la pala para presionar el topo y echarle tierra encima. Lograron que quedara justo bajo la superficie, pero no pasó de ahí: debía bajar 3 metros. En enero de 2021 dejaron de intentarlo.",
+          "ciencia": "El topo no llegó a medir el calor, pero se aprendió mucho sobre ese suelo y sobre cómo usar un brazo robótico de maneras nuevas. Esas lecciones sirven para futuras misiones que quieran cavar."
+        },
+        {
+          "situacion": "Mayo de 2021. El polvo cubre mis paneles solares y cada día tengo menos energía. No tengo escobillas para limpiarlos. ¿Qué hacemos?",
+          "opciones": [
+            {
+              "texto": "Esperar a que algún remolino de viento los limpie solo.",
+              "loHizoNasa": false
+            },
+            {
+              "texto": "Echar arena junto a los paneles para que el viento la haga rebotar y arrastre el polvo.",
+              "loHizoNasa": true
+            }
+          ],
+          "queHizoNasa": "¡Para quitar tierra, echaron más tierra! El 22 de mayo de 2021, al mediodía, la hora con más viento, usé mi pala para dejar caer arena junto a un panel. El viento la llevó por encima y se llevó parte del polvo.",
+          "ciencia": "Gané unos 30 vatios-hora de energía por día marciano. Así pude seguir escuchando Marte unas semanas más antes de apagar mis instrumentos."
+        }
+      ],
+      "despedida": {
+        "quienSoy": "Soy InSight, un módulo de NASA que no se mueve: vine a escuchar el interior de Marte. Aterricé el 26 de noviembre de 2018 en Elysium Planitia, una llanura lisa cerca del ecuador.",
+        "queDescubri": "Con mi sismómetro escuché más de 1 300 martemotos, los terremotos de Marte. Gracias a ellos, los científicos aprendieron cómo son la corteza, el manto y el núcleo del planeta. También medí el clima de día y de noche, sin parar, más que cualquier misión anterior en la superficie de Marte.",
+        "porQueMeQuede": "Me diseñaron para dos años y trabajé más de cuatro. Pero el polvo cubrió poco a poco mis paneles solares y mi energía bajó hasta que ya no pude comunicarme. El 21 de diciembre de 2022 NASA declaró terminada mi misión.",
+        "comoEstoyHoy": "Sigo en Elysium Planitia. La cámara HiRISE me fotografía desde la órbita: la mancha oscura que dejaron mis cohetes al aterrizar se va borrando con el polvo. Eso enseña a los científicos cómo se mueve el polvo en Marte."
+      },
+      "fuentes": [
+        {
+          "titulo": "NASA Science: misión InSight (recurso oficial del reto)",
+          "url": "https://science.nasa.gov/mission/insight/"
+        },
+        {
+          "titulo": "JPL: InSight recibe un impulso de energía",
+          "url": "https://www.jpl.nasa.gov/news/nasas-insight-mars-lander-gets-a-power-boost"
+        },
+        {
+          "titulo": "NASA: el \"topo\" de InSight termina su viaje",
+          "url": "https://www.nasa.gov/feature/jpl/nasa-insight-s-mole-ends-its-journey-on-mars"
+        },
+        {
+          "titulo": "NASA: el sitio de aterrizaje de InSight, Elysium Planitia",
+          "url": "https://science.nasa.gov/resource/insights-landing-site-elysium-planitia/"
+        },
+        {
+          "titulo": "Universe Today: NASA sigue vigilando a InSight desde el espacio",
+          "url": "https://www.universetoday.com/articles/nasa-is-keeping-an-eye-on-insight-from-space"
+        },
+        {
+          "titulo": "CNN/ABC7: InSight se despide",
+          "url": "https://abc7news.com/nasa-insight-twitter-mars-lander-rover-dies/12598972/"
+        }
+      ]
+    },
+    "datos_en": {
+      "nombre": "InSight",
+      "tipo": "lander",
+      "credito": "HiRISE, 2022: NASA/JPL-Caltech/UArizona",
+      "pistas": [
+        "I'm in Elysium Planitia, a smooth plain very close to Mars's equator.",
+        "When I landed, my rockets blew the dust away and left a darker patch around me. Look for that patch.",
+        "I'm in the center of the dark patch: a small shape with a bluish shine."
+      ],
+      "fotoCredito": "One of InSight's last selfies, with its panels covered in dust (2022). NASA/JPL-Caltech",
+      "decisiones": [
+        {
+          "situacion": "2019. My \"mole,\" a probe that was supposed to hammer itself into the ground to measure Mars's heat, can't dig into this soil. My robotic arm wasn't designed to help with that. What do we do?",
+          "opciones": [
+            "Give up on the mole and forget it.",
+            "Invent new ways to use the arm and its scoop to push it and cover it with soil."
+          ],
+          "queHizoNasa": "For almost two years, teams from NASA and the German space agency used the scoop to press on the mole and pile soil on top of it. They got it just below the surface, but no deeper: it was supposed to go down 3 meters. In January 2021 they stopped trying.",
+          "ciencia": "The mole never measured the heat, but the team learned a lot about that soil and about using a robotic arm in new ways. Those lessons help future missions that want to dig."
+        },
+        {
+          "situacion": "May 2021. Dust covers my solar panels and every day I have less energy. I don't have brushes to clean them. What do we do?",
+          "opciones": [
+            "Wait for a gust of wind to clean them on its own.",
+            "Drop sand next to the panels so the wind bounces it across and carries the dust away."
+          ],
+          "queHizoNasa": "To remove dirt, they added more dirt! On May 22, 2021, at noon, the windiest time of day, I used my scoop to trickle sand next to a panel. The wind carried it across and took some of the dust with it.",
+          "ciencia": "I gained about 30 watt-hours of energy per Martian day. That let me keep listening to Mars for a few more weeks before switching off my instruments."
+        }
+      ],
+      "despedida": {
+        "quienSoy": "I'm InSight, a NASA lander that doesn't move: I came to listen to the inside of Mars. I landed on November 26, 2018, in Elysium Planitia, a smooth plain near the equator.",
+        "queDescubri": "With my seismometer I heard more than 1,300 marsquakes, the earthquakes of Mars. Thanks to them, scientists learned what the planet's crust, mantle and core are like. I also tracked the weather day and night, nonstop, more than any earlier mission on the surface of Mars.",
+        "porQueMeQuede": "I was designed for two years and worked for more than four. But dust slowly covered my solar panels and my energy dropped until I could no longer communicate. On December 21, 2022, NASA declared my mission over.",
+        "comoEstoyHoy": "I'm still in Elysium Planitia. The HiRISE camera photographs me from orbit: the dark patch my rockets left when I landed is slowly being erased by dust. That teaches scientists how dust moves on Mars."
+      }
+    }
+  },
+  {
+    "id": "ingenuity",
+    "lugar": "marte",
+    "orden": 5,
+    "datos": {
+      "id": "ingenuity",
+      "listo": true,
+      "nombre": "Ingenuity",
+      "dibujo": "helicoptero",
+      "ubicacion": {
+        "lat": 18.36,
+        "lon": 77.59
+      },
+      "lugar": "marte",
+      "anios": "2021–2024",
+      "tipo": "helicóptero",
+      "foto": {
+        "modo": "mapa",
+        "pistas": [
+          "Estoy en el hemisferio norte, a la derecha del meridiano 0°.",
+          "Busca entre las líneas de 60° E y 90° E, un poco abajo de la línea de 30° N.",
+          "Mis coordenadas: 18° N, 77,5° E, en el cráter Jezero, donde hace mucho hubo un lago."
+        ]
+      },
+      "fotoEquipo": {
+        "imagen": "img/equipos/ingenuity.jpg",
+        "credito": "Ingenuity en Marte, fotografiado por la cámara Mastcam-Z del rover Perseverance. NASA/JPL-Caltech/ASU"
+      },
+      "decisiones": [
+        {
+          "situacion": "El aire de Marte es tan delgado que tiene apenas un 1 % de la densidad del aire de la Tierra. Casi no hay aire que empujar para volar. ¿Cómo me diseñan?",
+          "opciones": [
+            {
+              "texto": "Como un helicóptero normal de la Tierra, con aspas que giren a velocidad normal.",
+              "loHizoNasa": false
+            },
+            {
+              "texto": "Muy liviano, con aspas grandes que giren muchísimo más rápido.",
+              "loHizoNasa": true
+            }
+          ],
+          "queHizoNasa": "Me hicieron pesar apenas 1,8 kg, con aspas grandes que giran unas 2 400 veces por minuto. ¡Eso es varias veces más rápido que un helicóptero de pasajeros en la Tierra!",
+          "ciencia": "El 19 de abril de 2021 despegué: fue el primer vuelo con motor y controlado en otro planeta. Por eso al lugar lo llamaron \"Campo de los hermanos Wright\"."
+        },
+        {
+          "situacion": "Mi misión era una prueba: hasta 5 vuelos en 30 días y listo. Pero mis primeros vuelos salieron perfectos. ¿Qué hacemos?",
+          "opciones": [
+            {
+              "texto": "Terminar la prueba como estaba planeado.",
+              "loHizoNasa": false
+            },
+            {
+              "texto": "Seguir volando como explorador aéreo para ayudar al rover Perseverance.",
+              "loHizoNasa": true
+            }
+          ],
+          "queHizoNasa": "NASA extendió mi misión. Empecé a volar como explorador, mirando desde arriba los lugares a donde Perseverance podía ir.",
+          "ciencia": "En vez de 5 vuelos, hice 72 en casi tres años. Demostré que los vehículos voladores pueden ayudar a explorar otros mundos."
+        }
+      ],
+      "despedida": {
+        "quienSoy": "Soy Ingenuity, el pequeño helicóptero de NASA. Peso 1,8 kg. Viajé a Marte enganchado a la panza del rover Perseverance y aterricé con él en el cráter Jezero en febrero de 2021.",
+        "queDescubri": "Demostré que se puede volar en otro planeta, aunque su aire sea tan delgado. Después ayudé a Perseverance mirando desde arriba los caminos y lugares interesantes.",
+        "porQueMeQuede": "El 18 de enero de 2024, en mi vuelo número 72, aterricé de golpe sobre una duna y mis cuatro aspas se rompieron. Ya no puedo volar. Me habían planeado para 5 vuelos en 30 días… ¡y volé 72 veces!",
+        "comoEstoyHoy": "Sigo de pie en el cráter Jezero. Llevo conmigo un pedacito de tela del Flyer de los hermanos Wright, el primer avión con motor de la Tierra."
+      },
+      "fuentes": [
+        {
+          "titulo": "NASA Science: helicóptero Ingenuity (recurso oficial del reto)",
+          "url": "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/"
+        },
+        {
+          "titulo": "NASA: 6 cosas que saber sobre el helicóptero de Marte",
+          "url": "https://www.nasa.gov/?p=70730"
+        },
+        {
+          "titulo": "Space.com: NASA extiende la misión de Ingenuity",
+          "url": "https://www.space.com/nasa-mars-helicopter-ingenuity-mission-extended"
+        },
+        {
+          "titulo": "Reuters/RNZ: Ingenuity termina tras 72 vuelos",
+          "url": "https://www.rnz.co.nz/news/world/507633/nasa-s-historic-mars-helicopter-ingenuity-grounded-for-good-after-72-flights"
+        },
+        {
+          "titulo": "Science Focus: cómo vuela Ingenuity",
+          "url": "https://www.sciencefocus.com/space/ingenuity-how-the-mars-helicopter-will-fly-on-another-planet/"
+        }
+      ]
+    },
+    "datos_en": {
+      "nombre": "Ingenuity",
+      "tipo": "helicopter",
+      "pistas": [
+        "I'm in the northern hemisphere, to the right of the 0° meridian.",
+        "Look between the 60° E and 90° E lines, a little below the 30° N line.",
+        "My coordinates: 18° N, 77.5° E, in Jezero crater, which held a lake long ago."
+      ],
+      "fotoCredito": "Ingenuity on Mars, photographed by the Perseverance rover's Mastcam-Z camera. NASA/JPL-Caltech/ASU",
+      "decisiones": [
+        {
+          "situacion": "The air on Mars is so thin that it has only about 1% of the density of Earth's air. There's almost no air to push against to fly. How should they design me?",
+          "opciones": [
+            "Like a normal helicopter on Earth, with blades spinning at normal speed.",
+            "Very light, with big blades that spin much, much faster."
+          ],
+          "queHizoNasa": "They made me weigh just 1.8 kg, with big blades that spin about 2,400 times per minute. That's many times faster than a passenger helicopter on Earth!",
+          "ciencia": "On April 19, 2021, I took off: the first powered, controlled flight on another planet. That's why the spot was named \"Wright Brothers Field.\""
+        },
+        {
+          "situacion": "My mission was a test: up to 5 flights in 30 days and done. But my first flights went perfectly. What do we do?",
+          "opciones": [
+            "End the test as planned.",
+            "Keep flying as an aerial scout to help the Perseverance rover."
+          ],
+          "queHizoNasa": "NASA extended my mission. I started flying as a scout, looking from above at the places Perseverance could go.",
+          "ciencia": "Instead of 5 flights, I made 72 in almost three years. I showed that flying vehicles can help explore other worlds."
+        }
+      ],
+      "despedida": {
+        "quienSoy": "I'm Ingenuity, NASA's little helicopter. I weigh 1.8 kg. I traveled to Mars attached to the belly of the Perseverance rover and landed with it in Jezero crater in February 2021.",
+        "queDescubri": "I proved you can fly on another planet, even with air that thin. Then I helped Perseverance by looking at paths and interesting places from above.",
+        "porQueMeQuede": "On January 18, 2024, on my 72nd flight, I landed hard on a sand ripple and all four of my blades broke. I can't fly anymore. I was planned for 5 flights in 30 days… and I flew 72 times!",
+        "comoEstoyHoy": "I'm still standing in Jezero crater. I carry a small piece of fabric from the Wright brothers' Flyer, the first powered airplane on Earth."
+      }
+    }
+  },
+  {
+    "id": "viking1",
+    "lugar": "marte",
+    "orden": 6,
+    "datos": {
+      "id": "viking1",
+      "listo": true,
+      "nombre": "Viking 1",
+      "dibujo": "viking",
+      "ubicacion": {
+        "lat": 22.48,
+        "lon": -47.94
+      },
+      "lugar": "marte",
+      "anios": "1976–1982",
+      "tipo": "módulo de aterrizaje",
+      "foto": {
+        "modo": "mapa",
+        "pistas": [
+          "Estoy en el hemisferio norte de Marte, a la izquierda del meridiano 0°.",
+          "Busca entre las líneas de 30° O y 60° O, entre el ecuador y la línea de 30° N.",
+          "Mis coordenadas: 22,5° N, 48° O, en Chryse Planitia, la Llanura Dorada."
+        ]
+      },
+      "fotoEquipo": {
+        "imagen": "img/equipos/viking1.jpg",
+        "credito": "Primera foto a color tomada por Viking 1 desde la superficie de Marte, julio de 1976 (PIA00563). NASA/JPL"
+      },
+      "decisiones": [
+        {
+          "quien": "Eres el equipo de Viking",
+          "situacion": "Junio de 1976. Ya estoy en órbita, listo para bajar. Pero las primeras fotos del lugar elegido muestran un terreno mucho más accidentado de lo que se pensaba. ¿Qué hacemos?",
+          "opciones": [
+            {
+              "texto": "Aterrizar igual el 4 de julio, ¡el cumpleaños 200 de Estados Unidos!",
+              "loHizoNasa": false
+            },
+            {
+              "texto": "Esperar y buscar un lugar más seguro con nuevas fotos.",
+              "loHizoNasa": true
+            }
+          ],
+          "queHizoNasa": "En junio de 1976, al ver las fotos desde la órbita, los científicos decidieron buscar otro sitio. Aterricé el 20 de julio de 1976 en las laderas del oeste de Chryse Planitia, justo siete años después de que el Apolo 11 llegara a la Luna.",
+          "ciencia": "Fui el primer módulo de Estados Unidos en funcionar en la superficie de Marte. Envié fotos a color y un panorama de la llanura, y medí temperaturas de −86 °C antes del amanecer."
+        },
+        {
+          "situacion": "28 de julio de 1976. Recojo suelo para buscar vida. Un experimento da una señal positiva, parecida a la de algo vivo. Pero la prueba principal, que busca moléculas orgánicas, no encuentra nada. ¿Qué se anuncia?",
+          "opciones": [
+            {
+              "texto": "¡Encontramos vida en Marte!",
+              "loHizoNasa": false
+            },
+            {
+              "texto": "Que los resultados no alcanzan para decir que hay vida.",
+              "loHizoNasa": true
+            }
+          ],
+          "queHizoNasa": "Los científicos fueron prudentes: una sola señal positiva no bastaba si la prueba de compuestos orgánicos daba negativo. No anunciaron vida en Marte.",
+          "ciencia": "Descubrí que el suelo tiene mucho azufre, distinto a cualquier material conocido de la Tierra o de la Luna. Aquel debate enseñó a diseñar mejor las misiones que buscan vida."
+        }
+      ],
+      "despedida": {
+        "quienSoy": "Soy Viking 1, un módulo de aterrizaje de NASA. Tengo un gemelo, Viking 2, que aterrizó en otra llanura más al norte. Yo toqué el suelo el 20 de julio de 1976.",
+        "queDescubri": "Tomé fotos a color y un panorama de 300 grados de la llanura, medí el clima de Marte durante años y analicé el suelo en busca de vida.",
+        "porQueMeQuede": "Funcioné más de seis años. El 11 de noviembre de 1982, un comando equivocado enviado desde la Tierra cortó la comunicación, y nunca pudieron recuperarla.",
+        "comoEstoyHoy": "Sigo en Chryse Planitia. Más tarde me pusieron un nombre nuevo, Estación Memorial Thomas Mutch, en honor al líder de mi equipo de cámaras. La cámara HiRISE me fotografió desde la órbita en 2006."
+      },
+      "fuentes": [
+        {
+          "titulo": "NASA Science: misión Viking 1 (recurso oficial del reto)",
+          "url": "https://science.nasa.gov/mission/viking-1/"
+        },
+        {
+          "titulo": "NASA Photojournal: Viking 1 visto desde la órbita (PIA01881)",
+          "url": "https://science.nasa.gov/photojournal/viking-lander-1-thomas-a-mutch-memorial-station-imaged-from-orbit"
+        }
+      ]
+    },
+    "datos_en": {
+      "nombre": "Viking 1",
+      "tipo": "lander",
+      "pistas": [
+        "I'm in Mars's northern hemisphere, to the left of the 0° meridian.",
+        "Look between the 30° W and 60° W lines, between the equator and the 30° N line.",
+        "My coordinates: 22.5° N, 48° W, in Chryse Planitia, the Golden Plain."
+      ],
+      "fotoCredito": "The first color photo taken by Viking 1 from the surface of Mars, July 1976 (PIA00563). NASA/JPL",
+      "decisiones": [
+        {
+          "quien": "You are the Viking team",
+          "situacion": "June 1976. I'm already in orbit, ready to go down. But the first photos of the chosen site show much rougher ground than expected. What do we do?",
+          "opciones": [
+            "Land anyway on July 4, America's 200th birthday!",
+            "Wait and look for a safer site with new photos."
+          ],
+          "queHizoNasa": "In June 1976, after seeing the photos from orbit, the scientists decided to find another site. I landed on July 20, 1976, on the western slopes of Chryse Planitia, exactly seven years after Apollo 11 reached the Moon.",
+          "ciencia": "I was the first U.S. lander to work on the surface of Mars. I sent color photos and a panorama of the plain, and measured −86 °C (−123 °F) before dawn."
+        },
+        {
+          "situacion": "July 28, 1976. I collect soil to look for life. One experiment gives a positive signal, like something alive. But the main test, which looks for organic molecules, finds nothing. What do we announce?",
+          "opciones": [
+            "We found life on Mars!",
+            "That the results aren't enough to say there is life."
+          ],
+          "queHizoNasa": "The scientists were careful: one positive signal wasn't enough when the organic-compound test came back negative. They did not announce life on Mars.",
+          "ciencia": "I found that the soil is rich in sulfur, unlike any known material from Earth or the Moon. That debate taught scientists to design better life-hunting missions."
+        }
+      ],
+      "despedida": {
+        "quienSoy": "I'm Viking 1, a NASA lander. I have a twin, Viking 2, which landed on another plain farther north. I touched down on July 20, 1976.",
+        "queDescubri": "I took color photos and a 300-degree panorama of the plain, measured Mars's weather for years, and analyzed the soil looking for life.",
+        "porQueMeQuede": "I worked for more than six years. On November 11, 1982, a faulty command sent from Earth cut off communication, and it was never restored.",
+        "comoEstoyHoy": "I'm still in Chryse Planitia. Later I got a new name, the Thomas Mutch Memorial Station, honoring the leader of my camera team. The HiRISE camera photographed me from orbit in 2006."
+      }
+    }
+  },
+  {
+    "id": "phoenix",
+    "lugar": "marte",
+    "orden": 7,
+    "datos": {
+      "id": "phoenix",
+      "listo": true,
+      "nombre": "Phoenix",
+      "dibujo": "insight",
+      "ubicacion": {
+        "lat": 68.22,
+        "lon": -125.75
+      },
+      "lugar": "marte",
+      "anios": "2008",
+      "tipo": "módulo de aterrizaje",
+      "foto": {
+        "modo": "mapa",
+        "pistas": [
+          "Estoy muy al norte, más arriba de la línea de 60° N. Aterricé más al norte que cualquier nave antes que yo.",
+          "Estoy a la izquierda del meridiano 0°, entre las líneas de 120° O y 150° O.",
+          "Mis coordenadas: 68° N, 126° O, en las llanuras heladas de Vastitas Borealis."
+        ]
+      },
+      "fotoEquipo": {
+        "imagen": "img/equipos/phoenix.jpg",
+        "credito": "Un panel solar y el brazo robótico de Phoenix en las llanuras del norte de Marte, 2008 (PIA10793). NASA/JPL-Caltech/University of Arizona/Texas A&M University"
+      },
+      "decisiones": [
+        {
+          "quien": "Eres el equipo de Phoenix",
+          "situacion": "Años antes, NASA canceló una misión casi lista: el módulo Mars Surveyor 2001 quedó guardado. Ahora hay que enviar una misión al norte helado de Marte, con poco presupuesto. ¿Qué hacemos?",
+          "opciones": [
+            {
+              "texto": "Construir una nave nueva desde cero.",
+              "loHizoNasa": false
+            },
+            {
+              "texto": "Revisar y mejorar el módulo guardado para usarlo.",
+              "loHizoNasa": true
+            }
+          ],
+          "queHizoNasa": "Phoenix se construyó a partir del módulo del Mars Surveyor 2001 cancelado, con instrumentos mejorados. Por eso se llama como el ave fénix: renació.",
+          "ciencia": "Despegué el 4 de agosto de 2007 y aterricé el 25 de mayo de 2008, más al norte que cualquier nave anterior, para estudiar el hielo cerca del polo."
+        },
+        {
+          "situacion": "Junio de 2008. Mi brazo cava una zanja, apodada \"Dodo-Ricitos de Oro\", y aparecen trocitos blancos del tamaño de un dado. ¿Son sal o son hielo? ¿Cómo averiguarlo?",
+          "opciones": [
+            {
+              "texto": "Anunciar de inmediato que es hielo.",
+              "loHizoNasa": false
+            },
+            {
+              "texto": "Esperar unos días y volver a fotografiar la zanja.",
+              "loHizoNasa": true
+            }
+          ],
+          "queHizoNasa": "Esperaron. Cuatro días después, varios trocitos habían desaparecido: se convirtieron en vapor. La sal no puede hacer eso. ¡Era hielo de agua!",
+          "ciencia": "Confirmé que hay hielo de agua justo debajo del suelo en el norte de Marte, al alcance de un brazo robótico."
+        }
+      ],
+      "despedida": {
+        "quienSoy": "Soy Phoenix, un módulo de aterrizaje de NASA. Llegué el 25 de mayo de 2008 a las llanuras del norte de Marte, cerca del polo.",
+        "queDescubri": "Con mi brazo cavé zanjas y encontré hielo de agua bajo el suelo. Mis hornos y laboratorios analizaron muestras del suelo marciano.",
+        "porQueMeQuede": "Me diseñaron para tres meses y trabajé más de cinco. Se acercaba el invierno, el Sol salía cada vez menos y mis paneles solares ya no daban energía. Mi última señal llegó el 2 de noviembre de 2008.",
+        "comoEstoyHoy": "En 2010, la cámara HiRISE me fotografió desde la órbita: el hielo seco del invierno, que se acumula sobre mí, probablemente aplastó uno de mis paneles solares. Sigo en las llanuras del norte."
+      },
+      "fuentes": [
+        {
+          "titulo": "NASA Science: módulos Phoenix e InSight (recurso oficial del reto)",
+          "url": "https://science.nasa.gov/mission/insight/"
+        },
+        {
+          "titulo": "NASA JPL: los trocitos brillantes de Phoenix eran hielo (2008)",
+          "url": "https://www.jpl.nasa.gov/news/bright-chunks-at-phoenix-landers-mars-site-must-have-been-ice/"
+        },
+        {
+          "titulo": "NASA Photojournal: los paneles de Phoenix podrían haberse roto",
+          "url": "https://science.nasa.gov/photojournal/image-from-mars-orbit-indicates-solar-panels-on-phoenix-lander-may-have-collapsed"
+        }
+      ]
+    },
+    "datos_en": {
+      "nombre": "Phoenix",
+      "tipo": "lander",
+      "pistas": [
+        "I'm very far north, above the 60° N line. I landed farther north than any spacecraft before me.",
+        "I'm to the left of the 0° meridian, between the 120° W and 150° W lines.",
+        "My coordinates: 68° N, 126° W, on the icy plains of Vastitas Borealis."
+      ],
+      "fotoCredito": "A solar panel and the robotic arm of Phoenix on the northern plains of Mars, 2008 (PIA10793). NASA/JPL-Caltech/University of Arizona/Texas A&M University",
+      "decisiones": [
+        {
+          "quien": "You are the Phoenix team",
+          "situacion": "Years earlier, NASA canceled a nearly finished mission: the Mars Surveyor 2001 lander was put in storage. Now there's a low-budget mission to send to Mars's icy north. What do we do?",
+          "opciones": [
+            "Build a brand-new spacecraft from scratch.",
+            "Check and improve the stored lander and use it."
+          ],
+          "queHizoNasa": "Phoenix was built from the canceled Mars Surveyor 2001 lander, with improved instruments. That's why it's named after the phoenix: it rose again.",
+          "ciencia": "I launched on August 4, 2007, and landed on May 25, 2008, farther north than any earlier spacecraft, to study the ice near the pole."
+        },
+        {
+          "situacion": "June 2008. My arm digs a trench nicknamed \"Dodo-Goldilocks,\" and dice-size white bits appear. Are they salt or ice? How can we find out?",
+          "opciones": [
+            "Announce right away that it's ice.",
+            "Wait a few days and photograph the trench again."
+          ],
+          "queHizoNasa": "They waited. Four days later, several of the bits were gone: they had turned into vapor. Salt can't do that. It was water ice!",
+          "ciencia": "I confirmed that there is water ice just below the ground in northern Mars, within reach of a robotic arm."
+        }
+      ],
+      "despedida": {
+        "quienSoy": "I'm Phoenix, a NASA lander. I arrived on May 25, 2008, on the northern plains of Mars, near the pole.",
+        "queDescubri": "With my arm I dug trenches and found water ice under the ground. My ovens and labs analyzed samples of Martian soil.",
+        "porQueMeQuede": "I was designed for three months and worked for more than five. Winter was coming, the Sun rose less and less, and my solar panels couldn't give me energy. My last signal arrived on November 2, 2008.",
+        "comoEstoyHoy": "In 2010, the HiRISE camera photographed me from orbit: the winter dry ice (frozen carbon dioxide) that piles up on me probably crushed one of my solar panels. I'm still on the northern plains."
+      }
+    }
+  },
+  {
+    "id": "apolo11",
+    "lugar": "luna",
+    "orden": 8,
+    "datos": {
+      "id": "apolo11",
+      "listo": true,
+      "nombre": "Reflector láser del Apolo 11",
+      "nombreCorto": "el reflector láser del Apolo 11",
+      "etiquetaMapa": "Apolo 11",
+      "buscar": "el sitio de aterrizaje del Apolo 11",
+      "dibujo": "reflector",
+      "ubicacion": {
+        "lat": 0.67,
+        "lon": 23.47
+      },
+      "lugar": "luna",
+      "anios": "1969–hoy",
+      "tipo": "instrumento",
+      "foto": {
+        "modo": "orbita",
+        "imagen": "img/satelitales/apolo11.jpg",
+        "credito": "LROC (LRO), imagen M175124932R: NASA/GSFC/Arizona State University. Uso educativo con crédito. Se quitaron las etiquetas de la versión original.",
+        "objetivo": {
+          "x": 802,
+          "y": 656,
+          "radio": 38
+        },
+        "pistas": [
+          "Estoy en el Mar de la Tranquilidad, una gran llanura formada por lava antigua.",
+          "Busca el punto más brillante de la foto: es la parte del módulo lunar Eagle que se quedó en la Luna.",
+          "Desde ese punto salen caminitos oscuros: son las huellas de Armstrong y Aldrin. Yo estoy a unos pasos del módulo."
+        ]
+      },
+      "fotoEquipo": {
+        "imagen": "img/equipos/reflector.jpg",
+        "credito": "El reflector recién colocado en la Luna, julio de 1969. NASA"
+      },
+      "decisiones": [
+        {
+          "quien": "Estás en el módulo lunar Eagle",
+          "situacion": "20 de julio de 1969. Armstrong y Aldrin bajan hacia la Luna, y el reflector viaja con ellos. De pronto suena una alarma de la computadora: \"1202\". Nunca la habían visto en los entrenamientos. ¿Qué hacen?",
+          "opciones": [
+            {
+              "texto": "Cancelar el aterrizaje y volver a la nave que está en órbita.",
+              "loHizoNasa": false
+            },
+            {
+              "texto": "Seguir bajando si en la Tierra confirman que es seguro.",
+              "loHizoNasa": true
+            }
+          ],
+          "queHizoNasa": "En el Control de Misión, en Houston, un experto en la computadora del módulo revisó la alarma en segundos y vio que no ponía en peligro el aterrizaje. Les respondieron \"seguimos\". Sonaron más alarmas parecidas, y la respuesta fue la misma.",
+          "ciencia": "La alarma avisaba que la computadora estaba recibiendo demasiados datos, pero seguía haciendo lo más importante. Gracias a esa decisión rápida, el descenso continuó."
+        },
+        {
+          "quien": "Estás en el módulo lunar Eagle",
+          "situacion": "A unos 180 metros de altura, Armstrong ve que la computadora los está llevando a una zona llena de rocas junto a un cráter. El combustible se está acabando. ¿Qué hacen?",
+          "opciones": [
+            {
+              "texto": "Dejar que la computadora aterrice donde había elegido.",
+              "loHizoNasa": false
+            },
+            {
+              "texto": "Tomar el control a mano y volar más lejos hasta encontrar un lugar plano.",
+              "loHizoNasa": true
+            }
+          ],
+          "queHizoNasa": "Armstrong tomó el control manual y pasó por encima de las rocas. A unos 30 metros del suelo se encendió la luz de combustible bajo. Aterrizaron con solo segundos de margen, y Armstrong dijo: \"Houston, aquí Base Tranquilidad. El Águila ha aterrizado\".",
+          "ciencia": "Horas después, cerca del final de su caminata lunar, Armstrong y Aldrin colocaron el reflector en el suelo. Las rocas que llevaron a la Tierra mostraron que en ese lugar hubo actividad volcánica hace muchísimo tiempo."
+        }
+      ],
+      "despedida": {
+        "quienSoy": "Soy el reflector láser que dejó el Apolo 11: un panel de unos 46 cm de lado con 100 prismas de vidrio que apuntan a la Tierra. Armstrong y Aldrin me colocaron en la Luna el 21 de julio de 1969, cerca del final de su caminata lunar.",
+        "queDescubri": "Desde la Tierra, los científicos disparan pulsos de láser hacia mí y miden cuánto tarda la luz en ir y volver. Cuando el láser llega a la Luna, ¡ya mide más de un kilómetro y medio de ancho! Gracias a mí sabemos que la Luna se aleja de la Tierra unos 3,8 cm cada año y que probablemente tiene un núcleo líquido.",
+        "porQueMeQuede": "Me trajeron para quedarme: mi trabajo es que me apunten desde la Tierra. No necesito electricidad, así que no se me acaba la batería. El sismómetro que vino conmigo envió datos solo tres semanas, pero yo sigo trabajando.",
+        "comoEstoyHoy": "¡Sigo funcionando más de 55 años después! Desde la órbita, la nave LRO fotografió mi sitio: se ven las huellas oscuras de los astronautas, el módulo Eagle, el sismómetro y hasta la tapa que me quitaron."
+      },
+      "fuentes": [
+        {
+          "titulo": "NASA NSSDCA: módulo lunar del Apolo 11 (recurso oficial del reto)",
+          "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C"
+        },
+        {
+          "titulo": "LROC: el sitio del Apolo 11 desde baja altura",
+          "url": "https://lroc.im-ldi.com/images/484"
+        },
+        {
+          "titulo": "LROC: mediodía en la Base Tranquilidad",
+          "url": "https://lroc.im-ldi.com/images/65"
+        },
+        {
+          "titulo": "NASA: hace 50 años, un pequeño paso",
+          "url": "https://www.nasa.gov/feature/50-years-ago-one-small-step-one-giant-leap"
+        },
+        {
+          "titulo": "JPL: el experimento del Apolo que sigue dando resultados",
+          "url": "https://www.jpl.nasa.gov/news/the-apollo-experiment-that-keeps-on-giving/"
+        },
+        {
+          "titulo": "JPL: experimento del Apolo 11 sigue enviando datos valiosos",
+          "url": "https://www.jpl.nasa.gov/news/apollo-11-experiment-continues-to-return-valuable-data/"
+        }
+      ]
+    },
+    "datos_en": {
+      "nombre": "Apollo 11 laser reflector",
+      "nombreCorto": "the Apollo 11 laser reflector",
+      "etiquetaMapa": "Apollo 11",
+      "buscar": "the Apollo 11 landing site",
+      "tipo": "instrument",
+      "anios": "1969–today",
+      "credito": "LROC (LRO): NASA/GSFC/Arizona State University. Labels from the original version were removed.",
+      "pistas": [
+        "I'm in the Sea of Tranquility, a huge plain made of ancient lava.",
+        "Look for the brightest spot in the photo: it's the part of the Eagle lunar module that stayed on the Moon.",
+        "Dark little paths lead away from that spot: they're Armstrong and Aldrin's footprints. I'm a few steps from the module."
+      ],
+      "fotoCredito": "The reflector just after it was set up on the Moon, July 1969. NASA",
+      "decisiones": [
+        {
+          "quien": "You are in the Eagle lunar module",
+          "situacion": "July 20, 1969. Armstrong and Aldrin are heading down to the Moon, and the reflector is traveling with them. Suddenly a computer alarm goes off: \"1202.\" They had never seen it in training. What do they do?",
+          "opciones": [
+            "Cancel the landing and go back to the ship in orbit.",
+            "Keep going down if Earth confirms it's safe."
+          ],
+          "queHizoNasa": "In Mission Control, in Houston, an expert on the module's computer checked the alarm in seconds and saw it didn't put the landing at risk. They answered \"we're go.\" More similar alarms went off, and the answer was the same.",
+          "ciencia": "The alarm meant the computer was receiving too much data, but it kept doing the most important jobs. Thanks to that quick decision, the descent continued."
+        },
+        {
+          "quien": "You are in the Eagle lunar module",
+          "situacion": "About 180 meters up, Armstrong sees the computer is taking them to a field of boulders next to a crater. Fuel is running out. What do they do?",
+          "opciones": [
+            "Let the computer land where it chose.",
+            "Take manual control and fly farther to find a flat spot."
+          ],
+          "queHizoNasa": "Armstrong took manual control and flew over the boulders. About 30 meters above the ground, the low-fuel light came on. They landed with just seconds to spare, and Armstrong said: \"Houston, Tranquility Base here. The Eagle has landed.\"",
+          "ciencia": "Hours later, near the end of their moonwalk, Armstrong and Aldrin set the reflector on the ground. The rocks they brought back to Earth showed there had been volcanic activity at that place a very long time ago."
+        }
+      ],
+      "despedida": {
+        "quienSoy": "I'm the laser reflector left by Apollo 11: a panel about 46 cm (18 inches) wide with 100 glass prisms pointing at Earth. Armstrong and Aldrin placed me on the Moon on July 21, 1969, near the end of their moonwalk.",
+        "queDescubri": "From Earth, scientists fire laser pulses at me and measure how long the light takes to go and come back. By the time the laser reaches the Moon, it's already more than a mile wide! Thanks to me we know the Moon is moving away from Earth by about 3.8 cm every year, and that it probably has a liquid core.",
+        "porQueMeQuede": "I was brought here to stay: my job is to be aimed at from Earth. I don't need electricity, so my battery never runs out. The seismometer that came with me sent data for only three weeks, but I keep working.",
+        "comoEstoyHoy": "I'm still working more than 55 years later! From orbit, the LRO spacecraft photographed my site: you can see the astronauts' dark footprints, the Eagle module, the seismometer and even the cover they took off me."
+      }
+    }
+  },
+  {
+    "id": "surveyor3",
+    "lugar": "luna",
+    "orden": 9,
+    "datos": {
+      "id": "surveyor3",
+      "listo": true,
+      "nombre": "Surveyor 3",
+      "dibujo": "surveyor",
+      "ubicacion": {
+        "lat": -3.01,
+        "lon": -23.42
+      },
+      "lugar": "luna",
+      "anios": "1967",
+      "tipo": "módulo de aterrizaje",
+      "foto": {
+        "modo": "mapa",
+        "pistas": [
+          "Estoy casi sobre el ecuador de la Luna.",
+          "Estoy a la izquierda del meridiano 0°, cerca de la línea de 30° O.",
+          "Mis coordenadas: 3° S, 23,4° O, en el Océano de las Tormentas, la gran mancha oscura del lado izquierdo."
+        ]
+      },
+      "fotoEquipo": {
+        "imagen": "img/equipos/surveyor3.jpg",
+        "credito": "Pete Conrad junto a Surveyor 3; al fondo, el módulo Intrepid. Foto de Alan Bean, NASA (AS12-48-7133)"
+      },
+      "decisiones": [
+        {
+          "quien": "Eres Surveyor 3",
+          "situacion": "Abril de 1967. Antes de enviar astronautas, NASA necesita saber cómo es el suelo de la Luna: ¿será firme o una nave se hundiría en el polvo? ¿Qué hago al llegar?",
+          "opciones": [
+            {
+              "texto": "Solo tomar fotos del paisaje desde donde estoy.",
+              "loHizoNasa": false
+            },
+            {
+              "texto": "Usar mi pala para cavar zanjas y enviar fotos de cómo se comporta el suelo.",
+              "loHizoNasa": true
+            }
+          ],
+          "queHizoNasa": "Con mi brazo y su pala cavé pequeñas zanjas en el suelo lunar, y mi cámara de televisión envió las imágenes a la Tierra.",
+          "ciencia": "Así los científicos pudieron saber cómo era el suelo. Las naves Surveyor abrieron el camino para que los astronautas del Apolo pudieran llegar a la Luna."
+        },
+        {
+          "quien": "Eres el equipo del Apolo 12",
+          "situacion": "Noviembre de 1969. El Apolo 11 aterrizó lejos del punto planeado. Para las próximas misiones, NASA necesita aterrizar exactamente donde quiera. ¿Dónde aterriza el Apolo 12?",
+          "opciones": [
+            {
+              "texto": "En una llanura grande y segura, sin un punto exacto.",
+              "loHizoNasa": false
+            },
+            {
+              "texto": "Justo al lado de Surveyor 3, para demostrar un aterrizaje de precisión y visitarlo.",
+              "loHizoNasa": true
+            }
+          ],
+          "queHizoNasa": "El 19 de noviembre de 1969, Pete Conrad pilotó el módulo Intrepid y aterrizó a menos de 200 metros de mí. ¡Los astronautas pudieron llegar caminando!",
+          "ciencia": "Los astronautas se llevaron mi cámara, mi pala y otras piezas a la Tierra. Más de 80 investigadores estudiaron cómo me afectaron la radiación y el polvo después de años en la Luna."
+        }
+      ],
+      "despedida": {
+        "quienSoy": "Soy Surveyor 3, un robot de NASA con tres patas. Aterricé en la Luna el 20 de abril de 1967, en la ladera de un pequeño cráter del Océano de las Tormentas. Al tocar el suelo reboté dos veces y resbalé: los astronautas que vinieron después encontraron las marcas de mis patas.",
+        "queDescubri": "Con mi pala cavé zanjas, y con mi cámara de televisión mostré a la Tierra cómo era el suelo lunar. Eso ayudó a preparar los aterrizajes de los astronautas.",
+        "porQueMeQuede": "Funcionaba con energía solar. Cuando llegó la noche lunar me quedé a oscuras: el último contacto fue el 4 de mayo de 1967. Después esperé en silencio dos años y medio…",
+        "comoEstoyHoy": "…hasta que Pete Conrad y Alan Bean caminaron hasta mí. Es la primera y única vez que unas personas visitaron a un robot en otro mundo. Mi cámara volvió a la Tierra y hoy está en el Museo Nacional del Aire y el Espacio, en Washington. El resto de mí sigue en la Luna."
+      },
+      "fuentes": [
+        {
+          "titulo": "NASA Science: misión Surveyor 3 (recurso oficial del reto)",
+          "url": "https://science.nasa.gov/mission/surveyor-3/"
+        },
+        {
+          "titulo": "NASA NSSDCA: paquete científico ALSEP del Apolo 12 (recurso oficial del reto)",
+          "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-099C"
+        },
+        {
+          "titulo": "NASA Moon: huellas de patas y de botas, humanos y máquina se encuentran",
+          "url": "https://science.nasa.gov/earth/moon/footpads-and-footprints-humans-and-machine-meet-on-the-moon/"
+        },
+        {
+          "titulo": "NASA: hace 55 años, el Apolo 12 aterriza con precisión",
+          "url": "https://www.nasa.gov/history/55-years-ago-apollo-12-makes-a-pinpoint-landing-on-the-moon"
+        },
+        {
+          "titulo": "Space.com: ¿dónde están las piezas de Surveyor 3?",
+          "url": "https://www.space.com/apollo-12-surveyor-3-parts-50-years.html"
+        },
+        {
+          "titulo": "LROC: el sitio del Apolo 12 y Surveyor 3",
+          "url": "https://lroc.im-ldi.com/posts/401"
+        }
+      ]
+    },
+    "datos_en": {
+      "nombre": "Surveyor 3",
+      "tipo": "lander",
+      "pistas": [
+        "I'm almost on the Moon's equator.",
+        "I'm to the left of the 0° meridian, near the 30° W line.",
+        "My coordinates: 3° S, 23.4° W, in the Ocean of Storms, the big dark patch on the left side."
+      ],
+      "fotoCredito": "Pete Conrad next to Surveyor 3; in the background, the Intrepid module. Photo by Alan Bean, NASA (AS12-48-7133)",
+      "decisiones": [
+        {
+          "quien": "You are Surveyor 3",
+          "situacion": "April 1967. Before sending astronauts, NASA needs to know what the Moon's ground is like: is it firm, or would a spacecraft sink into the dust? What do I do when I arrive?",
+          "opciones": [
+            "Just take pictures of the landscape from where I am.",
+            "Use my scoop to dig trenches and send pictures of how the soil behaves."
+          ],
+          "queHizoNasa": "With my arm and its scoop I dug small trenches in the lunar soil, and my television camera sent the images to Earth.",
+          "ciencia": "That way scientists could learn what the soil was like. The Surveyor landers paved the way for the Apollo astronauts to reach the Moon."
+        },
+        {
+          "quien": "You are the Apollo 12 team",
+          "situacion": "November 1969. Apollo 11 landed far from its planned spot. For future missions, NASA needs to land exactly where it wants. Where does Apollo 12 land?",
+          "opciones": [
+            "On a big, safe plain, with no exact spot.",
+            "Right next to Surveyor 3, to show a precision landing and visit it."
+          ],
+          "queHizoNasa": "On November 19, 1969, Pete Conrad flew the Intrepid module and landed less than 200 meters from me. The astronauts could walk over!",
+          "ciencia": "The astronauts took my camera, my scoop and other parts back to Earth. More than 80 researchers studied how radiation and dust had affected me after years on the Moon."
+        }
+      ],
+      "despedida": {
+        "quienSoy": "I'm Surveyor 3, a three-legged NASA robot. I landed on the Moon on April 20, 1967, on the slope of a small crater in the Ocean of Storms. When I touched down I bounced twice and slid: the astronauts who came later found my footpad marks.",
+        "queDescubri": "With my scoop I dug trenches, and with my television camera I showed Earth what the lunar soil was like. That helped prepare the astronauts' landings.",
+        "porQueMeQuede": "I ran on solar power. When the lunar night came I was left in the dark: the last contact was on May 4, 1967. Then I waited in silence for two and a half years…",
+        "comoEstoyHoy": "…until Pete Conrad and Alan Bean walked up to me. It's the first and only time people have visited a robot on another world. My camera returned to Earth and today is at the National Air and Space Museum in Washington. The rest of me is still on the Moon."
+      }
+    }
+  },
+  {
+    "id": "rover-lunar",
+    "lugar": "luna",
+    "orden": 10,
+    "datos": {
+      "id": "rover-lunar",
+      "listo": true,
+      "nombre": "Rover lunar del Apolo 15",
+      "nombreCorto": "el rover lunar del Apolo 15",
+      "etiquetaMapa": "Apolo 15",
+      "dibujo": "rover-lunar",
+      "ubicacion": {
+        "lat": 26.13,
+        "lon": 3.63
+      },
+      "lugar": "luna",
+      "anios": "1971",
+      "tipo": "vehículo lunar",
+      "foto": {
+        "modo": "mapa",
+        "pistas": [
+          "Estoy en el hemisferio norte de la Luna.",
+          "Estoy muy cerca del meridiano 0°, un poquito a la derecha, y un poco abajo de la línea de 30° N.",
+          "Mis coordenadas: 26° N, 3,6° E, junto a la grieta Hadley y los montes Apeninos."
+        ]
+      },
+      "fotoEquipo": {
+        "imagen": "img/equipos/rover-lunar.jpg",
+        "credito": "David Scott, comandante del Apolo 15, en el rover lunar. NASA"
+      },
+      "decisiones": [
+        {
+          "quien": "Eres el equipo del Apolo 15",
+          "situacion": "Hasta ahora, los astronautas exploraban a pie y no podían alejarse mucho del módulo lunar. Para el Apolo 15 quieren llegar mucho más lejos. ¿Cómo?",
+          "opciones": [
+            {
+              "texto": "Que caminen más horas con trajes más resistentes.",
+              "loHizoNasa": false
+            },
+            {
+              "texto": "Llevar un vehículo plegable para manejar sobre la Luna.",
+              "loHizoNasa": true
+            }
+          ],
+          "queHizoNasa": "Llevaron el primer rover lunar, plegado al costado del módulo Falcon. Se desplegaba tirando de unas cintas. El 31 de julio de 1971 se usó por primera vez.",
+          "ciencia": "En tres salidas, David Scott y James Irwin recorrieron 27,9 km. ¡Llegaron a alejarse unos 5 km del módulo lunar, mucho más que caminando!"
+        },
+        {
+          "quien": "Eres el equipo del Apolo 15",
+          "situacion": "Termina la misión y los astronautas vuelven a casa. ¿Qué pasa con el rover?",
+          "opciones": [
+            {
+              "texto": "Llevarlo de vuelta a la Tierra.",
+              "loHizoNasa": false
+            },
+            {
+              "texto": "Dejarlo en la Luna, con su cámara de televisión encendida.",
+              "loHizoNasa": true
+            }
+          ],
+          "queHizoNasa": "El rover se quedó en la Luna. Su cámara de televisión siguió funcionando y apuntó hacia el módulo cuando despegó.",
+          "ciencia": "Gracias a esa cámara, por primera vez la gente en la Tierra pudo ver en televisión un despegue desde la Luna."
+        }
+      ],
+      "despedida": {
+        "quienSoy": "Soy el primer rover lunar, el del Apolo 15. Viajé plegado al costado del módulo Falcon y me desplegaron tirando de unas cintas. Funciono con baterías eléctricas y puedo ir a unos 13 km por hora.",
+        "queDescubri": "Llevé a David Scott y James Irwin por la orilla de la grieta Hadley y al pie de los montes Apeninos. Recorrimos 27,9 km en tres paseos y ellos juntaron unos 77 kg de rocas para estudiar en la Tierra.",
+        "porQueMeQuede": "No estaba pensado para volver a la Tierra. Mi gran último trabajo fue transmitir en vivo el despegue de mis astronautas. Casi dos días después, mi cámara despertó 13 minutos… y se apagó para siempre.",
+        "comoEstoyHoy": "Sigo estacionado en Hadley, cerca de la base del módulo Falcon, que también se quedó. La nave LRO ha fotografiado desde la órbita las huellas de mis ruedas, ¡y hasta a mí!"
+      },
+      "fuentes": [
+        {
+          "titulo": "NASA NSSDCA: rover lunar del Apolo 15 (recurso oficial del reto)",
+          "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-063C"
+        },
+        {
+          "titulo": "NASA ALSJ: resumen de la misión Apolo 15",
+          "url": "https://www.nasa.gov/wp-content/uploads/static/history/alsj/a15/a15mr-1.htm"
+        },
+        {
+          "titulo": "NASA PDS: datos de la misión Apolo 15",
+          "url": "https://pds-geosciences.wustl.edu/Lunar/urn-nasa-pds-a15lsrp_soil_mechanics/document/a15_mission.txt"
+        },
+        {
+          "titulo": "Space.com: Apolo 15, el debut del auto lunar",
+          "url": "https://www.space.com/17483-apollo-15.html"
+        },
+        {
+          "titulo": "Universe Today: las mejores vistas de los sitios del Apolo",
+          "url": "https://www.universetoday.com/94035/best-views-yet-of-historic-apollo-landing-sites/"
+        }
+      ]
+    },
+    "datos_en": {
+      "nombre": "Apollo 15 Lunar Rover",
+      "nombreCorto": "the Apollo 15 Lunar Rover",
+      "etiquetaMapa": "Apollo 15",
+      "tipo": "lunar vehicle",
+      "pistas": [
+        "I'm in the Moon's northern hemisphere.",
+        "I'm very close to the 0° meridian, just to the right, and a little below the 30° N line.",
+        "My coordinates: 26° N, 3.6° E, next to Hadley Rille and the Apennine Mountains."
+      ],
+      "fotoCredito": "David Scott, Apollo 15 commander, on the Lunar Rover. NASA",
+      "decisiones": [
+        {
+          "quien": "You are the Apollo 15 team",
+          "situacion": "Until now, astronauts explored on foot and couldn't go far from the lunar module. For Apollo 15 they want to go much farther. How?",
+          "opciones": [
+            "Have them walk for more hours in tougher suits.",
+            "Bring a folding vehicle to drive on the Moon."
+          ],
+          "queHizoNasa": "They brought the first Lunar Rover, folded on the side of the Falcon module. It unfolded by pulling on some straps. On July 31, 1971, it was used for the first time.",
+          "ciencia": "In three trips, David Scott and James Irwin covered 27.9 km. They got about 5 km away from the lunar module, much farther than on foot!"
+        },
+        {
+          "quien": "You are the Apollo 15 team",
+          "situacion": "The mission ends and the astronauts head home. What happens to the rover?",
+          "opciones": [
+            "Bring it back to Earth.",
+            "Leave it on the Moon, with its television camera on."
+          ],
+          "queHizoNasa": "The rover stayed on the Moon. Its television camera kept working and pointed at the module as it took off.",
+          "ciencia": "Thanks to that camera, for the first time people on Earth could watch a launch from the Moon on television."
+        }
+      ],
+      "despedida": {
+        "quienSoy": "I'm the first Lunar Rover, from Apollo 15. I traveled folded on the side of the Falcon module and was unfolded by pulling on some straps. I run on electric batteries and can go about 13 km per hour.",
+        "queDescubri": "I carried David Scott and James Irwin along the edge of Hadley Rille and to the foot of the Apennine Mountains. We covered 27.9 km in three drives, and they collected about 77 kg of rocks to study on Earth.",
+        "porQueMeQuede": "I wasn't meant to return to Earth. My big last job was showing my astronauts' liftoff live on TV. Almost two days later, my camera woke up for 13 minutes… and then went dark for good.",
+        "comoEstoyHoy": "I'm still parked at Hadley, near the base of the Falcon module, which stayed too. The LRO spacecraft has photographed my wheel tracks from orbit, and even me!"
+      }
+    }
+  },
+  {
+    "id": "alsep12",
+    "lugar": "luna",
+    "orden": 11,
+    "datos": {
+      "id": "alsep12",
+      "listo": true,
+      "nombre": "Estación científica ALSEP del Apolo 12",
+      "nombreCorto": "la estación ALSEP del Apolo 12",
+      "etiquetaMapa": "ALSEP",
+      "etiquetaIzquierda": true,
+      "dibujo": "alsep",
+      "ubicacion": {
+        "lat": -3.01,
+        "lon": -23.42
+      },
+      "lugar": "luna",
+      "anios": "1969–1977",
+      "tipo": "estación científica",
+      "buscar": "la estación ALSEP del Apolo 12",
+      "foto": {
+        "modo": "mapa",
+        "pistas": [
+          "Estoy en el Océano de las Tormentas, la gran mancha oscura del lado izquierdo de la Luna.",
+          "Estoy casi sobre el ecuador, un poco a la derecha de la línea de 30° O.",
+          "Mis coordenadas: 3° S, 23,4° O. Muy cerca de mí está otro robot: Surveyor 3."
+        ]
+      },
+      "fotoEquipo": {
+        "imagen": "img/equipos/alsep12.jpg",
+        "credito": "Pete Conrad instala la antena de la estación ALSEP, 19 de noviembre de 1969. Foto de Alan Bean (AS12-47-6919). NASA"
+      },
+      "decisiones": [
+        {
+          "quien": "Eres el equipo del Apolo 12",
+          "situacion": "19 de noviembre de 1969. Para encenderme, Alan Bean debe sacar mi combustible nuclear de un contenedor en el costado del módulo lunar. Pero el combustible está atascado y no sale. ¿Qué hacen?",
+          "opciones": [
+            {
+              "texto": "Dejar la estación apagada y pasar a otra tarea.",
+              "loHizoNasa": false
+            },
+            {
+              "texto": "Golpear el contenedor con un martillo mientras Bean tira.",
+              "loHizoNasa": true
+            }
+          ],
+          "queHizoNasa": "Pete Conrad tomó el martillo de geología y golpeó el contenedor mientras Bean tiraba. ¡Salió! Bean bromeó: \"No vengas a la Luna sin un martillo\".",
+          "ciencia": "Con su combustible de plutonio, mi generador daba unos 70 vatios: suficiente para seis instrumentos, entre ellos un sismómetro para sentir los temblores de la Luna."
+        },
+        {
+          "quien": "Eres el equipo del Apolo 12",
+          "situacion": "Los astronautas regresan a la órbita. La parte de arriba del módulo lunar ya no sirve para nada más. ¿Qué hacen con ella?",
+          "opciones": [
+            {
+              "texto": "Dejarla dando vueltas en órbita.",
+              "loHizoNasa": false
+            },
+            {
+              "texto": "Estrellarla a propósito contra la Luna para que mi sismómetro la sienta.",
+              "loHizoNasa": true
+            }
+          ],
+          "queHizoNasa": "El 20 de noviembre de 1969 la estrellaron contra la Luna, a unos 60 km de mí.",
+          "ciencia": "Fue el primer sismo lunar artificial registrado. Comparar ese golpe con los temblores naturales ayudó a entender cómo es la Luna por dentro."
+        }
+      ],
+      "despedida": {
+        "quienSoy": "Soy la estación científica ALSEP del Apolo 12, la primera de cinco estaciones completas. Pete Conrad y Alan Bean me instalaron en el Océano de las Tormentas el 19 de noviembre de 1969. Tengo seis instrumentos y un generador nuclear.",
+        "queDescubri": "Mi sismómetro y los de las estaciones que llegaron después formaron una red que registró los temblores de la Luna durante años. Así se aprendió cómo es la Luna por dentro.",
+        "porQueMeQuede": "Me diseñaron para quedarme y trabajar sola. Funcioné casi ocho años. El 30 de septiembre de 1977, NASA dejó de operar todas las estaciones: ya habían cumplido casi todos sus objetivos y el dinero hacía falta para seguir estudiando las rocas lunares.",
+        "comoEstoyHoy": "Sigo en el Océano de las Tormentas, cerca de Surveyor 3 y de la base del módulo lunar Intrepid. La nave LRO ha fotografiado este lugar desde la órbita."
+      },
+      "fuentes": [
+        {
+          "titulo": "NASA NSSDCA: paquete científico ALSEP del Apolo 12 (recurso oficial del reto)",
+          "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-099C"
+        },
+        {
+          "titulo": "NASA Apollo Lunar Surface Journal: el martillo y el combustible",
+          "url": "https://www.nasa.gov/wp-content/uploads/static/history/alsj/UL12hitpull.html"
+        },
+        {
+          "titulo": "NASA NTRS: informe del fin de las estaciones ALSEP (1979)",
+          "url": "https://ntrs.nasa.gov/citations/19790014808"
+        }
+      ]
+    },
+    "datos_en": {
+      "nombre": "Apollo 12 ALSEP science station",
+      "nombreCorto": "the Apollo 12 ALSEP station",
+      "etiquetaMapa": "ALSEP",
+      "buscar": "the Apollo 12 ALSEP station",
+      "tipo": "science station",
+      "pistas": [
+        "I'm in the Ocean of Storms, the big dark patch on the left side of the Moon.",
+        "I'm almost on the equator, a little to the right of the 30° W line.",
+        "My coordinates: 3° S, 23.4° W. Another robot is very close to me: Surveyor 3."
+      ],
+      "fotoCredito": "Pete Conrad sets up the ALSEP station's antenna, November 19, 1969. Photo by Alan Bean (AS12-47-6919). NASA",
+      "decisiones": [
+        {
+          "quien": "You are the Apollo 12 team",
+          "situacion": "November 19, 1969. To switch me on, Alan Bean has to take my nuclear fuel out of a cask on the side of the lunar module. But the fuel is stuck and won't come out. What do they do?",
+          "opciones": [
+            "Leave the station off and move on to another task.",
+            "Hit the cask with a hammer while Bean pulls."
+          ],
+          "queHizoNasa": "Pete Conrad grabbed the geology hammer and banged on the cask while Bean pulled. It came out! Bean joked: \"Don't come to the Moon without a hammer.\"",
+          "ciencia": "With its plutonium fuel, my generator made about 70 watts: enough for six instruments, including a seismometer to feel moonquakes."
+        },
+        {
+          "quien": "You are the Apollo 12 team",
+          "situacion": "The astronauts head back to orbit. The top part of the lunar module isn't needed anymore. What do they do with it?",
+          "opciones": [
+            "Leave it circling in orbit.",
+            "Crash it into the Moon on purpose so my seismometer can feel it."
+          ],
+          "queHizoNasa": "On November 20, 1969, they crashed it into the Moon, about 60 km from me.",
+          "ciencia": "It was the first artificial moonquake ever recorded. Comparing that impact with natural quakes helped explain what the Moon is like inside."
+        }
+      ],
+      "despedida": {
+        "quienSoy": "I'm the Apollo 12 ALSEP science station, the first of five full stations. Pete Conrad and Alan Bean set me up in the Ocean of Storms on November 19, 1969. I have six instruments and a nuclear generator.",
+        "queDescubri": "My seismometer and those of the stations that came later formed a network that recorded moonquakes for years. That's how we learned what the Moon is like inside.",
+        "porQueMeQuede": "I was designed to stay and work on my own. I worked for almost eight years. On September 30, 1977, NASA stopped operating all the stations: they had met almost all their goals, and the money was needed to keep studying Moon rocks.",
+        "comoEstoyHoy": "I'm still in the Ocean of Storms, near Surveyor 3 and the base of the lunar module Intrepid. The LRO spacecraft has photographed this place from orbit."
+      }
+    }
+  },
+  {
+    "id": "apolo17",
+    "lugar": "luna",
+    "orden": 12,
+    "datos": {
+      "id": "apolo17",
+      "listo": true,
+      "nombre": "Módulo lunar Challenger (Apolo 17)",
+      "nombreCorto": "el módulo lunar Challenger",
+      "etiquetaMapa": "Apolo 17",
+      "dibujo": "modulo-lunar",
+      "ubicacion": {
+        "lat": 20.19,
+        "lon": 30.77
+      },
+      "lugar": "luna",
+      "anios": "1972",
+      "tipo": "módulo lunar",
+      "buscar": "el módulo lunar Challenger",
+      "foto": {
+        "modo": "mapa",
+        "pistas": [
+          "Estoy en el hemisferio norte de la Luna, a la derecha del meridiano 0°.",
+          "Busca entre el ecuador y la línea de 30° N, justo a la derecha de la línea de 30° E.",
+          "Mis coordenadas: 20° N, 31° E, en el valle de Taurus-Littrow, al borde del Mar de la Serenidad."
+        ]
+      },
+      "fotoEquipo": {
+        "imagen": "img/equipos/apolo17.jpg",
+        "credito": "Gene Cernan prueba el rover lunar en el valle de Taurus-Littrow, Apolo 17, diciembre de 1972 (AS17-147-22526). NASA"
+      },
+      "decisiones": [
+        {
+          "quien": "Eres el equipo de NASA",
+          "situacion": "1971. El Apolo 17 será el último viaje a la Luna del programa Apolo. Por turno le tocaba ir al piloto Joe Engle, pero los científicos piden enviar, por fin, a un científico. ¿A quién mandan?",
+          "opciones": [
+            {
+              "texto": "Respetar el turno y mandar al piloto.",
+              "loHizoNasa": false
+            },
+            {
+              "texto": "Enviar a Harrison Schmitt, un geólogo.",
+              "loHizoNasa": true
+            }
+          ],
+          "queHizoNasa": "NASA eligió a Harrison Schmitt. Fue el primer científico profesional que caminó en la Luna, y hasta hoy el único.",
+          "ciencia": "Junto al cráter Shorty, Schmitt gritó: \"¡Hay suelo naranja!\". Eran restos de erupciones volcánicas de hace unos 3600 millones de años."
+        },
+        {
+          "quien": "Eres Challenger",
+          "situacion": "Diciembre de 1972. Termina la última caminata. La parte de arriba de la nave despegará con los astronautas, y la de abajo, la etapa de descenso, se quedará en la Luna para siempre. ¿Qué dejan sobre ella?",
+          "opciones": [
+            {
+              "texto": "Nada: lo único importante es volver.",
+              "loHizoNasa": false
+            },
+            {
+              "texto": "Una placa con un mensaje para quien llegue después.",
+              "loHizoNasa": true
+            }
+          ],
+          "queHizoNasa": "Cernan destapó una placa en una de las patas del módulo y la leyó en voz alta. Dice: \"Aquí el ser humano completó sus primeras exploraciones de la Luna. Diciembre de 1972 d. C. Que el espíritu de paz con el que vinimos se refleje en las vidas de toda la humanidad\".",
+          "ciencia": "La etapa de descenso sirvió de plataforma de lanzamiento. Cernan y Schmitt pasaron 75 horas en la Luna, un récord."
+        }
+      ],
+      "despedida": {
+        "quienSoy": "Soy la etapa de descenso del módulo lunar Challenger, del Apolo 17. El 11 de diciembre de 1972 llevé a Gene Cernan y a Harrison Schmitt hasta el valle de Taurus-Littrow. Cuando se fueron, fui su plataforma de lanzamiento.",
+        "queDescubri": "Mis astronautas pasaron 75 horas en el valle, más que nadie antes. Schmitt, el geólogo, encontró suelo naranja: restos de erupciones volcánicas de hace unos 3600 millones de años.",
+        "porQueMeQuede": "Así se diseñaron los módulos lunares: la parte de arriba despega y la de abajo se queda, porque llevarla de vuelta habría costado demasiado combustible. Fui el último módulo lunar del programa Apolo.",
+        "comoEstoyHoy": "Sigo en Taurus-Littrow, con mi placa. La nave LRO me ha fotografiado desde la órbita: a mi alrededor se ven las huellas de los astronautas y del rover lunar."
+      },
+      "fuentes": [
+        {
+          "titulo": "NASA NSSDCA: Apolo 17",
+          "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo17info.html"
+        },
+        {
+          "titulo": "The Planetary Society: Apolo 17",
+          "url": "https://www.planetary.org/space-missions/apollo-17"
+        }
+      ]
+    },
+    "datos_en": {
+      "nombre": "Lunar module Challenger (Apollo 17)",
+      "nombreCorto": "the lunar module Challenger",
+      "etiquetaMapa": "Apollo 17",
+      "buscar": "the lunar module Challenger",
+      "tipo": "lunar module",
+      "pistas": [
+        "I'm in the Moon's northern hemisphere, to the right of the 0° meridian.",
+        "Look between the equator and the 30° N line, just to the right of the 30° E line.",
+        "My coordinates: 20° N, 31° E, in the Taurus-Littrow valley, at the edge of the Sea of Serenity."
+      ],
+      "decisiones": [
+        {
+          "quien": "You are the NASA team",
+          "situacion": "1971. Apollo 17 will be the last Apollo trip to the Moon. By rotation, pilot Joe Engle was next in line, but scientists ask NASA to finally send a scientist. Who goes?",
+          "opciones": [
+            "Follow the rotation and send the pilot.",
+            "Send Harrison Schmitt, a geologist."
+          ],
+          "queHizoNasa": "NASA chose Harrison Schmitt. He was the first professional scientist to walk on the Moon, and so far the only one.",
+          "ciencia": "Near Shorty crater, Schmitt shouted: \"There is orange soil!\" It came from volcanic eruptions about 3.6 billion years ago."
+        },
+        {
+          "quien": "You are Challenger",
+          "situacion": "December 1972. The last moonwalk is over. The top of the spacecraft will lift off with the astronauts, and the bottom, the descent stage, will stay on the Moon forever. What do they leave on it?",
+          "opciones": [
+            "Nothing: the only thing that matters is getting home.",
+            "A plaque with a message for whoever comes next."
+          ],
+          "queHizoNasa": "Cernan unveiled a plaque on one of the module's legs and read it out loud. It reads: \"Here man completed his first explorations of the Moon, December 1972 A.D. May the spirit of peace in which we came be reflected in the lives of all mankind.\"",
+          "ciencia": "The descent stage served as a launch pad. Cernan and Schmitt spent 75 hours on the Moon, a record."
+        }
+      ],
+      "despedida": {
+        "quienSoy": "I'm the descent stage of the lunar module Challenger, from Apollo 17. On December 11, 1972, I carried Gene Cernan and Harrison Schmitt down to the Taurus-Littrow valley. When they left, I was their launch pad.",
+        "queDescubri": "My astronauts spent 75 hours in the valley, more than anyone before. Schmitt, the geologist, found orange soil: material from volcanic eruptions about 3.6 billion years ago.",
+        "porQueMeQuede": "That's how lunar modules were designed: the top lifts off and the bottom stays, because carrying it home would have taken far too much fuel. I was the last lunar module of the Apollo program.",
+        "comoEstoyHoy": "I'm still in Taurus-Littrow, with my plaque. The LRO spacecraft has photographed me from orbit: around me you can see the astronauts' footprints and the tracks of the lunar rover."
+      },
+      "fotoCredito": "Gene Cernan test-drives the lunar rover in the Taurus-Littrow valley, Apollo 17, December 1972 (AS17-147-22526). NASA"
+    }
+  },
+  {
+    "id": "near",
+    "lugar": "espacio",
+    "orden": 13,
+    "datos": {
+      "id": "near",
+      "listo": true,
+      "nombre": "NEAR Shoemaker",
+      "dibujo": "orbitador",
+      "lugar": "espacio",
+      "posicionEsquema": {
+        "x": 1123,
+        "y": 938
+      },
+      "anios": "1996–2001",
+      "tipo": "nave que aterrizó en un asteroide",
+      "foto": {
+        "modo": "esquema",
+        "pistas": [
+          "Estoy en un asteroide que pasa cerca de la Tierra, no en el cinturón de asteroides.",
+          "Busca cerca de la órbita de Marte: mi asteroide es una piedrita que da vueltas por ahí.",
+          "Estoy abajo y a la derecha del Sol, justo por dentro de la órbita de Marte. Mi asteroide se llama Eros."
+        ]
+      },
+      "fotoEquipo": {
+        "imagen": "img/equipos/eros.jpg",
+        "credito": "El asteroide Eros fotografiado por NEAR Shoemaker. NASA/JPL/JHUAPL"
+      },
+      "decisiones": [
+        {
+          "situacion": "20 de diciembre de 1998. Estoy por llegar al asteroide Eros, pero el encendido de mi motor se aborta. Si no corrijo el rumbo, paso de largo. ¿Qué hacemos?",
+          "opciones": [
+            {
+              "texto": "Dar la misión por perdida.",
+              "loHizoNasa": false
+            },
+            {
+              "texto": "Buscar un camino de respaldo y volver a intentarlo más adelante.",
+              "loHizoNasa": true
+            }
+          ],
+          "queHizoNasa": "Los ingenieros me pusieron en una trayectoria de respaldo. Pasé junto a Eros el 23 de diciembre de 1998 y, tras varios ajustes más, volví un año después de lo planeado.",
+          "ciencia": "El 14 de febrero de 2000 me convertí en el primer objeto hecho por humanos en orbitar un asteroide. Fotografié todo Eros y envié unas 160 000 fotos, ¡diez veces más de lo planeado!"
+        },
+        {
+          "situacion": "Febrero de 2001. Mi misión está por terminar y casi no me queda combustible. No tengo patas ni bolsas de aire: no me diseñaron para aterrizar. ¿Qué hacemos?",
+          "opciones": [
+            {
+              "texto": "Dejarme dando vueltas alrededor de Eros para siempre.",
+              "loHizoNasa": false
+            },
+            {
+              "texto": "Intentar bajar despacio hasta la superficie para tomar fotos de muy cerca.",
+              "loHizoNasa": true
+            }
+          ],
+          "queHizoNasa": "El 12 de febrero de 2001 encendí mis cohetes una vez para bajar y cuatro veces para frenar, y toqué el suelo a unos 6 km por hora, más lento que una bicicleta. ¡Sobreviví al aterrizaje!",
+          "ciencia": "Fue el primer aterrizaje en un asteroide. Durante la bajada tomé fotos muy de cerca, y desde el suelo mi espectrómetro de rayos gamma midió de qué está hecho Eros durante dos semanas."
+        }
+      ],
+      "despedida": {
+        "quienSoy": "Soy NEAR Shoemaker, una nave de NASA. Despegué el 17 de febrero de 1996 hacia el asteroide Eros. Mi nombre honra al geólogo Eugene Shoemaker, que estudió los cráteres y los asteroides.",
+        "queDescubri": "Descubrí que Eros es alargado y mide unos 34 km de largo, que no tiene campo magnético y que es tan denso como la corteza de la Tierra. En el camino también visité el asteroide Mathilde.",
+        "porQueMeQuede": "Después de aterrizar seguí hablando con la Tierra dos semanas. Pero en Eros hace muchísimo frío: unos −173 °C. Mi último contacto fue el 28 de febrero de 2001.",
+        "comoEstoyHoy": "Sigo posado sobre Eros, cerca de una zona con forma de silla de montar llamada Himeros. Eros da vueltas al Sol y a veces pasa relativamente cerca de la Tierra."
+      },
+      "fuentes": [
+        {
+          "titulo": "NASA Science: misión NEAR Shoemaker (recurso oficial del reto)",
+          "url": "https://science.nasa.gov/mission/near-shoemaker/"
+        },
+        {
+          "titulo": "Spaceflight Now: NEAR sobrevive al aterrizaje en Eros",
+          "url": "https://www.spaceflightnow.com/near/010212nearlands/"
+        },
+        {
+          "titulo": "PBS NewsHour: NEAR Shoemaker toca Eros",
+          "url": "https://www.pbs.org/newshour/science/science-jan-june01-near_02-12"
+        }
+      ],
+      "etiquetaLado": "arriba"
+    },
+    "datos_en": {
+      "nombre": "NEAR Shoemaker",
+      "tipo": "spacecraft that landed on an asteroid",
+      "pistas": [
+        "I'm on an asteroid that passes near Earth, not in the asteroid belt.",
+        "Look near the orbit of Mars: my asteroid is a little rock that circles around there.",
+        "I'm below and to the right of the Sun, just inside the orbit of Mars. My asteroid is called Eros."
+      ],
+      "fotoCredito": "Asteroid Eros photographed by NEAR Shoemaker. NASA/JPL/JHUAPL",
+      "decisiones": [
+        {
+          "situacion": "December 20, 1998. I'm about to reach asteroid Eros, but my engine burn is aborted. If I don't correct my course, I'll fly right past. What do we do?",
+          "opciones": [
+            "Call the mission lost.",
+            "Find a backup path and try again later."
+          ],
+          "queHizoNasa": "Engineers put me on a backup trajectory. I flew past Eros on December 23, 1998, and after several more adjustments I came back a year later than planned.",
+          "ciencia": "On February 14, 2000, I became the first human-made object to orbit an asteroid. I photographed all of Eros and sent about 160,000 pictures, ten times more than planned!"
+        },
+        {
+          "situacion": "February 2001. My mission is about to end and I'm almost out of fuel. I have no legs or airbags: I wasn't designed to land. What do we do?",
+          "opciones": [
+            "Leave me circling Eros forever.",
+            "Try to come down slowly to the surface to take very close-up pictures."
+          ],
+          "queHizoNasa": "On February 12, 2001, I fired my rockets once to start down and four times to slow down, and touched the ground at about 6 km per hour, slower than a bicycle. I survived the landing!",
+          "ciencia": "It was the first landing on an asteroid. On the way down I took very close pictures, and from the ground my gamma-ray spectrometer measured what Eros is made of for two weeks."
+        }
+      ],
+      "despedida": {
+        "quienSoy": "I'm NEAR Shoemaker, a NASA spacecraft. I launched on February 17, 1996, toward asteroid Eros. My name honors geologist Eugene Shoemaker, who studied craters and asteroids.",
+        "queDescubri": "I discovered that Eros is long and about 34 km in length, that it has no magnetic field, and that it's as dense as Earth's crust. On the way I also visited asteroid Mathilde.",
+        "porQueMeQuede": "After landing, I kept talking to Earth for two weeks. But Eros is extremely cold: about −173 °C. My last contact was on February 28, 2001.",
+        "comoEstoyHoy": "I'm still resting on Eros, near a saddle-shaped area called Himeros. Eros circles the Sun and sometimes passes relatively close to Earth."
+      }
+    }
+  },
+  {
+    "id": "dawn",
+    "lugar": "espacio",
+    "orden": 14,
+    "datos": {
+      "id": "dawn",
+      "listo": true,
+      "nombre": "Dawn",
+      "dibujo": "orbitador",
+      "lugar": "espacio",
+      "posicionEsquema": {
+        "x": 660,
+        "y": 1080
+      },
+      "buscar": "las manchas brillantes que descubrió Dawn",
+      "anios": "2007–2018",
+      "tipo": "nave orbitadora",
+      "foto": {
+        "modo": "orbita",
+        "fotoNave": true,
+        "imagen": "img/satelitales/ceres.jpg",
+        "credito": "Ceres fotografiado por Dawn (PIA19604): NASA/JPL-Caltech/UCLA/MPS/DLR/IDA",
+        "objetivo": {
+          "x": 142,
+          "y": 955,
+          "radio": 45
+        },
+        "pistas": [
+          "Esta foto la tomé yo desde mi órbita alrededor de Ceres, un planeta enano lleno de cráteres.",
+          "Las manchas que busco son lo más brillante de toda la foto, como sal blanca.",
+          "Están dentro de un cráter cerca de la esquina de abajo a la izquierda. El cráter se llama Occator."
+        ]
+      },
+      "fotoEquipo": {
+        "imagen": "img/equipos/ceres.jpg",
+        "credito": "Ceres y sus manchas brillantes, fotografiados por Dawn (PIA19604). NASA/JPL-Caltech/UCLA/MPS/DLR/IDA"
+      },
+      "decisiones": [
+        {
+          "situacion": "Para visitar dos mundos del cinturón de asteroides, Vesta y Ceres, necesito un motor que me deje frenar, entrar en órbita, salir y viajar de nuevo. Con cohetes normales no alcanzaría el combustible. ¿Qué motor uso?",
+          "opciones": [
+            {
+              "texto": "Cohetes químicos normales, muy potentes pero gastones.",
+              "loHizoNasa": false
+            },
+            {
+              "texto": "Motores de iones: empujan suavecito, pero gastan muy poco combustible.",
+              "loHizoNasa": true
+            }
+          ],
+          "queHizoNasa": "Me dieron motores de iones, como los de la ciencia ficción. Su empujón es suave, pero pueden funcionar muchísimo tiempo.",
+          "ciencia": "Orbité Vesta desde julio de 2011 y Ceres desde marzo de 2015. Fui la primera nave en orbitar dos mundos más allá de la Tierra. En total recorrí unos 6 900 millones de km."
+        },
+        {
+          "situacion": "2016. Terminé mi misión principal en Ceres y todavía me queda algo de combustible. Mi equipo propone dos opciones. ¿Cuál elige NASA?",
+          "opciones": [
+            {
+              "texto": "Viajar a un tercer asteroide llamado Adeona.",
+              "loHizoNasa": false
+            },
+            {
+              "texto": "Quedarme en Ceres para seguir observándolo mientras se acerca al Sol.",
+              "loHizoNasa": true
+            }
+          ],
+          "queHizoNasa": "NASA decidió que me quedara en Ceres. Pensaron que seguir observándolo mientras se acercaba al Sol podía dar descubrimientos más importantes que pasar junto a Adeona.",
+          "ciencia": "Llegué a pasar muy cerca de la superficie y estudié las manchas brillantes del cráter Occator: son carbonato de sodio, una sal que subió del interior en forma de agua salada."
+        }
+      ],
+      "despedida": {
+        "quienSoy": "Soy Dawn, una nave de NASA. Despegué el 27 de septiembre de 2007 para visitar los dos objetos más grandes del cinturón de asteroides, entre Marte y Júpiter: el asteroide Vesta y el planeta enano Ceres.",
+        "queDescubri": "En Ceres encontré manchas brillantes de sal. Para los científicos son una pista de que Ceres tuvo un océano bajo su superficie, ¡y de que todavía puede quedar agua salada escondida allí abajo!",
+        "porQueMeQuede": "A fines de octubre de 2018 se me acabó la hidracina, el combustible que usaba para apuntar mi antena a la Tierra y mis paneles al Sol. Ya no pude comunicarme.",
+        "comoEstoyHoy": "Sigo dando vueltas alrededor de Ceres, sin energía. Me dejaron en una órbita estable para no chocar contra Ceres y no ensuciarlo: durará al menos 20 años, y probablemente más de 50."
+      },
+      "fuentes": [
+        {
+          "titulo": "NASA Science: misión Dawn (recurso oficial del reto)",
+          "url": "https://science.nasa.gov/mission/dawn/"
+        },
+        {
+          "titulo": "JPL: termina la misión Dawn",
+          "url": "https://www.jpl.nasa.gov/news/nasas-dawn-mission-to-asteroid-belt-comes-to-end"
+        },
+        {
+          "titulo": "Phys.org (NASA): Dawn se quedará en Ceres en vez de ir a Adeona",
+          "url": "https://phys.org/news/2016-07-horizons-mission-extension-kuiper-belt.html"
+        },
+        {
+          "titulo": "Sky at Night: Dawn y las manchas brillantes de Ceres",
+          "url": "https://www.skyatnightmagazine.com/space-missions/nasas-dawn-mission-comes-to-an-end/"
+        },
+        {
+          "titulo": "Planetary Society: diario de Dawn, \"Nos quedamos en Ceres\" (Marc Rayman, jefe de ingenieros de la misión)",
+          "url": "https://www.planetary.org/articles/20160730-dawn-journal-staying-at-ceres"
+        }
+      ],
+      "etiquetaLado": "der"
+    },
+    "datos_en": {
+      "nombre": "Dawn",
+      "buscar": "the bright spots Dawn discovered",
+      "tipo": "orbiter",
+      "credito": "Ceres photographed by Dawn (PIA19604): NASA/JPL-Caltech/UCLA/MPS/DLR/IDA",
+      "pistas": [
+        "I took this photo myself from my orbit around Ceres, a dwarf planet full of craters.",
+        "The spots I'm looking for are the brightest thing in the whole photo, like white salt.",
+        "They're inside a crater near the bottom-left corner. The crater is called Occator."
+      ],
+      "fotoCredito": "Ceres and its bright spots, photographed by Dawn (PIA19604). NASA/JPL-Caltech/UCLA/MPS/DLR/IDA",
+      "decisiones": [
+        {
+          "situacion": "To visit two worlds in the asteroid belt, Vesta and Ceres, I need an engine that lets me slow down, enter orbit, leave and travel again. With ordinary rockets the fuel wouldn't be enough. Which engine do I use?",
+          "opciones": [
+            "Ordinary chemical rockets, very powerful but fuel-hungry.",
+            "Ion engines: they push very gently, but use very little fuel."
+          ],
+          "queHizoNasa": "They gave me ion engines, like the ones in science fiction. Their push is gentle, but they can run for a very long time.",
+          "ciencia": "I orbited Vesta from July 2011 and Ceres from March 2015. I was the first spacecraft to orbit two worlds beyond Earth. In total I traveled about 6.9 billion km."
+        },
+        {
+          "situacion": "2016. I finished my main mission at Ceres and I still have some fuel left. My team proposes two options. Which one does NASA choose?",
+          "opciones": [
+            "Travel to a third asteroid called Adeona.",
+            "Stay at Ceres to keep watching it as it gets closer to the Sun."
+          ],
+          "queHizoNasa": "NASA decided I should stay at Ceres. They thought watching it as it moved closer to the Sun could lead to more important discoveries than flying past Adeona.",
+          "ciencia": "I flew very close to the surface and studied the bright spots in Occator crater: they're sodium carbonate, a salt that rose from the interior as salty water."
+        }
+      ],
+      "despedida": {
+        "quienSoy": "I'm Dawn, a NASA spacecraft. I launched on September 27, 2007, to visit the two biggest objects in the asteroid belt, between Mars and Jupiter: the asteroid Vesta and the dwarf planet Ceres.",
+        "queDescubri": "On Ceres I found bright spots of salt. For scientists, they're a clue that Ceres had an ocean under its surface, and that salty water may still be hiding down there!",
+        "porQueMeQuede": "At the end of October 2018 I ran out of hydrazine, the fuel I used to point my antenna at Earth and my panels at the Sun. I could no longer communicate.",
+        "comoEstoyHoy": "I'm still circling Ceres, without power. They left me in a stable orbit so I wouldn't crash into Ceres and contaminate it: it will last at least 20 years, and probably more than 50."
+      }
+    }
+  },
+  {
+    "id": "pioneer10",
+    "lugar": "espacio",
+    "orden": 15,
+    "datos": {
+      "id": "pioneer10",
+      "listo": true,
+      "nombre": "Pioneer 10",
+      "dibujo": "sonda",
+      "lugar": "espacio",
+      "posicionEsquema": {
+        "x": 2150,
+        "y": 515
+      },
+      "anios": "1972–2003",
+      "tipo": "sonda del espacio profundo",
+      "foto": {
+        "modo": "esquema",
+        "pistas": [
+          "Ya pasé todos los planetas: estoy mucho más lejos que Neptuno.",
+          "Estoy más allá del cinturón de Kuiper, en la parte derecha del esquema.",
+          "Busca la sonda que viaja en dirección a la estrella roja Aldebarán, en la constelación de Tauro."
+        ]
+      },
+      "fotoEquipo": {
+        "imagen": "img/equipos/pioneer10.jpg",
+        "credito": "Pioneer 10 en preparación para su lanzamiento, febrero de 1972 (ARC-1972-AC72-2135). NASA Ames Research Center"
+      },
+      "decisiones": [
+        {
+          "situacion": "1972. Nadie ha cruzado nunca el cinturón de asteroides. Algunos temen que una nave sea destruida por las piedras y el polvo. ¿Qué hacemos?",
+          "opciones": [
+            {
+              "texto": "No enviar naves más allá de Marte hasta saber más.",
+              "loHizoNasa": false
+            },
+            {
+              "texto": "Enviar a Pioneer 10 a cruzarlo primero.",
+              "loHizoNasa": true
+            }
+          ],
+          "queHizoNasa": "Entré al cinturón el 15 de julio de 1972 y salí en febrero de 1973. Recibí algunos impactos, pero muchos menos de lo que se temía.",
+          "ciencia": "Así se supo que las naves pueden cruzar el cinturón. Luego fui la primera nave en pasar junto a Júpiter, el 4 de diciembre de 1973, a unos 130 000 km."
+        },
+        {
+          "situacion": "Voy a ser la primera nave lanzada en un camino para salir del Sistema Solar. Quizás, dentro de millones de años, alguien me encuentre. ¿Llevo algo más?",
+          "opciones": [
+            {
+              "texto": "No, solo los instrumentos científicos.",
+              "loHizoNasa": false
+            },
+            {
+              "texto": "Sí, una placa de metal que explique quién me envió y desde dónde.",
+              "loHizoNasa": true
+            }
+          ],
+          "queHizoNasa": "Llevo una placa de aluminio grabada con un hombre y una mujer, un dibujo del Sistema Solar y la posición del Sol respecto a 14 púlsares, unas estrellas especiales.",
+          "ciencia": "Es uno de los primeros mensajes de la humanidad para quien pueda encontrarlo. Mi gemela, Pioneer 11, también lleva una."
+        }
+      ],
+      "despedida": {
+        "quienSoy": "Soy Pioneer 10, una sonda de NASA. Despegué el 2 de marzo de 1972. Fui la primera en cruzar el cinturón de asteroides y la primera en visitar Júpiter. Mi energía venía de generadores nucleares, no de paneles solares, porque lejos del Sol hay muy poca luz.",
+        "queDescubri": "Tomé unas 500 imágenes de Júpiter, incluida su Gran Mancha Roja. Descubrí que la \"cola\" magnética de Júpiter se estira tanto que llega hasta la distancia de Saturno.",
+        "porQueMeQuede": "Mis generadores se fueron debilitando con los años. Mi última señal llegó el 23 de enero de 2003, desde unos 12 000 millones de km: ¡tardó 11 horas y 20 minutos en llegar a la Tierra!",
+        "comoEstoyHoy": "Sigo viajando en silencio hacia la estrella Aldebarán, en Tauro. Pasaré cerca de ella dentro de unos dos millones de años. Ya estoy unas 140 veces más lejos del Sol que la Tierra, y cada año me alejo un poco más."
+      },
+      "fuentes": [
+        {
+          "titulo": "NASA Science: misión Pioneer 10 (recurso oficial del reto)",
+          "url": "https://science.nasa.gov/mission/pioneer-10/"
+        },
+        {
+          "titulo": "NASA NSSDCA: catálogo de naves (recurso oficial del reto)",
+          "url": "https://nssdc.gsfc.nasa.gov/"
+        }
+      ],
+      "etiquetaLado": "izq"
+    },
+    "datos_en": {
+      "nombre": "Pioneer 10",
+      "tipo": "deep-space probe",
+      "pistas": [
+        "I've already passed all the planets: I'm much farther away than Neptune.",
+        "I'm beyond the Kuiper belt, on the right side of the sketch.",
+        "Look for the probe heading toward the red star Aldebaran, in the constellation Taurus."
+      ],
+      "decisiones": [
+        {
+          "situacion": "1972. Nobody has ever crossed the asteroid belt. Some fear a spacecraft would be destroyed by rocks and dust. What do we do?",
+          "opciones": [
+            "Don't send spacecraft beyond Mars until we know more.",
+            "Send Pioneer 10 to cross it first."
+          ],
+          "queHizoNasa": "I entered the belt on July 15, 1972, and came out in February 1973. I got a few hits, but far fewer than feared.",
+          "ciencia": "That's how we learned spacecraft can cross the belt. Then I became the first spacecraft to fly past Jupiter, on December 4, 1973, about 130,000 km away."
+        },
+        {
+          "situacion": "I'm going to be the first spacecraft sent on a path to leave the Solar System. Maybe, millions of years from now, someone will find me. Should I carry anything else?",
+          "opciones": [
+            "No, just the science instruments.",
+            "Yes, a metal plaque explaining who sent me and from where."
+          ],
+          "queHizoNasa": "I carry an aluminum plaque engraved with a man and a woman, a drawing of the Solar System and the Sun's position relative to 14 pulsars, which are special stars.",
+          "ciencia": "It's one of humanity's first messages for anyone who might find it. My twin, Pioneer 11, carries one too."
+        }
+      ],
+      "despedida": {
+        "quienSoy": "I'm Pioneer 10, a NASA probe. I launched on March 2, 1972. I was the first to cross the asteroid belt and the first to visit Jupiter. My power came from nuclear generators, not solar panels, because far from the Sun there's very little light.",
+        "queDescubri": "I took about 500 images of Jupiter, including its Great Red Spot. I discovered that Jupiter's magnetic \"tail\" stretches so far that it reaches the distance of Saturn.",
+        "porQueMeQuede": "My generators grew weaker over the years. My last signal arrived on January 23, 2003, from about 12 billion km away: it took 11 hours and 20 minutes to reach Earth!",
+        "comoEstoyHoy": "I'm still traveling silently toward the star Aldebaran, in Taurus. I'll pass near it in about two million years. I'm already about 140 times farther from the Sun than Earth is, and I get a little farther every year."
+      },
+      "fotoCredito": "Pioneer 10 being readied for launch, February 1972 (ARC-1972-AC72-2135). NASA Ames Research Center"
+    }
+  },
+  {
+    "id": "kepler",
+    "lugar": "espacio",
+    "orden": 16,
+    "datos": {
+      "id": "kepler",
+      "listo": true,
+      "nombre": "Telescopio espacial Kepler",
+      "nombreCorto": "Kepler",
+      "etiquetaMapa": "Kepler",
+      "dibujo": "telescopio",
+      "lugar": "espacio",
+      "anios": "2009–2018",
+      "tipo": "telescopio espacial",
+      "buscar": "el telescopio Kepler",
+      "posicionEsquema": {
+        "x": 627,
+        "y": 799
+      },
+      "foto": {
+        "modo": "esquema",
+        "pistas": [
+          "No estoy en ningún planeta: giro alrededor del Sol.",
+          "Mi órbita es casi igual a la de la Tierra, pero cada año me quedo un poco más atrás.",
+          "Busca un pequeño telescopio sobre la órbita de la Tierra, muy cerca de ella."
+        ]
+      },
+      "fotoEquipo": {
+        "imagen": "img/equipos/kepler.jpg",
+        "credito": "Técnicos revisan el telescopio Kepler antes del lanzamiento, Florida, 2009 (KSC-2009-1042). NASA/Kim Shiflett"
+      },
+      "decisiones": [
+        {
+          "quien": "Eres el equipo de Kepler",
+          "situacion": "Para encontrar planetas debo mirar las mismas estrellas sin parar durante años. Si giro alrededor de la Tierra, ella y la Luna me taparán la vista y su luz me molestará. ¿Dónde me ponen?",
+          "opciones": [
+            {
+              "texto": "En órbita alrededor de la Tierra, como el telescopio Hubble.",
+              "loHizoNasa": false
+            },
+            {
+              "texto": "En órbita alrededor del Sol, siguiendo a la Tierra.",
+              "loHizoNasa": true
+            }
+          ],
+          "queHizoNasa": "Me pusieron en una órbita alrededor del Sol que va detrás de la Tierra. Cada año me alejo un poco más de ella, pero la vista es tranquila y estable.",
+          "ciencia": "Así pude vigilar a la vez más de 150 000 estrellas, buscando el pequeño oscurecimiento que causa un planeta al pasar frente a su estrella."
+        },
+        {
+          "situacion": "Mayo de 2013. Se daña la segunda de mis cuatro ruedas de reacción, las que me mantienen apuntando. Con solo dos ya no puedo quedarme quieto. ¿Qué hacemos?",
+          "opciones": [
+            {
+              "texto": "Apagarme: la misión terminó.",
+              "loHizoNasa": false
+            },
+            {
+              "texto": "Usar la presión de la luz del Sol para equilibrarme.",
+              "loHizoNasa": true
+            }
+          ],
+          "queHizoNasa": "Los ingenieros usaron la presión de la luz solar para ayudarme a apuntar, como un kayak que se orienta contra la corriente. Así nació mi segunda misión, K2.",
+          "ciencia": "Con K2 miré nuevas zonas del cielo, a lo largo del camino que recorre el Sol, y seguí descubriendo planetas."
+        }
+      ],
+      "despedida": {
+        "quienSoy": "Soy Kepler, un telescopio espacial de NASA. Despegué el 6 de marzo de 2009 para buscar planetas parecidos a la Tierra alrededor de otras estrellas.",
+        "queDescubri": "Descubrí más de 2600 planetas fuera del Sistema Solar. Gracias a mí sabemos que los planetas son muy comunes alrededor de otras estrellas.",
+        "porQueMeQuede": "Usaba combustible para orientarme. En 2018 se me acabó, y NASA me retiró el 30 de octubre de 2018.",
+        "comoEstoyHoy": "Sigo girando alrededor del Sol, apagado, cada año un poco más lejos de la Tierra. Estoy en una órbita segura, lejos de nuestro planeta."
+      },
+      "fuentes": [
+        {
+          "titulo": "NASA Science: misión Kepler (recurso oficial del reto)",
+          "url": "https://science.nasa.gov/mission/kepler/"
+        }
+      ],
+      "etiquetaLado": "izq"
+    },
+    "datos_en": {
+      "nombre": "Kepler Space Telescope",
+      "nombreCorto": "Kepler",
+      "etiquetaMapa": "Kepler",
+      "buscar": "the Kepler telescope",
+      "tipo": "space telescope",
+      "pistas": [
+        "I'm not on any planet: I circle the Sun.",
+        "My orbit is almost the same as Earth's, but every year I fall a little farther behind.",
+        "Look for a small telescope on Earth's orbit, very close to it."
+      ],
+      "fotoCredito": "Technicians check the Kepler telescope before launch, Florida, 2009 (KSC-2009-1042). NASA/Kim Shiflett",
+      "decisiones": [
+        {
+          "quien": "You are the Kepler team",
+          "situacion": "To find planets, I have to watch the same stars nonstop for years. If I circle the Earth, the Earth and Moon will block my view and their light will get in the way. Where do they put me?",
+          "opciones": [
+            "In orbit around the Earth, like the Hubble telescope.",
+            "In orbit around the Sun, following the Earth."
+          ],
+          "queHizoNasa": "They put me in an orbit around the Sun that trails behind the Earth. Every year I drift a little farther away, but the view is calm and steady.",
+          "ciencia": "That let me watch more than 150,000 stars at once, looking for the tiny dimming a planet causes when it passes in front of its star."
+        },
+        {
+          "situacion": "May 2013. The second of my four reaction wheels, which keep me pointed, breaks down. With only two, I can't hold still anymore. What do we do?",
+          "opciones": [
+            "Turn me off: the mission is over.",
+            "Use the pressure of sunlight to balance me."
+          ],
+          "queHizoNasa": "Engineers used the pressure of sunlight to help me point, like a kayak steering into the current. That's how my second mission, K2, was born.",
+          "ciencia": "With K2 I watched new parts of the sky, along the path the Sun follows, and kept discovering planets."
+        }
+      ],
+      "despedida": {
+        "quienSoy": "I'm Kepler, a NASA space telescope. I launched on March 6, 2009, to look for Earth-like planets around other stars.",
+        "queDescubri": "I discovered more than 2,600 planets outside the Solar System. Thanks to me, we know that planets are very common around other stars.",
+        "porQueMeQuede": "I used fuel to point myself. In 2018 it ran out, and NASA retired me on October 30, 2018.",
+        "comoEstoyHoy": "I'm still circling the Sun, switched off, a little farther from Earth every year. I'm in a safe orbit, far from our planet."
+      }
+    }
+  }
+]
