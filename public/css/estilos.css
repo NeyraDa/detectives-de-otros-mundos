@@ -692,3 +692,32 @@ main { max-width: 1120px; margin: 0 auto; padding: clamp(16px, 4vw, 36px) clamp(
   a { color: #111 !important; }
   .fuentes-lista a::after { content: " (" attr(href) ")"; font-size: 0.8em; }
 }
+
+
+/* =========================================================
+   DECISIONES: escena, contexto, confianza y temporizador
+   ========================================================= */
+.mision-cabeza { display: grid; gap: 16px; align-items: center; }
+@media (min-width: 760px) { .mision-cabeza { grid-template-columns: 300px 1fr; } }
+.mision-escena { width: 100%; max-width: 384px; height: auto; border-radius: var(--r-medio); box-shadow: 0 0 0 3px var(--mundo); display: block; }
+.contexto-decision { margin: 18px 0 6px; padding: 12px 16px; border-radius: var(--r-medio); background: var(--noche-2); }
+.contexto-decision h2 { font-size: 0.95rem; color: var(--tinta-suave); margin: 0 0 6px; }
+.contexto-decision ul { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.contexto-decision li { padding: 5px 12px; border-radius: 999px; background: var(--noche-3); font-size: 0.95rem; }
+.contexto-decision li b { color: var(--oro); font-weight: 700; }
+.contexto-decision li.ctx-riesgo b { color: var(--marte-claro); }
+.contexto-decision li.ctx-recursos b, .contexto-decision li.ctx-tiempo b { color: var(--frio); }
+.opcion[aria-pressed="true"] { border-color: var(--oro); box-shadow: 0 0 0 2px var(--oro); }
+.confianza { border: 0; padding: 0; margin: 18px 0 0; }
+.confianza legend { font-family: var(--titulos); font-weight: 800; font-size: 1.15rem; margin-bottom: 10px; }
+.confianza-botones { display: flex; flex-wrap: wrap; gap: 10px; }
+.confianza-botones .btn { letter-spacing: 0.02em; }
+.confianza-resultado { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; color: var(--tinta-suave); }
+.chip-puntos { padding: 3px 12px; border-radius: 999px; background: var(--verde); color: #10281e; font-weight: 800; }
+.resultado-bloque.otra { border-left: 5px solid var(--frio); }
+.resumen-mision { font-family: var(--titulos); font-weight: 800; font-size: 1.1rem; }
+.temporizador { margin: 14px 0 0; }
+.temporizador p { margin: 6px 0 0; display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; }
+.temporizador-barra { height: 8px; border-radius: 999px; background: var(--noche-3); overflow: hidden; }
+.temporizador-barra span { display: block; height: 100%; width: 100%; background: var(--oro); transition: width 1s linear; }
+@media (prefers-reduced-motion: reduce) { .temporizador-barra span { transition: none; } }

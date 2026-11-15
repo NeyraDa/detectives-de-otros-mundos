@@ -56,6 +56,18 @@ Perfil y progreso → localStorage (almacen.js, progreso.js). Nada vuelve al ser
 
 La elección de "archivo" o "juego" de un adulto no se guarda. Tampoco se guarda lo que responde en un expediente.
 
+### Las decisiones
+Cada caso tiene 2 decisiones reales (32 en total). En cada una:
+- Una escena corta en 8 bits muestra el momento (`public/js/decisiones-escenas.js`).
+- "Lo que sabías" resume el contexto con datos tomados de la misma situación (objetivo, riesgo, recursos, tiempo).
+- Las opciones se mezclan cada vez, así la respuesta real no queda siempre en el mismo lugar.
+- La persona dice qué tan segura está (poco, bastante, totalmente). Si elige como el equipo, gana esa cantidad de puntos de confianza. Los puntos no se guardan.
+- El resultado no dice "acertaste" o "fallaste": muestra lo que eligió el equipo y por qué la otra opción también tenía sentido.
+- En nivel experto hay una tercera opción y un temporizador de 30 s que se puede quitar y que nunca obliga a decidir (WCAG 2.2.1).
+- Música alegre de aventura (sintetizada en el navegador, sin archivos).
+
+Los textos "por qué la otra opción tenía sentido", las terceras opciones y las opciones A que antes eran "rendirse" son razonamientos y alternativas plausibles escritas por el equipo, no hechos históricos. No afirman que la NASA las haya discutido. Los datos de "Lo que sabías" repiten lo que ya dice cada situación verificada.
+
 ### Niveles de detective
 La historia y los datos son los mismos para todos. Lo que cambia es la ayuda:
 

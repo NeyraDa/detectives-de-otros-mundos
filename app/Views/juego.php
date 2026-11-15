@@ -46,6 +46,7 @@
   <script src="js/pixel-sprites.js"></script> <!-- dibujos 8 bits (propios) -->
   <script src="js/pixel.js"></script>      <!-- motor de animaciones 8 bits (propio) -->
   <script src="js/historias.js"></script>  <!-- historias para menores de 14 -->
+  <script src="js/decisiones-escenas.js"></script> <!-- escenas 8 bits de las decisiones -->
   <script src="js/expedientes.js"></script> <!-- archivo de misiones para 18 o más -->
   <script src="js/perfil.js"></script>
   <script src="js/pantallas.js"></script>

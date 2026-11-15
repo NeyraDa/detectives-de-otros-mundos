@@ -1,7 +1,7 @@
 /* =========================================================
    SONIDO — todo generado con Web Audio (sin archivos, sin derechos de autor).
    sonar("calor", 0..1 | "acierto" | "elegir" | "tecla" | "revelar" | "transmision")
-   musica("tension")  → música de suspenso en bucle (decisiones)
+   musica("aventura") → música alegre en bucle (decisiones); musica("tension") → suspenso
    detenerMusica()    → la apaga con un desvanecido
    ========================================================= */
 
@@ -130,7 +130,9 @@ const Sonido = (() => {
   function musica(nombre) {
     if (!activo || musicaActual) return;
     const c = contexto();
-    if (!c || nombre !== "tension") return;
+    if (!c) return;
+    if (nombre === "aventura") return musicaAventura(c);
+    if (nombre !== "tension") return;
 
     const bus = c.createGain();
     bus.gain.setValueAtTime(0.0001, c.currentTime);
@@ -166,13 +168,14 @@ const Sonido = (() => {
     let n = 0;
     function programar() {
       while (siguiente < c.currentTime + 1.2) {
+        const r = Math.max(0, siguiente - c.currentTime);
         // latido: pum-pum
-        tono(62, siguiente, 0.22, "sine", 0.22, bus);
-        tono(58, siguiente + 0.28, 0.2, "sine", 0.16, bus);
+        tono(62, r, 0.22, "sine", 0.22, bus);
+        tono(58, r + 0.28, 0.2, "sine", 0.16, bus);
         // tic de reloj en el tiempo débil
-        tono(2400, siguiente + 0.8, 0.02, "square", 0.008, bus);
+        tono(2400, r + 0.8, 0.02, "square", 0.008, bus);
         // cada 2 compases, una nota aguda y fría
-        if (n % 2 === 1) tono(notas[(n >> 1) % notas.length], siguiente + 0.4, 1.3, "sine", 0.025, bus);
+        if (n % 2 === 1) tono(notas[(n >> 1) % notas.length], r + 0.4, 1.3, "sine", 0.025, bus);
         siguiente += compas;
         n++;
       }
@@ -181,6 +184,45 @@ const Sonido = (() => {
     const reloj = setInterval(programar, 300);
 
     musicaActual = { bus, osciladores, lfo, reloj };
+  }
+
+  /* ---------- Música de aventura (decisiones) ----------
+     Alegre y liviana: un arpegio tipo videojuego en Do mayor, un bajo
+     que salta y un "chas" suave. Volumen bajo para poder leer. */
+  function musicaAventura(c) {
+    const bus = c.createGain();
+    bus.gain.setValueAtTime(0.0001, c.currentTime);
+    bus.gain.exponentialRampToValueAtTime(0.9, c.currentTime + 1);
+    bus.connect(salida);
+    const corchea = 60 / 116 / 2;            // 116 pulsos por minuto
+    // Do - La menor - Fa - Sol (la progresión más alegre y conocida)
+    const acordes = [
+      { bajo: 130.8, notas: [523.3, 659.3, 784.0, 659.3] },
+      { bajo: 110.0, notas: [440.0, 523.3, 659.3, 523.3] },
+      { bajo: 87.3,  notas: [349.2, 440.0, 523.3, 440.0] },
+      { bajo: 98.0,  notas: [392.0, 493.9, 587.3, 493.9] },
+    ];
+    const melodia = [784.0, 0, 880.0, 784.0, 659.3, 0, 587.3, 0];
+    let siguiente = c.currentTime + 0.2;
+    let n = 0;
+    function programar() {
+      while (siguiente < c.currentTime + 1.2) {
+        const r = Math.max(0, siguiente - c.currentTime);   // tono() usa tiempos relativos
+        const compas = Math.floor(n / 8) % acordes.length;
+        const a = acordes[compas];
+        const i = n % 8;
+        tono(a.notas[i % 4], r, corchea * 0.8, "square", 0.012, bus);          // arpegio
+        if (i % 4 === 0) tono(a.bajo, r, corchea * 1.6, "triangle", 0.07, bus); // bajo
+        if (i % 4 === 2) tono(a.bajo * 2, r, corchea * 0.6, "triangle", 0.04, bus);
+        if (i % 2 === 1) tono(5200, r, 0.025, "square", 0.004, bus);            // "chas"
+        if (Math.floor(n / 32) % 2 === 1 && melodia[i]) tono(melodia[i], r, corchea * 0.9, "triangle", 0.03, bus);
+        siguiente += corchea;
+        n++;
+      }
+    }
+    programar();
+    const reloj = setInterval(programar, 250);
+    musicaActual = { bus, osciladores: [], lfo: null, reloj };
   }
 
   function detenerMusica() {
@@ -194,7 +236,7 @@ const Sonido = (() => {
     bus.gain.exponentialRampToValueAtTime(0.0001, t + 0.6);
     setTimeout(() => {
       osciladores.forEach((o) => o.stop());
-      lfo.stop();
+      if (lfo) lfo.stop();
       bus.disconnect();
     }, 700);
   }

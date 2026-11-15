@@ -32,7 +32,7 @@
           "situacion": "Abril de 2005. Mis seis ruedas se hundieron en una pequeña duna de arena blanda. Si giro las ruedas sin cuidado, podría hundirme más y quedarme atrapado para siempre. ¿Qué hago?",
           "opciones": [
             {
-              "texto": "Acelerar con todas mis fuerzas para salir rápido.",
+              "texto": "Girar las ruedas un poco cada día, sin perder tiempo en pruebas",
               "loHizoNasa": false
             },
             {
@@ -41,7 +41,19 @@
             }
           ],
           "queHizoNasa": "En el Laboratorio de Propulsión a Chorro (JPL) armaron una duna falsa y probaron con un rover de prueba. Después, durante semanas, me ordenaron girar las ruedas muy despacio. El 4 de junio de 2005, tras más de cinco semanas atrapado, ¡salí libre!",
-          "ciencia": "Apenas salí, di la vuelta y estudié con mi brazo la duna que me atrapó, a la que llamaron \"Purgatorio\". El equipo aprendió a manejar mejor sobre arena y usó esas lecciones el resto de la misión."
+          "ciencia": "Apenas salí, di la vuelta y estudié con mi brazo la duna que me atrapó, a la que llamaron \"Purgatorio\". El equipo aprendió a manejar mejor sobre arena y usó esas lecciones el resto de la misión.",
+          "contexto": [
+            {
+              "tipo": "riesgo",
+              "texto": "Si giro mal las ruedas, me hundo más"
+            },
+            {
+              "tipo": "dato",
+              "texto": "Arena blanda en una duna pequeña"
+            }
+          ],
+          "porQueOtra": "No era absurdo: cada día atrapado era un día menos de misión, y moverse sin pruebas ahorraba semanas.",
+          "tercera": "Cavar con el brazo robótico para sacar arena de las ruedas"
         },
         {
           "situacion": "Agosto de 2008. Ya llevo más de cuatro años en Marte, aunque me diseñaron para durar solo tres meses. A lo lejos hay un cráter gigante, Endeavour. Llegar tomaría años y podría fallar en el camino. ¿Qué hago?",
@@ -56,7 +68,19 @@
             }
           ],
           "queHizoNasa": "El equipo eligió el viaje. Manejé unos 21 kilómetros durante casi tres años y llegué al borde de Endeavour en agosto de 2011. ¡Fue como aterrizar en un lugar nuevo!",
-          "ciencia": "En el borde del cráter encontré una veta de yeso, apodada \"Homestake\". El yeso se formó cuando agua corrió por grietas del suelo hace muchísimo tiempo: una prueba más de que Marte tuvo agua líquida."
+          "ciencia": "En el borde del cráter encontré una veta de yeso, apodada \"Homestake\". El yeso se formó cuando agua corrió por grietas del suelo hace muchísimo tiempo: una prueba más de que Marte tuvo agua líquida.",
+          "contexto": [
+            {
+              "tipo": "tiempo",
+              "texto": "Ya pasé mi vida prevista: 3 meses"
+            },
+            {
+              "tipo": "riesgo",
+              "texto": "El viaje tomaría años y podría fallar"
+            }
+          ],
+          "porQueOtra": "Tenía sentido: un rover tan viejo podía fallar en cualquier momento, y cerca había terreno conocido para seguir haciendo ciencia.",
+          "tercera": "Ir solo hasta la mitad del camino y decidir allí"
         }
       ],
       "despedida": {
@@ -109,11 +133,17 @@
         {
           "situacion": "April 2005. My six wheels sank into a small dune of soft sand. If I spin my wheels carelessly, I could sink deeper and be stuck forever. What do I do?",
           "opciones": [
-            "Floor it with all my strength to get out fast.",
+            "Spin the wheels a little each day, without losing time on tests",
             "Have engineers on Earth test first with a test rover in similar sand, then move me out little by little."
           ],
           "queHizoNasa": "At the Jet Propulsion Laboratory (JPL) they built a fake dune and tested with a test rover. Then, for weeks, they told me to turn my wheels very slowly. On June 4, 2005, after more than five weeks stuck, I was free!",
-          "ciencia": "As soon as I got out, I turned around and studied the dune that trapped me, nicknamed \"Purgatory,\" with my arm. The team learned to drive better on sand and used those lessons for the rest of the mission."
+          "ciencia": "As soon as I got out, I turned around and studied the dune that trapped me, nicknamed \"Purgatory,\" with my arm. The team learned to drive better on sand and used those lessons for the rest of the mission.",
+          "contexto": [
+            "If I spin the wheels wrong, I sink deeper",
+            "Soft sand in a small dune"
+          ],
+          "porQueOtra": "It wasn't absurd: every day stuck was a day of mission lost, and moving without tests saved weeks.",
+          "tercera": "Dig with the robotic arm to clear sand from the wheels"
         },
         {
           "situacion": "August 2008. I've been on Mars for more than four years, even though I was designed to last only three months. Far away there is a giant crater, Endeavour. Getting there would take years and I might break down on the way. What do I do?",
@@ -122,7 +152,13 @@
             "Start the long journey to the giant crater."
           ],
           "queHizoNasa": "The team chose the journey. I drove about 21 kilometers over almost three years and reached the rim of Endeavour in August 2011. It was like landing somewhere brand new!",
-          "ciencia": "At the crater rim I found a vein of gypsum nicknamed \"Homestake.\" Gypsum formed when water flowed through cracks in the ground a very long time ago: more proof that Mars once had liquid water."
+          "ciencia": "At the crater rim I found a vein of gypsum nicknamed \"Homestake.\" Gypsum formed when water flowed through cracks in the ground a very long time ago: more proof that Mars once had liquid water.",
+          "contexto": [
+            "I've already outlived my plan: 3 months",
+            "The trip would take years and I could fail"
+          ],
+          "porQueOtra": "It made sense: such an old rover could fail any time, and nearby terrain was known and still useful for science.",
+          "tercera": "Drive only halfway and decide there"
         }
       ],
       "despedida": {
@@ -175,13 +211,25 @@
             }
           ],
           "queHizoNasa": "El equipo me hizo manejar hacia atrás con las cinco ruedas que funcionaban, arrastrando la rueda rota como un ancla. Era incómodo, pero seguí explorando.",
-          "ciencia": "En 2007, cerca de una meseta llamada Home Plate, la rueda arrastrada abrió una zanja y dejó al descubierto suelo muy brillante: era sílice casi pura. Para formarse así necesita agua muy caliente o vapor, como en las aguas termales de Yellowstone."
+          "ciencia": "En 2007, cerca de una meseta llamada Home Plate, la rueda arrastrada abrió una zanja y dejó al descubierto suelo muy brillante: era sílice casi pura. Para formarse así necesita agua muy caliente o vapor, como en las aguas termales de Yellowstone.",
+          "contexto": [
+            {
+              "tipo": "riesgo",
+              "texto": "Una rueda dejó de girar"
+            },
+            {
+              "tipo": "recursos",
+              "texto": "Me quedan cinco ruedas"
+            }
+          ],
+          "porQueOtra": "Era prudente: quedarse quieto evita romper otra rueda, y desde un lugar fijo también se puede investigar.",
+          "tercera": "Seguir hacia adelante con cinco ruedas, aunque cueste girar"
         },
         {
           "situacion": "Abril de 2009. Rompí una costra del suelo y me hundí en arena blanda. Mis ruedas giran, pero no avanzo. ¿Qué hacemos?",
           "opciones": [
             {
-              "texto": "Rendirnos y apagar la misión ya mismo.",
+              "texto": "Dejar de intentar salir y convertirme ya en estación fija",
               "loHizoNasa": false
             },
             {
@@ -190,7 +238,19 @@
             }
           ],
           "queHizoNasa": "Durante meses probaron muchos movimientos para sacarme. En enero de 2010 aceptaron que ya no me movería y me convirtieron en una estación de investigación fija.",
-          "ciencia": "Al girar, mis ruedas removieron el suelo y descubrieron minerales llamados sulfatos. Mostraban que el agua, quizás de nieve derretida, se filtró bajo la superficie hace relativamente poco tiempo."
+          "ciencia": "Al girar, mis ruedas removieron el suelo y descubrieron minerales llamados sulfatos. Mostraban que el agua, quizás de nieve derretida, se filtró bajo la superficie hace relativamente poco tiempo.",
+          "contexto": [
+            {
+              "tipo": "riesgo",
+              "texto": "Las ruedas giran, pero no avanzo"
+            },
+            {
+              "tipo": "dato",
+              "texto": "Me hundí en arena blanda"
+            }
+          ],
+          "porQueOtra": "Tenía lógica: cada intento gastaba energía y tiempo que podían usarse para investigar sin moverse.",
+          "tercera": "Mover el brazo para empujarme contra el suelo"
         }
       ],
       "despedida": {
@@ -243,16 +303,28 @@
             "Keep driving backwards, dragging the broken wheel."
           ],
           "queHizoNasa": "The team had me drive backwards with my five working wheels, dragging the broken wheel like an anchor. It was awkward, but I kept exploring.",
-          "ciencia": "In 2007, near a plateau called Home Plate, the dragged wheel dug a trench and uncovered very bright soil: it was almost pure silica. To form like that it needs very hot water or steam, like the hot springs in Yellowstone."
+          "ciencia": "In 2007, near a plateau called Home Plate, the dragged wheel dug a trench and uncovered very bright soil: it was almost pure silica. To form like that it needs very hot water or steam, like the hot springs in Yellowstone.",
+          "contexto": [
+            "One wheel stopped turning",
+            "I have five wheels left"
+          ],
+          "porQueOtra": "It was cautious: staying still avoids breaking another wheel, and you can still do science from one spot.",
+          "tercera": "Keep driving forward on five wheels, even if steering is hard"
         },
         {
           "situacion": "April 2009. I broke through a crust in the ground and sank into soft sand. My wheels spin, but I don't move. What do we do?",
           "opciones": [
-            "Give up and shut down the mission right away.",
+            "Stop trying to get out and become a fixed station right away",
             "Try to free me for months and, if that fails, keep doing science standing still."
           ],
           "queHizoNasa": "For months they tried many moves to get me out. In January 2010 they accepted that I wouldn't move again and turned me into a stationary research station.",
-          "ciencia": "As they spun, my wheels churned the soil and uncovered minerals called sulfates. They showed that water, maybe from melting snow, seeped under the surface relatively recently."
+          "ciencia": "As they spun, my wheels churned the soil and uncovered minerals called sulfates. They showed that water, maybe from melting snow, seeped under the surface relatively recently.",
+          "contexto": [
+            "My wheels spin, but I don't move",
+            "I sank into soft sand"
+          ],
+          "porQueOtra": "It was logical: every attempt used energy and time that could go to science without moving.",
+          "tercera": "Use the arm to push myself against the ground"
         }
       ],
       "despedida": {
@@ -307,7 +379,19 @@
             }
           ],
           "queHizoNasa": "Eligieron las bolsas de aire, más unos cohetes pequeños para frenar al final. El 4 de julio de 1997 se inflaron a unos 100 metros del suelo. Pathfinder rebotó más de 15 veces, algunos rebotes de hasta 15 metros de alto, y rodó hasta detenerse a 1 kilómetro del primer golpe.",
-          "ciencia": "Era la primera vez que se usaba esta técnica en Marte. Necesitar menos combustible abarató la misión, y años después Spirit y Opportunity aterrizaron igual."
+          "ciencia": "Era la primera vez que se usaba esta técnica en Marte. Necesitar menos combustible abarató la misión, y años después Spirit y Opportunity aterrizaron igual.",
+          "contexto": [
+            {
+              "tipo": "recursos",
+              "texto": "Poco dinero para la misión"
+            },
+            {
+              "tipo": "dato",
+              "texto": "Cohetes y patas necesitan mucho combustible"
+            }
+          ],
+          "porQueOtra": "Era la opción conocida: las Viking ya habían aterrizado así, y lo probado da confianza.",
+          "tercera": "Bajar solo con paracaídas y una plataforma blanda"
         },
         {
           "quien": "Eres Sojourner",
@@ -323,7 +407,19 @@
             }
           ],
           "queHizoNasa": "Las personas en la Tierra elegían el camino del día, y yo evitaba los obstáculos por mi cuenta con láseres y cámaras. Fui el primer vehículo en otro planeta que podía manejarse así, en parte solo.",
-          "ciencia": "Así llegué a rocas como \"Barnacle Bill\", que estudié unas 10 horas con mi espectrómetro. En total se hicieron más de 15 análisis químicos de rocas y suelo."
+          "ciencia": "Así llegué a rocas como \"Barnacle Bill\", que estudié unas 10 horas con mi espectrómetro. En total se hicieron más de 15 análisis químicos de rocas y suelo.",
+          "contexto": [
+            {
+              "tipo": "tiempo",
+              "texto": "Un mensaje tarda de 3 a 22 minutos"
+            },
+            {
+              "tipo": "recursos",
+              "texto": "Solo una oportunidad al día para enviar órdenes"
+            }
+          ],
+          "porQueOtra": "Daba más control: una persona decide cada paso, y nada queda en manos de un robot.",
+          "tercera": "Que yo elija solo a dónde ir, sin ayuda de la Tierra"
         }
       ],
       "despedida": {
@@ -375,7 +471,13 @@
             "Try something never done on Mars: a parachute and giant airbags that bounce on the ground."
           ],
           "queHizoNasa": "They chose airbags, plus small rockets to brake at the very end. On July 4, 1997, they inflated about 100 meters above the ground. Pathfinder bounced more than 15 times, some bounces up to 15 meters high, and rolled to a stop 1 kilometer from the first impact.",
-          "ciencia": "It was the first time this technique was used on Mars. Needing less fuel made the mission cheaper, and years later Spirit and Opportunity landed the same way."
+          "ciencia": "It was the first time this technique was used on Mars. Needing less fuel made the mission cheaper, and years later Spirit and Opportunity landed the same way.",
+          "contexto": [
+            "Little money for the mission",
+            "Rockets and legs need a lot of fuel"
+          ],
+          "porQueOtra": "It was the known option: the Vikings had landed that way, and proven methods inspire confidence.",
+          "tercera": "Come down with just parachutes and a soft platform"
         },
         {
           "quien": "You are Sojourner",
@@ -385,7 +487,13 @@
             "They tell me where to go, and I dodge rocks, slopes and cliffs on my own."
           ],
           "queHizoNasa": "People on Earth chose the day's path, and I avoided obstacles by myself using lasers and cameras. I was the first vehicle on another planet that could partly drive itself.",
-          "ciencia": "That's how I reached rocks like \"Barnacle Bill,\" which I studied for about 10 hours with my spectrometer. In total, more than 15 chemical analyses of rocks and soil were made."
+          "ciencia": "That's how I reached rocks like \"Barnacle Bill,\" which I studied for about 10 hours with my spectrometer. In total, more than 15 chemical analyses of rocks and soil were made.",
+          "contexto": [
+            "A message takes 3 to 22 minutes",
+            "Only one chance a day to send commands"
+          ],
+          "porQueOtra": "It gave more control: a person decides every step, and nothing is left to the robot.",
+          "tercera": "Let me choose where to go all by myself, with no help from Earth"
         }
       ],
       "despedida": {
@@ -436,7 +544,7 @@
           "situacion": "2019. Mi \"topo\", una sonda que debía enterrarse martillando para medir el calor de Marte, no logra hundirse en este suelo. Mi brazo robótico no fue diseñado para ayudar en eso. ¿Qué hacemos?",
           "opciones": [
             {
-              "texto": "Rendirnos con el topo y olvidarlo.",
+              "texto": "Seguir martillando igual y esperar que el suelo ceda",
               "loHizoNasa": false
             },
             {
@@ -445,7 +553,19 @@
             }
           ],
           "queHizoNasa": "Durante casi dos años, los equipos de NASA y de la agencia espacial alemana usaron la pala para presionar el topo y echarle tierra encima. Lograron que quedara justo bajo la superficie, pero no pasó de ahí: debía bajar 3 metros. En enero de 2021 dejaron de intentarlo.",
-          "ciencia": "El topo no llegó a medir el calor, pero se aprendió mucho sobre ese suelo y sobre cómo usar un brazo robótico de maneras nuevas. Esas lecciones sirven para futuras misiones que quieran cavar."
+          "ciencia": "El topo no llegó a medir el calor, pero se aprendió mucho sobre ese suelo y sobre cómo usar un brazo robótico de maneras nuevas. Esas lecciones sirven para futuras misiones que quieran cavar.",
+          "contexto": [
+            {
+              "tipo": "meta",
+              "texto": "El topo debía enterrarse martillando"
+            },
+            {
+              "tipo": "riesgo",
+              "texto": "Mi brazo no fue diseñado para ayudarlo"
+            }
+          ],
+          "porQueOtra": "Era lo más simple: el topo estaba hecho para martillar, y a veces el suelo cede de pronto.",
+          "tercera": "Sacar el topo y probar en otro lugar"
         },
         {
           "situacion": "Mayo de 2021. El polvo cubre mis paneles solares y cada día tengo menos energía. No tengo escobillas para limpiarlos. ¿Qué hacemos?",
@@ -460,7 +580,19 @@
             }
           ],
           "queHizoNasa": "¡Para quitar tierra, echaron más tierra! El 22 de mayo de 2021, al mediodía, la hora con más viento, usé mi pala para dejar caer arena junto a un panel. El viento la llevó por encima y se llevó parte del polvo.",
-          "ciencia": "Gané unos 30 vatios-hora de energía por día marciano. Así pude seguir escuchando Marte unas semanas más antes de apagar mis instrumentos."
+          "ciencia": "Gané unos 30 vatios-hora de energía por día marciano. Así pude seguir escuchando Marte unas semanas más antes de apagar mis instrumentos.",
+          "contexto": [
+            {
+              "tipo": "recursos",
+              "texto": "Cada día tengo menos energía"
+            },
+            {
+              "tipo": "dato",
+              "texto": "No tengo escobillas para limpiar"
+            }
+          ],
+          "porQueOtra": "Pasaba en Marte: a veces los remolinos de viento limpiaban paneles solares sin que nadie hiciera nada.",
+          "tercera": "Apagar instrumentos para ahorrar la energía que queda"
         }
       ],
       "despedida": {
@@ -510,11 +642,17 @@
         {
           "situacion": "2019. My \"mole,\" a probe that was supposed to hammer itself into the ground to measure Mars's heat, can't dig into this soil. My robotic arm wasn't designed to help with that. What do we do?",
           "opciones": [
-            "Give up on the mole and forget it.",
+            "Keep hammering and hope the soil gives way",
             "Invent new ways to use the arm and its scoop to push it and cover it with soil."
           ],
           "queHizoNasa": "For almost two years, teams from NASA and the German space agency used the scoop to press on the mole and pile soil on top of it. They got it just below the surface, but no deeper: it was supposed to go down 3 meters. In January 2021 they stopped trying.",
-          "ciencia": "The mole never measured the heat, but the team learned a lot about that soil and about using a robotic arm in new ways. Those lessons help future missions that want to dig."
+          "ciencia": "The mole never measured the heat, but the team learned a lot about that soil and about using a robotic arm in new ways. Those lessons help future missions that want to dig.",
+          "contexto": [
+            "The mole had to hammer itself into the ground",
+            "My arm wasn't designed to help it"
+          ],
+          "porQueOtra": "It was the simplest: the mole was built to hammer, and sometimes soil gives way suddenly.",
+          "tercera": "Pull the mole out and try somewhere else"
         },
         {
           "situacion": "May 2021. Dust covers my solar panels and every day I have less energy. I don't have brushes to clean them. What do we do?",
@@ -523,7 +661,13 @@
             "Drop sand next to the panels so the wind bounces it across and carries the dust away."
           ],
           "queHizoNasa": "To remove dirt, they added more dirt! On May 22, 2021, at noon, the windiest time of day, I used my scoop to trickle sand next to a panel. The wind carried it across and took some of the dust with it.",
-          "ciencia": "I gained about 30 watt-hours of energy per Martian day. That let me keep listening to Mars for a few more weeks before switching off my instruments."
+          "ciencia": "I gained about 30 watt-hours of energy per Martian day. That let me keep listening to Mars for a few more weeks before switching off my instruments.",
+          "contexto": [
+            "Every day I have less power",
+            "I have no brushes to clean them"
+          ],
+          "porQueOtra": "It happened on Mars: sometimes whirlwinds cleaned solar panels with no one doing anything.",
+          "tercera": "Turn off instruments to save the remaining power"
         }
       ],
       "despedida": {
@@ -576,7 +720,19 @@
             }
           ],
           "queHizoNasa": "Me hicieron pesar apenas 1,8 kg, con aspas grandes que giran unas 2 400 veces por minuto. ¡Eso es varias veces más rápido que un helicóptero de pasajeros en la Tierra!",
-          "ciencia": "El 19 de abril de 2021 despegué: fue el primer vuelo con motor y controlado en otro planeta. Por eso al lugar lo llamaron \"Campo de los hermanos Wright\"."
+          "ciencia": "El 19 de abril de 2021 despegué: fue el primer vuelo con motor y controlado en otro planeta. Por eso al lugar lo llamaron \"Campo de los hermanos Wright\".",
+          "contexto": [
+            {
+              "tipo": "dato",
+              "texto": "El aire tiene un 1 % de la densidad de la Tierra"
+            },
+            {
+              "tipo": "meta",
+              "texto": "Volar con casi nada de aire que empujar"
+            }
+          ],
+          "porQueOtra": "Era lo conocido: los helicópteros de la Tierra ya funcionan, y copiar un diseño probado es menos riesgoso.",
+          "tercera": "Un globo lleno de gas en vez de aspas"
         },
         {
           "situacion": "Mi misión era una prueba: hasta 5 vuelos en 30 días y listo. Pero mis primeros vuelos salieron perfectos. ¿Qué hacemos?",
@@ -591,7 +747,19 @@
             }
           ],
           "queHizoNasa": "NASA extendió mi misión. Empecé a volar como explorador, mirando desde arriba los lugares a donde Perseverance podía ir.",
-          "ciencia": "En vez de 5 vuelos, hice 72 en casi tres años. Demostré que los vehículos voladores pueden ayudar a explorar otros mundos."
+          "ciencia": "En vez de 5 vuelos, hice 72 en casi tres años. Demostré que los vehículos voladores pueden ayudar a explorar otros mundos.",
+          "contexto": [
+            {
+              "tipo": "meta",
+              "texto": "Era una prueba: 5 vuelos en 30 días"
+            },
+            {
+              "tipo": "dato",
+              "texto": "Los primeros vuelos salieron perfectos"
+            }
+          ],
+          "porQueOtra": "Era lo planeado: la prueba ya estaba cumplida, y el rover tenía su propia misión que no debía retrasarse.",
+          "tercera": "Intentar un vuelo mucho más largo y alto para batir récords"
         }
       ],
       "despedida": {
@@ -640,7 +808,13 @@
             "Very light, with big blades that spin much, much faster."
           ],
           "queHizoNasa": "They made me weigh just 1.8 kg, with big blades that spin about 2,400 times per minute. That's many times faster than a passenger helicopter on Earth!",
-          "ciencia": "On April 19, 2021, I took off: the first powered, controlled flight on another planet. That's why the spot was named \"Wright Brothers Field.\""
+          "ciencia": "On April 19, 2021, I took off: the first powered, controlled flight on another planet. That's why the spot was named \"Wright Brothers Field.\"",
+          "contexto": [
+            "The air is 1% as dense as Earth's",
+            "Fly with almost no air to push"
+          ],
+          "porQueOtra": "It was the known design: Earth helicopters already work, and copying a proven design is less risky.",
+          "tercera": "A gas-filled balloon instead of blades"
         },
         {
           "situacion": "My mission was a test: up to 5 flights in 30 days and done. But my first flights went perfectly. What do we do?",
@@ -649,7 +823,13 @@
             "Keep flying as an aerial scout to help the Perseverance rover."
           ],
           "queHizoNasa": "NASA extended my mission. I started flying as a scout, looking from above at the places Perseverance could go.",
-          "ciencia": "Instead of 5 flights, I made 72 in almost three years. I showed that flying vehicles can help explore other worlds."
+          "ciencia": "Instead of 5 flights, I made 72 in almost three years. I showed that flying vehicles can help explore other worlds.",
+          "contexto": [
+            "It was a test: 5 flights in 30 days",
+            "The first flights went perfectly"
+          ],
+          "porQueOtra": "It was the plan: the test was done, and the rover had its own mission that shouldn't be delayed.",
+          "tercera": "Try a much longer, higher flight to set records"
         }
       ],
       "despedida": {
@@ -703,7 +883,19 @@
             }
           ],
           "queHizoNasa": "En junio de 1976, al ver las fotos desde la órbita, los científicos decidieron buscar otro sitio. Aterricé el 20 de julio de 1976 en las laderas del oeste de Chryse Planitia, justo siete años después de que el Apolo 11 llegara a la Luna.",
-          "ciencia": "Fui el primer módulo de Estados Unidos en funcionar en la superficie de Marte. Envié fotos a color y un panorama de la llanura, y medí temperaturas de −86 °C antes del amanecer."
+          "ciencia": "Fui el primer módulo de Estados Unidos en funcionar en la superficie de Marte. Envié fotos a color y un panorama de la llanura, y medí temperaturas de −86 °C antes del amanecer.",
+          "contexto": [
+            {
+              "tipo": "riesgo",
+              "texto": "El terreno es más accidentado de lo pensado"
+            },
+            {
+              "tipo": "tiempo",
+              "texto": "Se quería aterrizar el 4 de julio"
+            }
+          ],
+          "porQueOtra": "Tenía peso: aterrizar en una fecha tan simbólica habría sido un gran momento para todo el país.",
+          "tercera": "Mandar primero a la otra Viking a probar el terreno"
         },
         {
           "situacion": "28 de julio de 1976. Recojo suelo para buscar vida. Un experimento da una señal positiva, parecida a la de algo vivo. Pero la prueba principal, que busca moléculas orgánicas, no encuentra nada. ¿Qué se anuncia?",
@@ -718,7 +910,19 @@
             }
           ],
           "queHizoNasa": "Los científicos fueron prudentes: una sola señal positiva no bastaba si la prueba de compuestos orgánicos daba negativo. No anunciaron vida en Marte.",
-          "ciencia": "Descubrí que el suelo tiene mucho azufre, distinto a cualquier material conocido de la Tierra o de la Luna. Aquel debate enseñó a diseñar mejor las misiones que buscan vida."
+          "ciencia": "Descubrí que el suelo tiene mucho azufre, distinto a cualquier material conocido de la Tierra o de la Luna. Aquel debate enseñó a diseñar mejor las misiones que buscan vida.",
+          "contexto": [
+            {
+              "tipo": "dato",
+              "texto": "Un experimento da señal positiva"
+            },
+            {
+              "tipo": "dato",
+              "texto": "La prueba de moléculas orgánicas no encuentra nada"
+            }
+          ],
+          "porQueOtra": "Se entiende la emoción: una señal parecida a la vida en otro planeta habría sido el descubrimiento del siglo.",
+          "tercera": "No decir nada hasta repetir todos los experimentos"
         }
       ],
       "despedida": {
@@ -756,7 +960,13 @@
             "Wait and look for a safer site with new photos."
           ],
           "queHizoNasa": "In June 1976, after seeing the photos from orbit, the scientists decided to find another site. I landed on July 20, 1976, on the western slopes of Chryse Planitia, exactly seven years after Apollo 11 reached the Moon.",
-          "ciencia": "I was the first U.S. lander to work on the surface of Mars. I sent color photos and a panorama of the plain, and measured −86 °C (−123 °F) before dawn."
+          "ciencia": "I was the first U.S. lander to work on the surface of Mars. I sent color photos and a panorama of the plain, and measured −86 °C (−123 °F) before dawn.",
+          "contexto": [
+            "The ground is rougher than expected",
+            "They wanted to land on July 4"
+          ],
+          "porQueOtra": "It mattered: landing on such a symbolic date would have been a huge moment for the whole country.",
+          "tercera": "Send the other Viking first to test the ground"
         },
         {
           "situacion": "July 28, 1976. I collect soil to look for life. One experiment gives a positive signal, like something alive. But the main test, which looks for organic molecules, finds nothing. What do we announce?",
@@ -765,7 +975,13 @@
             "That the results aren't enough to say there is life."
           ],
           "queHizoNasa": "The scientists were careful: one positive signal wasn't enough when the organic-compound test came back negative. They did not announce life on Mars.",
-          "ciencia": "I found that the soil is rich in sulfur, unlike any known material from Earth or the Moon. That debate taught scientists to design better life-hunting missions."
+          "ciencia": "I found that the soil is rich in sulfur, unlike any known material from Earth or the Moon. That debate taught scientists to design better life-hunting missions.",
+          "contexto": [
+            "One experiment gives a positive signal",
+            "The organic molecule test finds nothing"
+          ],
+          "porQueOtra": "The excitement is understandable: a life-like signal on another planet would have been the discovery of the century.",
+          "tercera": "Say nothing until every experiment is repeated"
         }
       ],
       "despedida": {
@@ -819,7 +1035,19 @@
             }
           ],
           "queHizoNasa": "Phoenix se construyó a partir del módulo del Mars Surveyor 2001 cancelado, con instrumentos mejorados. Por eso se llama como el ave fénix: renació.",
-          "ciencia": "Despegué el 4 de agosto de 2007 y aterricé el 25 de mayo de 2008, más al norte que cualquier nave anterior, para estudiar el hielo cerca del polo."
+          "ciencia": "Despegué el 4 de agosto de 2007 y aterricé el 25 de mayo de 2008, más al norte que cualquier nave anterior, para estudiar el hielo cerca del polo.",
+          "contexto": [
+            {
+              "tipo": "recursos",
+              "texto": "Poco presupuesto"
+            },
+            {
+              "tipo": "dato",
+              "texto": "Hay un módulo casi listo guardado"
+            }
+          ],
+          "porQueOtra": "Tenía sentido: un diseño nuevo permite usar lo último en tecnología, sin limitaciones heredadas.",
+          "tercera": "Compartir la misión con otra nave que ya iba a Marte"
         },
         {
           "situacion": "Junio de 2008. Mi brazo cava una zanja, apodada \"Dodo-Ricitos de Oro\", y aparecen trocitos blancos del tamaño de un dado. ¿Son sal o son hielo? ¿Cómo averiguarlo?",
@@ -834,7 +1062,19 @@
             }
           ],
           "queHizoNasa": "Esperaron. Cuatro días después, varios trocitos habían desaparecido: se convirtieron en vapor. La sal no puede hacer eso. ¡Era hielo de agua!",
-          "ciencia": "Confirmé que hay hielo de agua justo debajo del suelo en el norte de Marte, al alcance de un brazo robótico."
+          "ciencia": "Confirmé que hay hielo de agua justo debajo del suelo en el norte de Marte, al alcance de un brazo robótico.",
+          "contexto": [
+            {
+              "tipo": "meta",
+              "texto": "Saber si es sal o hielo"
+            },
+            {
+              "tipo": "dato",
+              "texto": "Trocitos blancos del tamaño de un dado"
+            }
+          ],
+          "porQueOtra": "Era tentador: encontrar hielo en Marte es una gran noticia, y la gente quería saberlo ya.",
+          "tercera": "Recoger los trocitos con el brazo y analizarlos"
         }
       ],
       "despedida": {
@@ -876,7 +1116,13 @@
             "Check and improve the stored lander and use it."
           ],
           "queHizoNasa": "Phoenix was built from the canceled Mars Surveyor 2001 lander, with improved instruments. That's why it's named after the phoenix: it rose again.",
-          "ciencia": "I launched on August 4, 2007, and landed on May 25, 2008, farther north than any earlier spacecraft, to study the ice near the pole."
+          "ciencia": "I launched on August 4, 2007, and landed on May 25, 2008, farther north than any earlier spacecraft, to study the ice near the pole.",
+          "contexto": [
+            "A small budget",
+            "A nearly finished lander is in storage"
+          ],
+          "porQueOtra": "It made sense: a new design lets you use the latest technology, with no inherited limits.",
+          "tercera": "Share the mission with another spacecraft already going to Mars"
         },
         {
           "situacion": "June 2008. My arm digs a trench nicknamed \"Dodo-Goldilocks,\" and dice-size white bits appear. Are they salt or ice? How can we find out?",
@@ -885,7 +1131,13 @@
             "Wait a few days and photograph the trench again."
           ],
           "queHizoNasa": "They waited. Four days later, several of the bits were gone: they had turned into vapor. Salt can't do that. It was water ice!",
-          "ciencia": "I confirmed that there is water ice just below the ground in northern Mars, within reach of a robotic arm."
+          "ciencia": "I confirmed that there is water ice just below the ground in northern Mars, within reach of a robotic arm.",
+          "contexto": [
+            "Find out if it's salt or ice",
+            "White bits the size of a die"
+          ],
+          "porQueOtra": "It was tempting: finding ice on Mars is big news, and people wanted to know right away.",
+          "tercera": "Scoop up the bits with the arm and analyze them"
         }
       ],
       "despedida": {
@@ -949,7 +1201,19 @@
             }
           ],
           "queHizoNasa": "En el Control de Misión, en Houston, un experto en la computadora del módulo revisó la alarma en segundos y vio que no ponía en peligro el aterrizaje. Les respondieron \"seguimos\". Sonaron más alarmas parecidas, y la respuesta fue la misma.",
-          "ciencia": "La alarma avisaba que la computadora estaba recibiendo demasiados datos, pero seguía haciendo lo más importante. Gracias a esa decisión rápida, el descenso continuó."
+          "ciencia": "La alarma avisaba que la computadora estaba recibiendo demasiados datos, pero seguía haciendo lo más importante. Gracias a esa decisión rápida, el descenso continuó.",
+          "contexto": [
+            {
+              "tipo": "riesgo",
+              "texto": "Suena una alarma nunca vista"
+            },
+            {
+              "tipo": "tiempo",
+              "texto": "Están bajando hacia la Luna"
+            }
+          ],
+          "porQueOtra": "Era lo más seguro: ante una alarma desconocida, volver a la nave protege la vida de los astronautas.",
+          "tercera": "Apagar la computadora y bajar sin ella"
         },
         {
           "quien": "Estás en el módulo lunar Eagle",
@@ -965,7 +1229,19 @@
             }
           ],
           "queHizoNasa": "Armstrong tomó el control manual y pasó por encima de las rocas. A unos 30 metros del suelo se encendió la luz de combustible bajo. Aterrizaron con solo segundos de margen, y Armstrong dijo: \"Houston, aquí Base Tranquilidad. El Águila ha aterrizado\".",
-          "ciencia": "Horas después, cerca del final de su caminata lunar, Armstrong y Aldrin colocaron el reflector en el suelo. Las rocas que llevaron a la Tierra mostraron que en ese lugar hubo actividad volcánica hace muchísimo tiempo."
+          "ciencia": "Horas después, cerca del final de su caminata lunar, Armstrong y Aldrin colocaron el reflector en el suelo. Las rocas que llevaron a la Tierra mostraron que en ese lugar hubo actividad volcánica hace muchísimo tiempo.",
+          "contexto": [
+            {
+              "tipo": "riesgo",
+              "texto": "La computadora los lleva a una zona con rocas"
+            },
+            {
+              "tipo": "recursos",
+              "texto": "El combustible se acaba"
+            }
+          ],
+          "porQueOtra": "Tenía lógica: la computadora estaba programada para aterrizar, y desviarse gastaba el poco combustible que quedaba.",
+          "tercera": "Cancelar y volver a la órbita"
         }
       ],
       "despedida": {
@@ -1024,7 +1300,13 @@
             "Keep going down if Earth confirms it's safe."
           ],
           "queHizoNasa": "In Mission Control, in Houston, an expert on the module's computer checked the alarm in seconds and saw it didn't put the landing at risk. They answered \"we're go.\" More similar alarms went off, and the answer was the same.",
-          "ciencia": "The alarm meant the computer was receiving too much data, but it kept doing the most important jobs. Thanks to that quick decision, the descent continued."
+          "ciencia": "The alarm meant the computer was receiving too much data, but it kept doing the most important jobs. Thanks to that quick decision, the descent continued.",
+          "contexto": [
+            "An alarm they had never seen goes off",
+            "They are descending to the Moon"
+          ],
+          "porQueOtra": "It was the safest: with an unknown alarm, going back to the ship protects the astronauts' lives.",
+          "tercera": "Turn off the computer and land without it"
         },
         {
           "quien": "You are in the Eagle lunar module",
@@ -1034,7 +1316,13 @@
             "Take manual control and fly farther to find a flat spot."
           ],
           "queHizoNasa": "Armstrong took manual control and flew over the boulders. About 30 meters above the ground, the low-fuel light came on. They landed with just seconds to spare, and Armstrong said: \"Houston, Tranquility Base here. The Eagle has landed.\"",
-          "ciencia": "Hours later, near the end of their moonwalk, Armstrong and Aldrin set the reflector on the ground. The rocks they brought back to Earth showed there had been volcanic activity at that place a very long time ago."
+          "ciencia": "Hours later, near the end of their moonwalk, Armstrong and Aldrin set the reflector on the ground. The rocks they brought back to Earth showed there had been volcanic activity at that place a very long time ago.",
+          "contexto": [
+            "The computer is taking them to a rocky area",
+            "Fuel is running out"
+          ],
+          "porQueOtra": "It was logical: the computer was programmed to land, and changing course used up scarce fuel.",
+          "tercera": "Abort and return to orbit"
         }
       ],
       "despedida": {
@@ -1088,7 +1376,19 @@
             }
           ],
           "queHizoNasa": "Con mi brazo y su pala cavé pequeñas zanjas en el suelo lunar, y mi cámara de televisión envió las imágenes a la Tierra.",
-          "ciencia": "Así los científicos pudieron saber cómo era el suelo. Las naves Surveyor abrieron el camino para que los astronautas del Apolo pudieran llegar a la Luna."
+          "ciencia": "Así los científicos pudieron saber cómo era el suelo. Las naves Surveyor abrieron el camino para que los astronautas del Apolo pudieran llegar a la Luna.",
+          "contexto": [
+            {
+              "tipo": "meta",
+              "texto": "Saber si el suelo es firme"
+            },
+            {
+              "tipo": "riesgo",
+              "texto": "Una nave podría hundirse en el polvo"
+            }
+          ],
+          "porQueOtra": "Las fotos del paisaje también enseñan mucho y no arriesgan el brazo en una tarea nueva.",
+          "tercera": "Mover mis patas para ver cuánto se hunden"
         },
         {
           "quien": "Eres el equipo del Apolo 12",
@@ -1104,7 +1404,19 @@
             }
           ],
           "queHizoNasa": "El 19 de noviembre de 1969, Pete Conrad pilotó el módulo Intrepid y aterrizó a menos de 200 metros de mí. ¡Los astronautas pudieron llegar caminando!",
-          "ciencia": "Los astronautas se llevaron mi cámara, mi pala y otras piezas a la Tierra. Más de 80 investigadores estudiaron cómo me afectaron la radiación y el polvo después de años en la Luna."
+          "ciencia": "Los astronautas se llevaron mi cámara, mi pala y otras piezas a la Tierra. Más de 80 investigadores estudiaron cómo me afectaron la radiación y el polvo después de años en la Luna.",
+          "contexto": [
+            {
+              "tipo": "meta",
+              "texto": "Aterrizar exactamente donde se quiera"
+            },
+            {
+              "tipo": "dato",
+              "texto": "El Apolo 11 aterrizó lejos del punto planeado"
+            }
+          ],
+          "porQueOtra": "Era más seguro: una llanura grande deja margen de error para el piloto.",
+          "tercera": "Aterrizar en el mismo lugar que el Apolo 11"
         }
       ],
       "despedida": {
@@ -1158,7 +1470,13 @@
             "Use my scoop to dig trenches and send pictures of how the soil behaves."
           ],
           "queHizoNasa": "With my arm and its scoop I dug small trenches in the lunar soil, and my television camera sent the images to Earth.",
-          "ciencia": "That way scientists could learn what the soil was like. The Surveyor landers paved the way for the Apollo astronauts to reach the Moon."
+          "ciencia": "That way scientists could learn what the soil was like. The Surveyor landers paved the way for the Apollo astronauts to reach the Moon.",
+          "contexto": [
+            "Find out if the ground is firm",
+            "A spacecraft might sink into the dust"
+          ],
+          "porQueOtra": "Landscape photos also teach a lot and don't risk the arm on a new task.",
+          "tercera": "Move my legs to see how far they sink"
         },
         {
           "quien": "You are the Apollo 12 team",
@@ -1168,7 +1486,13 @@
             "Right next to Surveyor 3, to show a precision landing and visit it."
           ],
           "queHizoNasa": "On November 19, 1969, Pete Conrad flew the Intrepid module and landed less than 200 meters from me. The astronauts could walk over!",
-          "ciencia": "The astronauts took my camera, my scoop and other parts back to Earth. More than 80 researchers studied how radiation and dust had affected me after years on the Moon."
+          "ciencia": "The astronauts took my camera, my scoop and other parts back to Earth. More than 80 researchers studied how radiation and dust had affected me after years on the Moon.",
+          "contexto": [
+            "Land exactly where they want",
+            "Apollo 11 landed far from its planned spot"
+          ],
+          "porQueOtra": "It was safer: a big plain leaves room for pilot error.",
+          "tercera": "Land at the same place as Apollo 11"
         }
       ],
       "despedida": {
@@ -1224,7 +1548,19 @@
             }
           ],
           "queHizoNasa": "Llevaron el primer rover lunar, plegado al costado del módulo Falcon. Se desplegaba tirando de unas cintas. El 31 de julio de 1971 se usó por primera vez.",
-          "ciencia": "En tres salidas, David Scott y James Irwin recorrieron 27,9 km. ¡Llegaron a alejarse unos 5 km del módulo lunar, mucho más que caminando!"
+          "ciencia": "En tres salidas, David Scott y James Irwin recorrieron 27,9 km. ¡Llegaron a alejarse unos 5 km del módulo lunar, mucho más que caminando!",
+          "contexto": [
+            {
+              "tipo": "meta",
+              "texto": "Llegar mucho más lejos"
+            },
+            {
+              "tipo": "riesgo",
+              "texto": "A pie no pueden alejarse del módulo"
+            }
+          ],
+          "porQueOtra": "Era más simple: mejorar los trajes no obliga a llevar un vehículo pesado hasta la Luna.",
+          "tercera": "Un robot que explore solo mientras ellos esperan"
         },
         {
           "quien": "Eres el equipo del Apolo 15",
@@ -1240,7 +1576,19 @@
             }
           ],
           "queHizoNasa": "El rover se quedó en la Luna. Su cámara de televisión siguió funcionando y apuntó hacia el módulo cuando despegó.",
-          "ciencia": "Gracias a esa cámara, por primera vez la gente en la Tierra pudo ver en televisión un despegue desde la Luna."
+          "ciencia": "Gracias a esa cámara, por primera vez la gente en la Tierra pudo ver en televisión un despegue desde la Luna.",
+          "contexto": [
+            {
+              "tipo": "dato",
+              "texto": "La misión terminó"
+            },
+            {
+              "tipo": "meta",
+              "texto": "Los astronautas vuelven a casa"
+            }
+          ],
+          "porQueOtra": "Habría sido un tesoro: estudiar en la Tierra cómo resistió el rover el ambiente lunar.",
+          "tercera": "Desarmarlo y llevar solo algunas piezas"
         }
       ],
       "despedida": {
@@ -1292,7 +1640,13 @@
             "Bring a folding vehicle to drive on the Moon."
           ],
           "queHizoNasa": "They brought the first Lunar Rover, folded on the side of the Falcon module. It unfolded by pulling on some straps. On July 31, 1971, it was used for the first time.",
-          "ciencia": "In three trips, David Scott and James Irwin covered 27.9 km. They got about 5 km away from the lunar module, much farther than on foot!"
+          "ciencia": "In three trips, David Scott and James Irwin covered 27.9 km. They got about 5 km away from the lunar module, much farther than on foot!",
+          "contexto": [
+            "Go much farther",
+            "On foot they can't go far from the lander"
+          ],
+          "porQueOtra": "It was simpler: better suits don't require carrying a heavy vehicle to the Moon.",
+          "tercera": "A robot that explores alone while they wait"
         },
         {
           "quien": "You are the Apollo 15 team",
@@ -1302,7 +1656,13 @@
             "Leave it on the Moon, with its television camera on."
           ],
           "queHizoNasa": "The rover stayed on the Moon. Its television camera kept working and pointed at the module as it took off.",
-          "ciencia": "Thanks to that camera, for the first time people on Earth could watch a launch from the Moon on television."
+          "ciencia": "Thanks to that camera, for the first time people on Earth could watch a launch from the Moon on television.",
+          "contexto": [
+            "The mission is over",
+            "The astronauts go home"
+          ],
+          "porQueOtra": "It would have been a treasure: studying on Earth how the rover handled the lunar environment.",
+          "tercera": "Take it apart and bring back just a few parts"
         }
       ],
       "despedida": {
@@ -1351,7 +1711,7 @@
           "situacion": "19 de noviembre de 1969. Para encenderme, Alan Bean debe sacar mi combustible nuclear de un contenedor en el costado del módulo lunar. Pero el combustible está atascado y no sale. ¿Qué hacen?",
           "opciones": [
             {
-              "texto": "Dejar la estación apagada y pasar a otra tarea.",
+              "texto": "Dejar el combustible para el final de la caminata",
               "loHizoNasa": false
             },
             {
@@ -1360,7 +1720,19 @@
             }
           ],
           "queHizoNasa": "Pete Conrad tomó el martillo de geología y golpeó el contenedor mientras Bean tiraba. ¡Salió! Bean bromeó: \"No vengas a la Luna sin un martillo\".",
-          "ciencia": "Con su combustible de plutonio, mi generador daba unos 70 vatios: suficiente para seis instrumentos, entre ellos un sismómetro para sentir los temblores de la Luna."
+          "ciencia": "Con su combustible de plutonio, mi generador daba unos 70 vatios: suficiente para seis instrumentos, entre ellos un sismómetro para sentir los temblores de la Luna.",
+          "contexto": [
+            {
+              "tipo": "riesgo",
+              "texto": "El combustible nuclear está atascado"
+            },
+            {
+              "tipo": "meta",
+              "texto": "Sin él, la estación no enciende"
+            }
+          ],
+          "porQueOtra": "Tenía sentido: el tiempo en la Luna es limitado y había otras tareas que no debían perderse.",
+          "tercera": "Calentar el contenedor al sol y volver a intentarlo"
         },
         {
           "quien": "Eres el equipo del Apolo 12",
@@ -1376,7 +1748,19 @@
             }
           ],
           "queHizoNasa": "El 20 de noviembre de 1969 la estrellaron contra la Luna, a unos 60 km de mí.",
-          "ciencia": "Fue el primer sismo lunar artificial registrado. Comparar ese golpe con los temblores naturales ayudó a entender cómo es la Luna por dentro."
+          "ciencia": "Fue el primer sismo lunar artificial registrado. Comparar ese golpe con los temblores naturales ayudó a entender cómo es la Luna por dentro.",
+          "contexto": [
+            {
+              "tipo": "dato",
+              "texto": "La parte de arriba del módulo ya no sirve"
+            },
+            {
+              "tipo": "meta",
+              "texto": "Mi sismómetro escucha temblores"
+            }
+          ],
+          "porQueOtra": "Era lo más fácil: dejarla en órbita no exige maniobras extra.",
+          "tercera": "Enviarla lejos, al espacio profundo"
         }
       ],
       "despedida": {
@@ -1417,11 +1801,17 @@
           "quien": "You are the Apollo 12 team",
           "situacion": "November 19, 1969. To switch me on, Alan Bean has to take my nuclear fuel out of a cask on the side of the lunar module. But the fuel is stuck and won't come out. What do they do?",
           "opciones": [
-            "Leave the station off and move on to another task.",
+            "Leave the fuel for the end of the moonwalk",
             "Hit the cask with a hammer while Bean pulls."
           ],
           "queHizoNasa": "Pete Conrad grabbed the geology hammer and banged on the cask while Bean pulled. It came out! Bean joked: \"Don't come to the Moon without a hammer.\"",
-          "ciencia": "With its plutonium fuel, my generator made about 70 watts: enough for six instruments, including a seismometer to feel moonquakes."
+          "ciencia": "With its plutonium fuel, my generator made about 70 watts: enough for six instruments, including a seismometer to feel moonquakes.",
+          "contexto": [
+            "The nuclear fuel is stuck",
+            "Without it, the station won't turn on"
+          ],
+          "porQueOtra": "It made sense: time on the Moon is limited and there were other tasks that shouldn't be lost.",
+          "tercera": "Warm the cask in the sun and try again"
         },
         {
           "quien": "You are the Apollo 12 team",
@@ -1431,7 +1821,13 @@
             "Crash it into the Moon on purpose so my seismometer can feel it."
           ],
           "queHizoNasa": "On November 20, 1969, they crashed it into the Moon, about 60 km from me.",
-          "ciencia": "It was the first artificial moonquake ever recorded. Comparing that impact with natural quakes helped explain what the Moon is like inside."
+          "ciencia": "It was the first artificial moonquake ever recorded. Comparing that impact with natural quakes helped explain what the Moon is like inside.",
+          "contexto": [
+            "The top part of the lander is no longer needed",
+            "My seismometer listens for quakes"
+          ],
+          "porQueOtra": "It was the easiest: leaving it in orbit needs no extra maneuvers.",
+          "tercera": "Send it far away into deep space"
         }
       ],
       "despedida": {
@@ -1488,14 +1884,26 @@
             }
           ],
           "queHizoNasa": "NASA eligió a Harrison Schmitt. Fue el primer científico profesional que caminó en la Luna, y hasta hoy el único.",
-          "ciencia": "Junto al cráter Shorty, Schmitt gritó: \"¡Hay suelo naranja!\". Eran restos de erupciones volcánicas de hace unos 3600 millones de años."
+          "ciencia": "Junto al cráter Shorty, Schmitt gritó: \"¡Hay suelo naranja!\". Eran restos de erupciones volcánicas de hace unos 3600 millones de años.",
+          "contexto": [
+            {
+              "tipo": "dato",
+              "texto": "Es el último viaje del programa Apolo"
+            },
+            {
+              "tipo": "dato",
+              "texto": "Por turno le tocaba al piloto Joe Engle"
+            }
+          ],
+          "porQueOtra": "Respetar el turno es justo: Engle se había entrenado para eso, y cambiar reglas al final genera conflictos.",
+          "tercera": "Enviar a un científico de otro país"
         },
         {
           "quien": "Eres Challenger",
           "situacion": "Diciembre de 1972. Termina la última caminata. La parte de arriba de la nave despegará con los astronautas, y la de abajo, la etapa de descenso, se quedará en la Luna para siempre. ¿Qué dejan sobre ella?",
           "opciones": [
             {
-              "texto": "Nada: lo único importante es volver.",
+              "texto": "Solo herramientas y equipos que ya no se necesitan",
               "loHizoNasa": false
             },
             {
@@ -1504,7 +1912,19 @@
             }
           ],
           "queHizoNasa": "Cernan destapó una placa en una de las patas del módulo y la leyó en voz alta. Dice: \"Aquí el ser humano completó sus primeras exploraciones de la Luna. Diciembre de 1972 d. C. Que el espíritu de paz con el que vinimos se refleje en las vidas de toda la humanidad\".",
-          "ciencia": "La etapa de descenso sirvió de plataforma de lanzamiento. Cernan y Schmitt pasaron 75 horas en la Luna, un récord."
+          "ciencia": "La etapa de descenso sirvió de plataforma de lanzamiento. Cernan y Schmitt pasaron 75 horas en la Luna, un récord.",
+          "contexto": [
+            {
+              "tipo": "dato",
+              "texto": "La etapa de descenso se queda para siempre"
+            },
+            {
+              "tipo": "meta",
+              "texto": "Es la última caminata"
+            }
+          ],
+          "porQueOtra": "Era práctico: dejar lo que no sirve aligera el despegue de vuelta.",
+          "tercera": "Una cápsula del tiempo con objetos de la Tierra"
         }
       ],
       "despedida": {
@@ -1544,17 +1964,29 @@
             "Send Harrison Schmitt, a geologist."
           ],
           "queHizoNasa": "NASA chose Harrison Schmitt. He was the first professional scientist to walk on the Moon, and so far the only one.",
-          "ciencia": "Near Shorty crater, Schmitt shouted: \"There is orange soil!\" It came from volcanic eruptions about 3.6 billion years ago."
+          "ciencia": "Near Shorty crater, Schmitt shouted: \"There is orange soil!\" It came from volcanic eruptions about 3.6 billion years ago.",
+          "contexto": [
+            "It's the last trip of the Apollo program",
+            "By rotation, it was pilot Joe Engle's turn"
+          ],
+          "porQueOtra": "Following the rotation is fair: Engle had trained for it, and changing rules at the end causes conflict.",
+          "tercera": "Send a scientist from another country"
         },
         {
           "quien": "You are Challenger",
           "situacion": "December 1972. The last moonwalk is over. The top of the spacecraft will lift off with the astronauts, and the bottom, the descent stage, will stay on the Moon forever. What do they leave on it?",
           "opciones": [
-            "Nothing: the only thing that matters is getting home.",
+            "Only tools and equipment that are no longer needed",
             "A plaque with a message for whoever comes next."
           ],
           "queHizoNasa": "Cernan unveiled a plaque on one of the module's legs and read it out loud. It reads: \"Here man completed his first explorations of the Moon, December 1972 A.D. May the spirit of peace in which we came be reflected in the lives of all mankind.\"",
-          "ciencia": "The descent stage served as a launch pad. Cernan and Schmitt spent 75 hours on the Moon, a record."
+          "ciencia": "The descent stage served as a launch pad. Cernan and Schmitt spent 75 hours on the Moon, a record.",
+          "contexto": [
+            "The descent stage stays forever",
+            "It's the last moonwalk"
+          ],
+          "porQueOtra": "It was practical: leaving what isn't needed lightens the trip home.",
+          "tercera": "A time capsule with objects from Earth"
         }
       ],
       "despedida": {
@@ -1599,7 +2031,7 @@
           "situacion": "20 de diciembre de 1998. Estoy por llegar al asteroide Eros, pero el encendido de mi motor se aborta. Si no corrijo el rumbo, paso de largo. ¿Qué hacemos?",
           "opciones": [
             {
-              "texto": "Dar la misión por perdida.",
+              "texto": "Volver a encender el motor de inmediato, sin saber qué falló",
               "loHizoNasa": false
             },
             {
@@ -1608,7 +2040,19 @@
             }
           ],
           "queHizoNasa": "Los ingenieros me pusieron en una trayectoria de respaldo. Pasé junto a Eros el 23 de diciembre de 1998 y, tras varios ajustes más, volví un año después de lo planeado.",
-          "ciencia": "El 14 de febrero de 2000 me convertí en el primer objeto hecho por humanos en orbitar un asteroide. Fotografié todo Eros y envié unas 160 000 fotos, ¡diez veces más de lo planeado!"
+          "ciencia": "El 14 de febrero de 2000 me convertí en el primer objeto hecho por humanos en orbitar un asteroide. Fotografié todo Eros y envié unas 160 000 fotos, ¡diez veces más de lo planeado!",
+          "contexto": [
+            {
+              "tipo": "riesgo",
+              "texto": "El encendido del motor se abortó"
+            },
+            {
+              "tipo": "tiempo",
+              "texto": "Si no corrijo el rumbo, paso de largo"
+            }
+          ],
+          "porQueOtra": "Era rápido: corregir de inmediato evitaba alejarse más del asteroide.",
+          "tercera": "Cambiar de destino a otro asteroide cercano"
         },
         {
           "situacion": "Febrero de 2001. Mi misión está por terminar y casi no me queda combustible. No tengo patas ni bolsas de aire: no me diseñaron para aterrizar. ¿Qué hacemos?",
@@ -1623,7 +2067,19 @@
             }
           ],
           "queHizoNasa": "El 12 de febrero de 2001 encendí mis cohetes una vez para bajar y cuatro veces para frenar, y toqué el suelo a unos 6 km por hora, más lento que una bicicleta. ¡Sobreviví al aterrizaje!",
-          "ciencia": "Fue el primer aterrizaje en un asteroide. Durante la bajada tomé fotos muy de cerca, y desde el suelo mi espectrómetro de rayos gamma midió de qué está hecho Eros durante dos semanas."
+          "ciencia": "Fue el primer aterrizaje en un asteroide. Durante la bajada tomé fotos muy de cerca, y desde el suelo mi espectrómetro de rayos gamma midió de qué está hecho Eros durante dos semanas.",
+          "contexto": [
+            {
+              "tipo": "recursos",
+              "texto": "Casi no queda combustible"
+            },
+            {
+              "tipo": "riesgo",
+              "texto": "No tengo patas ni bolsas de aire"
+            }
+          ],
+          "porQueOtra": "Era lo seguro: una nave en órbita ya había cumplido su misión, sin riesgo de destruirse.",
+          "tercera": "Alejarme y viajar hacia otro asteroide"
         }
       ],
       "despedida": {
@@ -1661,11 +2117,17 @@
         {
           "situacion": "December 20, 1998. I'm about to reach asteroid Eros, but my engine burn is aborted. If I don't correct my course, I'll fly right past. What do we do?",
           "opciones": [
-            "Call the mission lost.",
+            "Fire the engine again right away, without knowing what failed",
             "Find a backup path and try again later."
           ],
           "queHizoNasa": "Engineers put me on a backup trajectory. I flew past Eros on December 23, 1998, and after several more adjustments I came back a year later than planned.",
-          "ciencia": "On February 14, 2000, I became the first human-made object to orbit an asteroid. I photographed all of Eros and sent about 160,000 pictures, ten times more than planned!"
+          "ciencia": "On February 14, 2000, I became the first human-made object to orbit an asteroid. I photographed all of Eros and sent about 160,000 pictures, ten times more than planned!",
+          "contexto": [
+            "The engine burn was aborted",
+            "If I don't correct course, I fly past"
+          ],
+          "porQueOtra": "It was fast: correcting at once avoided drifting farther from the asteroid.",
+          "tercera": "Change course to another nearby asteroid"
         },
         {
           "situacion": "February 2001. My mission is about to end and I'm almost out of fuel. I have no legs or airbags: I wasn't designed to land. What do we do?",
@@ -1674,7 +2136,13 @@
             "Try to come down slowly to the surface to take very close-up pictures."
           ],
           "queHizoNasa": "On February 12, 2001, I fired my rockets once to start down and four times to slow down, and touched the ground at about 6 km per hour, slower than a bicycle. I survived the landing!",
-          "ciencia": "It was the first landing on an asteroid. On the way down I took very close pictures, and from the ground my gamma-ray spectrometer measured what Eros is made of for two weeks."
+          "ciencia": "It was the first landing on an asteroid. On the way down I took very close pictures, and from the ground my gamma-ray spectrometer measured what Eros is made of for two weeks.",
+          "contexto": [
+            "Almost no fuel left",
+            "I have no legs or airbags"
+          ],
+          "porQueOtra": "It was safe: a spacecraft in orbit had already done its job, with no risk of being destroyed.",
+          "tercera": "Leave and travel to another asteroid"
         }
       ],
       "despedida": {
@@ -1736,7 +2204,19 @@
             }
           ],
           "queHizoNasa": "Me dieron motores de iones, como los de la ciencia ficción. Su empujón es suave, pero pueden funcionar muchísimo tiempo.",
-          "ciencia": "Orbité Vesta desde julio de 2011 y Ceres desde marzo de 2015. Fui la primera nave en orbitar dos mundos más allá de la Tierra. En total recorrí unos 6 900 millones de km."
+          "ciencia": "Orbité Vesta desde julio de 2011 y Ceres desde marzo de 2015. Fui la primera nave en orbitar dos mundos más allá de la Tierra. En total recorrí unos 6 900 millones de km.",
+          "contexto": [
+            {
+              "tipo": "meta",
+              "texto": "Visitar Vesta y Ceres"
+            },
+            {
+              "tipo": "recursos",
+              "texto": "Con cohetes normales no alcanza el combustible"
+            }
+          ],
+          "porQueOtra": "Los cohetes químicos dan empujes fuertes y rápidos, y son la tecnología más usada.",
+          "tercera": "Visitar solo Vesta y ahorrar combustible"
         },
         {
           "situacion": "2016. Terminé mi misión principal en Ceres y todavía me queda algo de combustible. Mi equipo propone dos opciones. ¿Cuál elige NASA?",
@@ -1751,7 +2231,19 @@
             }
           ],
           "queHizoNasa": "NASA decidió que me quedara en Ceres. Pensaron que seguir observándolo mientras se acercaba al Sol podía dar descubrimientos más importantes que pasar junto a Adeona.",
-          "ciencia": "Llegué a pasar muy cerca de la superficie y estudié las manchas brillantes del cráter Occator: son carbonato de sodio, una sal que subió del interior en forma de agua salada."
+          "ciencia": "Llegué a pasar muy cerca de la superficie y estudié las manchas brillantes del cráter Occator: son carbonato de sodio, una sal que subió del interior en forma de agua salada.",
+          "contexto": [
+            {
+              "tipo": "recursos",
+              "texto": "Queda algo de combustible"
+            },
+            {
+              "tipo": "meta",
+              "texto": "El equipo propone dos opciones"
+            }
+          ],
+          "porQueOtra": "Tenía mucho atractivo: visitar un tercer mundo nunca visto podía traer sorpresas.",
+          "tercera": "Acercarme todo lo posible a Ceres y estrellarme"
         }
       ],
       "despedida": {
@@ -1803,7 +2295,13 @@
             "Ion engines: they push very gently, but use very little fuel."
           ],
           "queHizoNasa": "They gave me ion engines, like the ones in science fiction. Their push is gentle, but they can run for a very long time.",
-          "ciencia": "I orbited Vesta from July 2011 and Ceres from March 2015. I was the first spacecraft to orbit two worlds beyond Earth. In total I traveled about 6.9 billion km."
+          "ciencia": "I orbited Vesta from July 2011 and Ceres from March 2015. I was the first spacecraft to orbit two worlds beyond Earth. In total I traveled about 6.9 billion km.",
+          "contexto": [
+            "Visit Vesta and Ceres",
+            "With ordinary rockets the fuel won't last"
+          ],
+          "porQueOtra": "Chemical rockets give strong, fast pushes and are the most widely used technology.",
+          "tercera": "Visit only Vesta and save fuel"
         },
         {
           "situacion": "2016. I finished my main mission at Ceres and I still have some fuel left. My team proposes two options. Which one does NASA choose?",
@@ -1812,7 +2310,13 @@
             "Stay at Ceres to keep watching it as it gets closer to the Sun."
           ],
           "queHizoNasa": "NASA decided I should stay at Ceres. They thought watching it as it moved closer to the Sun could lead to more important discoveries than flying past Adeona.",
-          "ciencia": "I flew very close to the surface and studied the bright spots in Occator crater: they're sodium carbonate, a salt that rose from the interior as salty water."
+          "ciencia": "I flew very close to the surface and studied the bright spots in Occator crater: they're sodium carbonate, a salt that rose from the interior as salty water.",
+          "contexto": [
+            "Some fuel is left",
+            "The team proposes two options"
+          ],
+          "porQueOtra": "It was very appealing: visiting a third, unseen world could bring surprises.",
+          "tercera": "Get as close as possible to Ceres and crash"
         }
       ],
       "despedida": {
@@ -1865,7 +2369,19 @@
             }
           ],
           "queHizoNasa": "Entré al cinturón el 15 de julio de 1972 y salí en febrero de 1973. Recibí algunos impactos, pero muchos menos de lo que se temía.",
-          "ciencia": "Así se supo que las naves pueden cruzar el cinturón. Luego fui la primera nave en pasar junto a Júpiter, el 4 de diciembre de 1973, a unos 130 000 km."
+          "ciencia": "Así se supo que las naves pueden cruzar el cinturón. Luego fui la primera nave en pasar junto a Júpiter, el 4 de diciembre de 1973, a unos 130 000 km.",
+          "contexto": [
+            {
+              "tipo": "riesgo",
+              "texto": "Nadie ha cruzado el cinturón de asteroides"
+            },
+            {
+              "tipo": "dato",
+              "texto": "Se teme por las piedras y el polvo"
+            }
+          ],
+          "porQueOtra": "Era prudente: perder una nave cara por algo desconocido habría sido un golpe muy duro.",
+          "tercera": "Enviar primero una nave pequeña y barata como prueba"
         },
         {
           "situacion": "Voy a ser la primera nave lanzada en un camino para salir del Sistema Solar. Quizás, dentro de millones de años, alguien me encuentre. ¿Llevo algo más?",
@@ -1880,7 +2396,19 @@
             }
           ],
           "queHizoNasa": "Llevo una placa de aluminio grabada con un hombre y una mujer, un dibujo del Sistema Solar y la posición del Sol respecto a 14 púlsares, unas estrellas especiales.",
-          "ciencia": "Es uno de los primeros mensajes de la humanidad para quien pueda encontrarlo. Mi gemela, Pioneer 11, también lleva una."
+          "ciencia": "Es uno de los primeros mensajes de la humanidad para quien pueda encontrarlo. Mi gemela, Pioneer 11, también lleva una.",
+          "contexto": [
+            {
+              "tipo": "dato",
+              "texto": "Seré la primera nave en camino a salir del Sistema Solar"
+            },
+            {
+              "tipo": "meta",
+              "texto": "Quizás alguien me encuentre algún día"
+            }
+          ],
+          "porQueOtra": "Tenía sentido: cada gramo cuenta en una nave, y lo científico era la prioridad.",
+          "tercera": "Un disco con sonidos y música de la Tierra"
         }
       ],
       "despedida": {
@@ -1917,7 +2445,13 @@
             "Send Pioneer 10 to cross it first."
           ],
           "queHizoNasa": "I entered the belt on July 15, 1972, and came out in February 1973. I got a few hits, but far fewer than feared.",
-          "ciencia": "That's how we learned spacecraft can cross the belt. Then I became the first spacecraft to fly past Jupiter, on December 4, 1973, about 130,000 km away."
+          "ciencia": "That's how we learned spacecraft can cross the belt. Then I became the first spacecraft to fly past Jupiter, on December 4, 1973, about 130,000 km away.",
+          "contexto": [
+            "No one has crossed the asteroid belt",
+            "People fear the rocks and dust"
+          ],
+          "porQueOtra": "It was cautious: losing an expensive spacecraft to the unknown would have been a hard blow.",
+          "tercera": "First send a small, cheap test spacecraft"
         },
         {
           "situacion": "I'm going to be the first spacecraft sent on a path to leave the Solar System. Maybe, millions of years from now, someone will find me. Should I carry anything else?",
@@ -1926,7 +2460,13 @@
             "Yes, a metal plaque explaining who sent me and from where."
           ],
           "queHizoNasa": "I carry an aluminum plaque engraved with a man and a woman, a drawing of the Solar System and the Sun's position relative to 14 pulsars, which are special stars.",
-          "ciencia": "It's one of humanity's first messages for anyone who might find it. My twin, Pioneer 11, carries one too."
+          "ciencia": "It's one of humanity's first messages for anyone who might find it. My twin, Pioneer 11, carries one too.",
+          "contexto": [
+            "I'll be the first spacecraft headed out of the Solar System",
+            "Maybe someone will find me someday"
+          ],
+          "porQueOtra": "It made sense: every gram counts on a spacecraft, and science was the priority.",
+          "tercera": "A disc with sounds and music from Earth"
         }
       ],
       "despedida": {
@@ -1984,13 +2524,25 @@
             }
           ],
           "queHizoNasa": "Me pusieron en una órbita alrededor del Sol que va detrás de la Tierra. Cada año me alejo un poco más de ella, pero la vista es tranquila y estable.",
-          "ciencia": "Así pude vigilar a la vez más de 150 000 estrellas, buscando el pequeño oscurecimiento que causa un planeta al pasar frente a su estrella."
+          "ciencia": "Así pude vigilar a la vez más de 150 000 estrellas, buscando el pequeño oscurecimiento que causa un planeta al pasar frente a su estrella.",
+          "contexto": [
+            {
+              "tipo": "meta",
+              "texto": "Mirar las mismas estrellas durante años"
+            },
+            {
+              "tipo": "riesgo",
+              "texto": "La Tierra y la Luna taparían la vista"
+            }
+          ],
+          "porQueOtra": "Hubble demostró que una órbita terrestre funciona, y queda más cerca para comunicarse.",
+          "tercera": "En la Luna, del lado que no mira a la Tierra"
         },
         {
           "situacion": "Mayo de 2013. Se daña la segunda de mis cuatro ruedas de reacción, las que me mantienen apuntando. Con solo dos ya no puedo quedarme quieto. ¿Qué hacemos?",
           "opciones": [
             {
-              "texto": "Apagarme: la misión terminó.",
+              "texto": "Terminar la misión y usar lo que queda para pruebas técnicas",
               "loHizoNasa": false
             },
             {
@@ -1999,7 +2551,19 @@
             }
           ],
           "queHizoNasa": "Los ingenieros usaron la presión de la luz solar para ayudarme a apuntar, como un kayak que se orienta contra la corriente. Así nació mi segunda misión, K2.",
-          "ciencia": "Con K2 miré nuevas zonas del cielo, a lo largo del camino que recorre el Sol, y seguí descubriendo planetas."
+          "ciencia": "Con K2 miré nuevas zonas del cielo, a lo largo del camino que recorre el Sol, y seguí descubriendo planetas.",
+          "contexto": [
+            {
+              "tipo": "riesgo",
+              "texto": "Se dañó la segunda de mis cuatro ruedas"
+            },
+            {
+              "tipo": "dato",
+              "texto": "Con dos ruedas ya no puedo quedarme quieto"
+            }
+          ],
+          "porQueOtra": "Era razonable: sin poder apuntar bien, terminar con pruebas útiles es una salida digna.",
+          "tercera": "Apuntar a la Tierra para tomar fotos de nuestro planeta"
         }
       ],
       "despedida": {
@@ -2037,16 +2601,28 @@
             "In orbit around the Sun, following the Earth."
           ],
           "queHizoNasa": "They put me in an orbit around the Sun that trails behind the Earth. Every year I drift a little farther away, but the view is calm and steady.",
-          "ciencia": "That let me watch more than 150,000 stars at once, looking for the tiny dimming a planet causes when it passes in front of its star."
+          "ciencia": "That let me watch more than 150,000 stars at once, looking for the tiny dimming a planet causes when it passes in front of its star.",
+          "contexto": [
+            "Watch the same stars for years",
+            "Earth and the Moon would block the view"
+          ],
+          "porQueOtra": "Hubble proved an Earth orbit works, and it's closer for communication.",
+          "tercera": "On the Moon, on the side facing away from Earth"
         },
         {
           "situacion": "May 2013. The second of my four reaction wheels, which keep me pointed, breaks down. With only two, I can't hold still anymore. What do we do?",
           "opciones": [
-            "Turn me off: the mission is over.",
+            "End the mission and use what's left for engineering tests",
             "Use the pressure of sunlight to balance me."
           ],
           "queHizoNasa": "Engineers used the pressure of sunlight to help me point, like a kayak steering into the current. That's how my second mission, K2, was born.",
-          "ciencia": "With K2 I watched new parts of the sky, along the path the Sun follows, and kept discovering planets."
+          "ciencia": "With K2 I watched new parts of the sky, along the path the Sun follows, and kept discovering planets.",
+          "contexto": [
+            "The second of my four wheels failed",
+            "With two wheels I can no longer hold still"
+          ],
+          "porQueOtra": "It was reasonable: without precise pointing, ending with useful tests is a dignified exit.",
+          "tercera": "Point at Earth to take pictures of our planet"
         }
       ],
       "despedida": {

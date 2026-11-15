@@ -61,8 +61,8 @@ const TEXTOS = {
 
     decisionXdeY: "Decisión {x} de {y}",
     eres: "Eres {nombre}",
-    igualNasa: "Pensaste igual que NASA.",
-    distintoNasa: "NASA eligió la otra opción.",
+    igualNasa: "Elegiste como el equipo de misión.",
+    distintoNasa: "El equipo eligió otra opción, y la tuya tenía su lógica.",
     loQuePaso: "Lo que pasó de verdad",
     loQueSeLogro: "Lo que se logró",
     siguienteDecision: "Siguiente decisión",
@@ -155,8 +155,8 @@ const TEXTOS = {
 
     decisionXdeY: "Decision {x} of {y}",
     eres: "You are {nombre}",
-    igualNasa: "You thought just like NASA.",
-    distintoNasa: "NASA chose the other option.",
+    igualNasa: "You chose like the mission team.",
+    distintoNasa: "The team chose another option, and yours had its logic.",
     loQuePaso: "What really happened",
     loQueSeLogro: "What it achieved",
     siguienteDecision: "Next decision",
@@ -194,6 +194,56 @@ const TEXTOS = {
     norte: "N", sur: "S", este: "E", oeste: "W"
   }
 };
+
+// Decisiones: contexto, apuesta de confianza, tercera opción y temporizador
+Object.assign(TEXTOS.es, {
+  loQueSabias: "Lo que sabías en ese momento",
+  ctx_meta: "Objetivo", ctx_riesgo: "Riesgo", ctx_recursos: "Recursos", ctx_tiempo: "Tiempo", ctx_dato: "Dato",
+  queTanSeguro: "¿Qué tan seguro estás?",
+  seguro1: "Poco", seguro2: "Bastante", seguro3: "Totalmente",
+  verResultado: "Ver lo que pasó",
+  elEquipoEligio: "El equipo eligió esto",
+  elegisteComoEquipo: "¡Elegiste como el equipo de misión!",
+  elegisteDistinto: "El equipo eligió otra cosa, y tu opción tenía su lógica",
+  elegisteTercera: "El equipo eligió otra cosa. Tu idea era posible, pero no fue la que usaron",
+  tuOpcionTambien: "Por qué la otra opción también tenía sentido",
+  puntosConfianza: "+{n} de confianza",
+  conf_acierto3: "Instinto de ingeniería: estabas seguro y acertaste.",
+  conf_acierto2: "Buen criterio.",
+  conf_acierto1: "Dudaste, pero pensaste como el equipo.",
+  conf_error3: "Muy seguro y distinto al equipo: por eso las misiones prueban antes de decidir.",
+  conf_error2: "Pasa en las misiones reales: se discute mucho antes de elegir.",
+  conf_error1: "Dudar también es de ingenieros: te faltaban datos.",
+  resumenMision: "Decidiste como el equipo en {a} de {b}. Puntos de confianza: {p}.",
+  temporizador: "Control de misión: decide en {s} s",
+  quitarTiempo: "Quitar el tiempo",
+  tiempoAgotado: "Se acabó el tiempo. En control de misión hay que decidir igual: elige cuando quieras.",
+  escenaDecision: "Escena animada del momento de la decisión"
+});
+Object.assign(TEXTOS.en, {
+  loQueSabias: "What you knew at that moment",
+  ctx_meta: "Goal", ctx_riesgo: "Risk", ctx_recursos: "Resources", ctx_tiempo: "Time", ctx_dato: "Fact",
+  queTanSeguro: "How sure are you?",
+  seguro1: "A little", seguro2: "Fairly", seguro3: "Completely",
+  verResultado: "See what happened",
+  elEquipoEligio: "The team chose this",
+  elegisteComoEquipo: "You chose like the mission team!",
+  elegisteDistinto: "The team chose something else, and your option had its logic",
+  elegisteTercera: "The team chose something else. Your idea was possible, but it wasn't the one they used",
+  tuOpcionTambien: "Why the other option also made sense",
+  puntosConfianza: "+{n} confidence",
+  conf_acierto3: "Engineering instinct: you were sure and you were right.",
+  conf_acierto2: "Good judgment.",
+  conf_acierto1: "You hesitated, but you thought like the team.",
+  conf_error3: "Very sure and different from the team: that's why missions test before deciding.",
+  conf_error2: "It happens on real missions: there's a lot of debate before choosing.",
+  conf_error1: "Doubting is also what engineers do: you were missing data.",
+  resumenMision: "You decided like the team in {a} of {b}. Confidence points: {p}.",
+  temporizador: "Mission control: decide in {s} s",
+  quitarTiempo: "Remove the timer",
+  tiempoAgotado: "Time's up. In mission control you still have to decide: choose whenever you're ready.",
+  escenaDecision: "Animated scene of the moment of the decision"
+});
 
 // Textos de los pasos del juego, la nueva despedida y el archivo para adultos
 Object.assign(TEXTOS.es, {
@@ -331,7 +381,10 @@ function loc(e) {
       situacion: dt.situacion,
       opciones: d.opciones.map((o, j) => ({ texto: dt.opciones[j], loHizoNasa: o.loHizoNasa })),
       queHizoNasa: dt.queHizoNasa,
-      ciencia: dt.ciencia
+      ciencia: dt.ciencia,
+      contexto: (d.contexto || []).map((c, k) => ({ tipo: c.tipo, texto: (dt.contexto || [])[k] ?? c.texto })),
+      porQueOtra: dt.porQueOtra ?? d.porQueOtra,
+      tercera: dt.tercera ?? d.tercera
     };
   });
   return c;

@@ -122,7 +122,7 @@ btnSonido.addEventListener("click", () => {
   const activo = Sonido.alternar();
   pintarSonido();
   // Si se vuelve a activar en medio de una decisión, regresa la música
-  if (activo && document.querySelector(".mision .opcion:not([disabled])")) Sonido.musica("tension");
+  if (activo && document.querySelector(".mision .opcion:not([disabled])")) Sonido.musica("aventura");
 });
 
 // Primera visita: test de detective. Si ya tiene perfil, directo al inicio.

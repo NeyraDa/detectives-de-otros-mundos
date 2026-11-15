@@ -150,11 +150,12 @@ function verExpediente(contenedor, equipo, alVolver, alBuscar) {
               <div class="exp-decision" data-i="${i}">
                 <h3>${t("expDecision", { n: i + 1 })}</h3>
                 <p>${dec.situacion}</p>
+                ${contextoDecision(dec)}
                 <fieldset>
                   <legend>${t("expQueHarias")}</legend>
-                  ${dec.opciones.map((o, j) => `
+                  ${mezclar(dec.opciones.map((o, j) => ({ o, j }))).map(({ o, j }, k) => `
                     <button type="button" class="exp-opcion" data-j="${j}">
-                      <span class="opcion-letra" aria-hidden="true">${"AB"[j] || j + 1}</span>
+                      <span class="opcion-letra" aria-hidden="true">${"ABC"[k]}</span>
                       <span>${o.texto}</span>
                     </button>`).join("")}
                 </fieldset>
@@ -162,6 +163,7 @@ function verExpediente(contenedor, equipo, alVolver, alBuscar) {
                 <div class="exp-respuesta" hidden aria-live="polite">
                   <p class="veredicto"></p>
                   <div class="resultado-bloque"><h4>${t("loQuePaso")}</h4><p>${dec.queHizoNasa}</p></div>
+                  ${dec.porQueOtra ? `<div class="resultado-bloque otra"><h4>${t("tuOpcionTambien")}</h4><p>${escaparHTML(dec.porQueOtra)}</p></div>` : ""}
                   ${dec.ciencia ? `<div class="resultado-bloque ciencia"><h4>${t("loQueSeLogro")}</h4><p>${dec.ciencia}</p></div>` : ""}
                 </div>
               </div>`).join("")}
