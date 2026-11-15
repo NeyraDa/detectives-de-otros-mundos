@@ -84,6 +84,6 @@ Proyecto independiente, sin afiliación ni respaldo de NASA.
 
 ## Equipo CCapo Space
 
-Johana Sotomayor, David Neyra, Sharmelym Delgado y Jairo Escobedo.
+David Neyra y Jairo Escobedo.
 
 *Ccapo: la leña que enciende la fogata. Nosotros encendemos la curiosidad.*
